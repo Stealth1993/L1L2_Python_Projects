@@ -1,3 +1,4 @@
+#Random advice generator with copy option
 import requests
 import threading
 import tkinter as tk
