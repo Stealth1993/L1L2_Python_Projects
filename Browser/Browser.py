@@ -1,3 +1,4 @@
+#Import required libraries
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtWebEngineWidgets import *
@@ -112,6 +113,6 @@ class MainWindow(QMainWindow):
 
 # Run the app
 app = QApplication(sys.argv)
-QApplication.setApplicationName("EFFLUX Browser")
+QApplication.setApplicationName("NoGio Browser")
 window = MainWindow()
 app.exec_()
