@@ -1,0 +1,6 @@
+kivy
+opencv-python
+deepface
+numpy
+matplotlib
+pandas
