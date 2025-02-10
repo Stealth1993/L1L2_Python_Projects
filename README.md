@@ -57,6 +57,16 @@ import cv2
 from deepface import DeepFace  
 ```
 
+### 🎯 **Random Advice Generator**  
+A simple **Random Advice Generator** built using **Tkinter** for UI and **requests** for fetching advice from an API.  
+
+**Modules Used:**  
+```python  
+import tkinter  
+import requests  
+import threading  
+```
+
 ---
 
 ## **➕ More Projects Coming Soon!**  
