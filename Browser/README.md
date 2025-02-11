@@ -17,13 +17,13 @@ pip install PyQt5 PyQtWebEngine
 
 ### **2. Clone or Download the Repository**
 ```sh
-git clone https://github.com/yourusername/efflux-browser.git
-cd efflux-browser
+git clone https://github.com/Stealth1993/NoGio-browser.git
+cd NoGio-browser
 ```
 
 ### **3. Run the Browser**
 ```sh
-python efflux_browser.py
+python NoGio_browser.py
 ```
 
 ## Usage
