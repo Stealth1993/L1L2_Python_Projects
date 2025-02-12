@@ -78,7 +78,7 @@ import datetime
 
 **Usage:**  
 ```sh  
-python analog_clock.py  
+python analog_Clock_with_sys_time.py  
 ```  
 
 📜 **License:**  
