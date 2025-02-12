@@ -66,6 +66,23 @@ import tkinter
 import requests  
 import threading  
 ```
+### ⏰ **Analog Clock**  
+A real-time **Analog Clock** built using **Tkinter** in Python.  
+
+**Modules Used:**  
+```python  
+import tkinter  
+import math  
+import datetime  
+```  
+
+**Usage:**  
+```sh  
+python analog_clock.py  
+```  
+
+📜 **License:**  
+MIT License.
 
 ---
 
