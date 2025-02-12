@@ -23,7 +23,7 @@ A visually appealing **analog clock** built with Python's **Tkinter**! This cloc
 2️⃣ Download or copy the `analog_clock.py` file.  
 3️⃣ Run the script with the command:
    ```sh
-   python analog_clock.py
+   python analog_Clock_with_sys_time.py
    ```
 4️⃣ The **analog clock** window will open and display the current time! 🎉  
 
