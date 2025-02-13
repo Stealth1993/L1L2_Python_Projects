@@ -81,6 +81,30 @@ import datetime
 python analog_Clock_with_sys_time.py  
 ```  
 
+### 🏁 **Maze Solver**  
+A simple **Maze Solver** using the **curses** module in Python. It visualizes the pathfinding process step by step.
+
+**Modules Used:**  
+```python
+import curses  
+import queue  
+import time  
+```
+
+**Features:**  
+- Uses **Breadth-First Search (BFS)** to find the shortest path.  
+- Displays the maze dynamically as the algorithm progresses.  
+- Allows stepping through each iteration with keypress.  
+
+🔹 **Start Position:** `O`  
+🔹 **End Position:** `X`  
+🔹 **Walls:** `#`  
+
+**Run the Program:**  
+```sh
+python maze_solver.py
+```
+
 📜 **License:**  
 MIT License.
 
