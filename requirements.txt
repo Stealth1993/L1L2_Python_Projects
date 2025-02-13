@@ -5,3 +5,5 @@ numpy
 matplotlib
 pandas
 requests #Advisor_program
+windows-curses #Maze_solver
+queuelib #Maze_solver
