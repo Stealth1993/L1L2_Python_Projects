@@ -7,7 +7,7 @@ This Python script automatically fetches expenses from a WhatsApp group (**daily
 ## Features
 
 - Reads messages from WhatsApp Web
-- Extracts expense details from messages (e.g., *John: 500 Dinner*)
+- Extracts expense details from messages (e.g., *Romi: 500 Dinner*)
 - Calculates how much each person owes or is owed
 - Refreshes every 60 seconds to check for new messages
 
