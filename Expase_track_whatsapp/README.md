@@ -33,7 +33,7 @@ This Python script automatically fetches expenses from a WhatsApp group (**daily
 
 - Integrate with WhatsApp Business API for direct message retrieval.
 - Develop a mobile app for easy access.
-
+expected at the EOM
 ---
 
 **Author:** Santosh Jha
