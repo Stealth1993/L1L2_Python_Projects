@@ -111,7 +111,7 @@ MIT License.
 ---
 
 ## **➕ More Projects Coming Soon!**  
-This repository is **constantly expanding** with new and exciting Python projects. Feel free to explore, learn, and contribute!  
+This repository is **constantly expanding** with new and exciting Python projects. Feel free to explore, learn, and contribute! Clone or fork the repos to contribute.  
 
 📈 **Star this repo** if you find it useful, and **stay tuned** for more! 💟  
 
