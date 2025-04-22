@@ -1,0 +1,1869 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:2302/
+Subject: 
+Date: Tue, 22 Apr 2025 19:39:34 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----"
+
+
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/html
+Content-ID: <frame-507569CA4028EAD23E88A36D40438CD1@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:2302/
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c16947=
+90-91d9-4b39-892a-ef3bd2264155@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-16add040-aa30-43b4-914c-5e9ee7fc360f@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cac0d14f-=
+1f8c-44bd-8352-5b5b053a6de1@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-263b7aba-de55-45dc-8d5c-4b3683863721@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-198c6814-131=
+8-445c-a265-55d0c515e374@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-c5897a9f-383f-4211-93d1-eb140a8e2773@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9e1a0164-e993-4=
+efb-9044-772aa3245a9a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-96b2aa4a-12b1-4d0c-b885-08091a514035@mhtml.blink" /></=
+head>
+<body><div id=3D"MathJax_Message" style=3D"display: none;"></div>
+    <div>                           =20
+                        <div id=3D"3f4bc072-447c-4e1e-8dab-3ff8cba5b236" cl=
+ass=3D"plotly-graph-div js-plotly-plot" style=3D"height:100%; width:100%;">=
+<div class=3D"plot-container plotly" style=3D"width: 100%; height: 100%;"><=
+div class=3D"user-select-none svg-container" style=3D"position: relative; w=
+idth: 100%; height: 100%;"><svg class=3D"main-svg" xmlns=3D"http://www.w3.o=
+rg/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" width=3D"1264" he=
+ight=3D"569.333" style=3D"background: rgb(17, 17, 17);"><defs id=3D"defs-c5=
+07f3"><g class=3D"clips"><clipPath id=3D"clipc507f3xyplot" class=3D"plotcli=
+p"><rect width=3D"1040" height=3D"311"></rect></clipPath><clipPath class=3D=
+"axesclip" id=3D"clipc507f3x"><rect x=3D"80" y=3D"0" width=3D"1040" height=
+=3D"569.333"></rect></clipPath><clipPath class=3D"axesclip" id=3D"clipc507f=
+3y"><rect x=3D"0" y=3D"100" width=3D"1264" height=3D"311"></rect></clipPath=
+><clipPath class=3D"axesclip" id=3D"clipc507f3xy"><rect x=3D"80" y=3D"100" =
+width=3D"1040" height=3D"311"></rect></clipPath></g><g class=3D"gradients">=
+</g><g class=3D"patterns"></g></defs><g class=3D"bglayer"></g><g class=3D"d=
+raglayer cursor-crosshair"><g class=3D"xy"><rect class=3D"nsewdrag drag" da=
+ta-subplot=3D"xy" x=3D"80" y=3D"100" width=3D"1040" height=3D"311" style=3D=
+"fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect cla=
+ss=3D"nwdrag drag cursor-nw-resize" data-subplot=3D"xy" x=3D"60" y=3D"80" w=
+idth=3D"20" height=3D"20" style=3D"fill: transparent; stroke-width: 0; poin=
+ter-events: all;"></rect><rect class=3D"nedrag drag cursor-ne-resize" data-=
+subplot=3D"xy" x=3D"1120" y=3D"80" width=3D"20" height=3D"20" style=3D"fill=
+: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class=3D=
+"swdrag drag cursor-sw-resize" data-subplot=3D"xy" x=3D"60" y=3D"411" width=
+=3D"20" height=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-=
+events: all;"></rect><rect class=3D"sedrag drag cursor-se-resize" data-subp=
+lot=3D"xy" x=3D"1120" y=3D"411" width=3D"20" height=3D"20" style=3D"fill: t=
+ransparent; stroke-width: 0; pointer-events: all;"></rect><rect class=3D"ew=
+drag drag cursor-ew-resize" data-subplot=3D"xy" x=3D"184" y=3D"411.5" width=
+=3D"832" height=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer=
+-events: all;"></rect><rect class=3D"wdrag drag cursor-w-resize" data-subpl=
+ot=3D"xy" x=3D"80" y=3D"411.5" width=3D"104" height=3D"20" style=3D"fill: t=
+ransparent; stroke-width: 0; pointer-events: all;"></rect><rect class=3D"ed=
+rag drag cursor-e-resize" data-subplot=3D"xy" x=3D"1016" y=3D"411.5" width=
+=3D"104" height=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer=
+-events: all;"></rect><rect class=3D"nsdrag drag cursor-ns-resize" data-sub=
+plot=3D"xy" x=3D"59.5" y=3D"131.1" width=3D"20" height=3D"248.8" style=3D"f=
+ill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class=
+=3D"sdrag drag cursor-s-resize" data-subplot=3D"xy" x=3D"59.5" y=3D"379.900=
+00000000003" width=3D"20" height=3D"31.1" style=3D"fill: transparent; strok=
+e-width: 0; pointer-events: all;"></rect><rect class=3D"ndrag drag cursor-n=
+-resize" data-subplot=3D"xy" x=3D"59.5" y=3D"100" width=3D"20" height=3D"31=
+.1" style=3D"fill: transparent; stroke-width: 0; pointer-events: all;"></re=
+ct></g></g><g class=3D"layer-below"><g class=3D"imagelayer"></g><g class=3D=
+"shapelayer"></g></g><g class=3D"cartesianlayer"><g class=3D"subplot xy"><g=
+ class=3D"layer-subplot"><g class=3D"shapelayer"></g><g class=3D"imagelayer=
+"></g></g><g class=3D"minor-gridlayer"><g class=3D"x"></g><g class=3D"y"></=
+g></g><g class=3D"gridlayer"><g class=3D"x"><path class=3D"xgrid crisp" tra=
+nsform=3D"translate(184.36,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52=
+, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xgrid c=
+risp" transform=3D"translate(245.4,0)" d=3D"M0,100v311" style=3D"stroke: rg=
+b(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D=
+"xgrid crisp" transform=3D"translate(288.71000000000004,0)" d=3D"M0,100v311=
+" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;">=
+</path><path class=3D"xgrid crisp" transform=3D"translate(322.31,0)" d=3D"M=
+0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-widt=
+h: 1px;"></path><path class=3D"xgrid crisp" transform=3D"translate(349.76,0=
+)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; st=
+roke-width: 1px;"></path><path class=3D"xgrid crisp" transform=3D"translate=
+(372.97,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opaci=
+ty: 1; stroke-width: 1px;"></path><path class=3D"xgrid crisp" transform=3D"=
+translate(393.07,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); str=
+oke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xgrid crisp" tran=
+sform=3D"translate(410.8,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, =
+66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xgrid cri=
+sp" transform=3D"translate(426.67,0)" d=3D"M0,100v311" style=3D"stroke: rgb=
+(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"=
+xgrid crisp" transform=3D"translate(531.02,0)" d=3D"M0,100v311" style=3D"st=
+roke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path =
+class=3D"xgrid crisp" transform=3D"translate(592.07,0)" d=3D"M0,100v311" st=
+yle=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></pa=
+th><path class=3D"xgrid crisp" transform=3D"translate(635.38,0)" d=3D"M0,10=
+0v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1=
+px;"></path><path class=3D"xgrid crisp" transform=3D"translate(668.98,0)" d=
+=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke=
+-width: 1px;"></path><path class=3D"xgrid crisp" transform=3D"translate(696=
+.43,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: =
+1; stroke-width: 1px;"></path><path class=3D"xgrid crisp" transform=3D"tran=
+slate(719.63,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-=
+opacity: 1; stroke-width: 1px;"></path><path class=3D"xgrid crisp" transfor=
+m=3D"translate(739.74,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66)=
+; stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xgrid crisp"=
+ transform=3D"translate(757.47,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40=
+, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xgr=
+id crisp" transform=3D"translate(773.33,0)" d=3D"M0,100v311" style=3D"strok=
+e: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path cla=
+ss=3D"xgrid crisp" transform=3D"translate(877.69,0)" d=3D"M0,100v311" style=
+=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path>=
+<path class=3D"xgrid crisp" transform=3D"translate(938.74,0)" d=3D"M0,100v3=
+11" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;=
+"></path><path class=3D"xgrid crisp" transform=3D"translate(982.05,0)" d=3D=
+"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-wi=
+dth: 1px;"></path><path class=3D"xgrid crisp" transform=3D"translate(1015.6=
+4,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1;=
+ stroke-width: 1px;"></path><path class=3D"xgrid crisp" transform=3D"transl=
+ate(1043.0900000000001,0)" d=3D"M0,100v311" style=3D"stroke: rgb(40, 52, 66=
+); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xgrid crisp=
+" transform=3D"translate(1066.3,0)" d=3D"M0,100v311" style=3D"stroke: rgb(4=
+0, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"xg=
+rid crisp" transform=3D"translate(1086.4,0)" d=3D"M0,100v311" style=3D"stro=
+ke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path cl=
+ass=3D"xgrid crisp" transform=3D"translate(1104.14,0)" d=3D"M0,100v311" sty=
+le=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></pat=
+h></g><g class=3D"y"><path class=3D"ygrid crisp" transform=3D"translate(0,3=
+87.08)" d=3D"M80,0h1040" style=3D"stroke: rgb(40, 52, 66); stroke-opacity: =
+1; stroke-width: 1px;"></path><path class=3D"ygrid crisp" transform=3D"tran=
+slate(0,339.23)" d=3D"M80,0h1040" style=3D"stroke: rgb(40, 52, 66); stroke-=
+opacity: 1; stroke-width: 1px;"></path><path class=3D"ygrid crisp" transfor=
+m=3D"translate(0,291.38)" d=3D"M80,0h1040" style=3D"stroke: rgb(40, 52, 66)=
+; stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"ygrid crisp"=
+ transform=3D"translate(0,243.54)" d=3D"M80,0h1040" style=3D"stroke: rgb(40=
+, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"ygr=
+id crisp" transform=3D"translate(0,195.69)" d=3D"M80,0h1040" style=3D"strok=
+e: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path><path cla=
+ss=3D"ygrid crisp" transform=3D"translate(0,147.85)" d=3D"M80,0h1040" style=
+=3D"stroke: rgb(40, 52, 66); stroke-opacity: 1; stroke-width: 1px;"></path>=
+</g></g><g class=3D"zerolinelayer"></g><g class=3D"layer-between"><g class=
+=3D"shapelayer"></g><g class=3D"imagelayer"></g></g><path class=3D"xlines-b=
+elow"></path><path class=3D"ylines-below"></path><g class=3D"overlines-belo=
+w"></g><g class=3D"xaxislayer-below"></g><g class=3D"yaxislayer-below"></g>=
+<g class=3D"overaxes-below"></g><g class=3D"overplot"><g class=3D"xy" trans=
+form=3D"translate(80,100)" clip-path=3D"url(#clipc507f3xyplot)"><g class=3D=
+"scatterlayer mlayer"><g class=3D"trace scatter tracec65b77" style=3D"strok=
+e-miterlimit: 2; opacity: 1;"><g class=3D"fills"></g><g class=3D"errorbars"=
+></g><g class=3D"lines"></g><g class=3D"points"><path class=3D"point" trans=
+form=3D"translate(342.7900085449219,220.9199981689453)" d=3D"M6.05,0A6.05,6=
+.05 0 1,1 0,-6.05A6.05,6.05 0 0,1 6.05,0Z" style=3D"opacity: 0.7; stroke-wi=
+dth: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 7=
+9); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate=
+(857.7100219726562,68.7300033569336)" d=3D"M0.9,0A0.9,0.9 0 1,1 0,-0.9A0.9,=
+0.9 0 0,1 0.9,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99,=
+ 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"><=
+/path><path class=3D"point" transform=3D"translate(396.3800048828125,124.09=
+99984741211)" d=3D"M13.14,0A13.14,13.14 0 1,1 0,-13.14A13.14,13.14 0 0,1 13=
+.14,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250)=
+; fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pat=
+h class=3D"point" transform=3D"translate(427.7699890136719,144.860000610351=
+56)" d=3D"M4.03,0A4.03,4.03 0 1,1 0,-4.03A4.03,4.03 0 0,1 4.03,0Z" style=3D=
+"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: =
+1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point=
+" transform=3D"translate(587.739990234375,81.52999877929688)" d=3D"M38.89,0=
+A38.89,38.89 0 1,1 0,-38.89A38.89,38.89 0 0,1 38.89,0Z" style=3D"opacity: 0=
+.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: =
+rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=
+=3D"translate(901.010009765625,37.279998779296875)" d=3D"M2.83,0A2.83,2.83 =
+0 1,1 0,-2.83A2.83,2.83 0 0,1 2.83,0Z" style=3D"opacity: 0.7; stroke-width:=
+ 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); =
+stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(481=
+.7099914550781,121.05999755859375)" d=3D"M35.69,0A35.69,35.69 0 1,1 0,-35.6=
+9A35.69,35.69 0 0,1 35.69,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; f=
+ill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(537.02001953=
+125,92.58000183105469)" d=3D"M16.01,0A16.01,16.01 0 1,1 0,-16.01A16.01,16.0=
+1 0 0,1 16.01,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99,=
+ 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"><=
+/path><path class=3D"point" transform=3D"translate(715.75,91.08000183105469=
+)" d=3D"M8.93,0A8.93,8.93 0 1,1 0,-8.93A8.93,8.93 0 0,1 8.93,0Z" style=3D"o=
+pacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1;=
+ stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" =
+transform=3D"translate(572.1400146484375,145.72000122070312)" d=3D"M5.62,0A=
+5.62,5.62 0 1,1 0,-5.62A5.62,5.62 0 0,1 5.62,0Z" style=3D"opacity: 0.7; str=
+oke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47,=
+ 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tra=
+nslate(834.4000244140625,44.279998779296875)" d=3D"M2.72,0A2.72,2.72 0 1,1 =
+0,-2.72A2.72,2.72 0 0,1 2.72,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px=
+; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke=
+-opacity: 1;"></path><path class=3D"point" transform=3D"translate(866.83001=
+70898438,35.38999938964844)" d=3D"M12.09,0A12.09,12.09 0 1,1 0,-12.09A12.09=
+,12.09 0 0,1 12.09,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rg=
+b(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: =
+1;"></path><path class=3D"point" transform=3D"translate(573.760009765625,83=
+.55999755859375)" d=3D"M2.63,0A2.63,2.63 0 1,1 0,-2.63A2.63,2.63 0 0,1 2.63=
+,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); f=
+ill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path c=
+lass=3D"point" transform=3D"translate(416.7699890136719,108.62999725341797)=
+" d=3D"M5.17,0A5.17,5.17 0 1,1 0,-5.17A5.17,5.17 0 0,1 5.17,0Z" style=3D"op=
+acity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; =
+stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" t=
+ransform=3D"translate(820.989990234375,54.43000030517578)" d=3D"M7.5,0A7.5,=
+7.5 0 1,1 0,-7.5A7.5,7.5 0 0,1 7.5,0Z" style=3D"opacity: 0.7; stroke-width:=
+ 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); =
+stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(927=
+.3099975585938,59.38999938964844)" d=3D"M1.7,0A1.7,1.7 0 1,1 0,-1.7A1.7,1.7=
+ 0 0,1 1.7,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 11=
+0, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></pa=
+th><path class=3D"point" transform=3D"translate(700.1199951171875,86.160003=
+66210938)" d=3D"M2.12,0A2.12,2.12 0 1,1 0,-2.12A2.12,2.12 0 0,1 2.12,0Z" st=
+yle=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opa=
+city: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D=
+"point" transform=3D"translate(726.3499755859375,75.4000015258789)" d=3D"M5=
+.34,0A5.34,5.34 0 1,1 0,-5.34A5.34,5.34 0 0,1 5.34,0Z" style=3D"opacity: 0.=
+7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: r=
+gb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=
+=3D"translate(516.7999877929688,110.98999786376953)" d=3D"M1.82,0A1.82,1.82=
+ 0 1,1 0,-1.82A1.82,1.82 0 0,1 1.82,0Z" style=3D"opacity: 0.7; stroke-width=
+: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79);=
+ stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(33=
+7.989990234375,133.63999938964844)" d=3D"M7.4,0A7.4,7.4 0 1,1 0,-7.4A7.4,7.=
+4 0 0,1 7.4,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 1=
+10, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></p=
+ath><path class=3D"point" transform=3D"translate(359.8299865722656,125.4300=
+0030517578)" d=3D"M5.76,0A5.76,5.76 0 1,1 0,-5.76A5.76,5.76 0 0,1 5.76,0Z" =
+style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-o=
+pacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=
+=3D"point" transform=3D"translate(814.1900024414062,68.70999908447266)" d=
+=3D"M1.92,0A1.92,1.92 0 1,1 0,-1.92A1.92,1.92 0 0,1 1.92,0Z" style=3D"opaci=
+ty: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; str=
+oke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" tran=
+sform=3D"translate(490.8699951171875,117.30000305175781)" d=3D"M13.93,0A13.=
+93,13.93 0 1,1 0,-13.93A13.93,13.93 0 0,1 13.93,0Z" style=3D"opacity: 0.7; =
+stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(=
+47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"=
+translate(521.3400268554688,87.62000274658203)" d=3D"M10.22,0A10.22,10.22 0=
+ 1,1 0,-10.22A10.22,10.22 0 0,1 10.22,0Z" style=3D"opacity: 0.7; stroke-wid=
+th: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79=
+); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(=
+809.6599731445312,82.41000366210938)" d=3D"M5.63,0A5.63,5.63 0 1,1 0,-5.63A=
+5.63,5.63 0 0,1 5.63,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: =
+rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity=
+: 1;"></path><path class=3D"point" transform=3D"translate(926.7899780273438=
+,47.97999954223633)" d=3D"M2.29,0A2.29,2.29 0 1,1 0,-2.29A2.29,2.29 0 0,1 2=
+.29,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250)=
+; fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pat=
+h class=3D"point" transform=3D"translate(554.25,84.2300033569336)" d=3D"M4.=
+83,0A4.83,4.83 0 1,1 0,-4.83A4.83,4.83 0 0,1 4.83,0Z" style=3D"opacity: 0.7=
+; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rg=
+b(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=
+=3D"translate(562.1699829101562,75.87000274658203)" d=3D"M4.71,0A4.71,4.71 =
+0 1,1 0,-4.71A4.71,4.71 0 0,1 4.71,0Z" style=3D"opacity: 0.7; stroke-width:=
+ 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); =
+stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(852=
+.1599731445312,55.5)" d=3D"M5.16,0A5.16,5.16 0 1,1 0,-5.16A5.16,5.16 0 0,1 =
+5.16,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250=
+); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pa=
+th class=3D"point" transform=3D"translate(649.1799926757812,92.739997863769=
+53)" d=3D"M8.64,0A8.64,8.64 0 1,1 0,-8.64A8.64,8.64 0 0,1 8.64,0Z" style=3D=
+"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: =
+1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point=
+" transform=3D"translate(481.05999755859375,75.36000061035156)" d=3D"M9.89,=
+0A9.89,9.89 0 1,1 0,-9.89A9.89,9.89 0 0,1 9.89,0Z" style=3D"opacity: 0.7; s=
+troke-width: 0.5px; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(4=
+7, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"t=
+ranslate(513.3400268554688,79.31999969482422)" d=3D"M2.15,0A2.15,2.15 0 1,1=
+ 0,-2.15A2.15,2.15 0 0,1 2.15,0Z" style=3D"opacity: 0.7; stroke-width: 0.5p=
+x; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); strok=
+e-opacity: 1;"></path><path class=3D"point" transform=3D"translate(470.7999=
+8779296875,130.6300048828125)" d=3D"M5.05,0A5.05,5.05 0 1,1 0,-5.05A5.05,5.=
+05 0 0,1 5.05,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(99,=
+ 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"><=
+/path></g><g class=3D"text"></g></g><g class=3D"trace scatter trace8b4855" =
+style=3D"stroke-miterlimit: 2; opacity: 1;"><g class=3D"fills"></g><g class=
+=3D"errorbars"></g><g class=3D"lines"></g><g class=3D"points"><path class=
+=3D"point" transform=3D"translate(614.8400268554688,64.95999908447266)" d=
+=3D"M2.03,0A2.03,2.03 0 1,1 0,-2.03A2.03,2.03 0 0,1 2.03,0Z" style=3D"opaci=
+ty: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stro=
+ke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" trans=
+form=3D"translate(886.7100219726562,48.65999984741211)" d=3D"M3.07,0A3.07,3=
+.07 0 1,1 0,-3.07A3.07,3.07 0 0,1 3.07,0Z" style=3D"opacity: 0.7; stroke-wi=
+dth: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79=
+); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(=
+876.2100219726562,50.52000045776367)" d=3D"M3.45,0A3.45,3.45 0 1,1 0,-3.45A=
+3.45,3.45 0 0,1 3.45,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: =
+rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity:=
+ 1;"></path><path class=3D"point" transform=3D"translate(648.9400024414062,=
+72.4800033569336)" d=3D"M2.29,0A2.29,2.29 0 1,1 0,-2.29A2.29,2.29 0 0,1 2.2=
+9,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); f=
+ill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path c=
+lass=3D"point" transform=3D"translate(703.25,81.30999755859375)" d=3D"M2.9,=
+0A2.9,2.9 0 1,1 0,-2.9A2.9,2.9 0 0,1 2.9,0Z" style=3D"opacity: 0.7; stroke-=
+width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, =
+79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translat=
+e(750.510009765625,68.19000244140625)" d=3D"M2.27,0A2.27,2.27 0 1,1 0,-2.27=
+A2.27,2.27 0 0,1 2.27,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill:=
+ rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity=
+: 1;"></path><path class=3D"point" transform=3D"translate(817.6400146484375=
+,64.66000366210938)" d=3D"M3.43,0A3.43,3.43 0 1,1 0,-3.43A3.43,3.43 0 0,1 3=
+.43,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59);=
+ fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path=
+ class=3D"point" transform=3D"translate(883.1400146484375,55.83000183105469=
+)" d=3D"M2.5,0A2.5,2.5 0 1,1 0,-2.5A2.5,2.5 0 0,1 2.5,0Z" style=3D"opacity:=
+ 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke:=
+ rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transfor=
+m=3D"translate(874.030029296875,51.130001068115234)" d=3D"M2.45,0A2.45,2.45=
+ 0 1,1 0,-2.45A2.45,2.45 0 0,1 2.45,0Z" style=3D"opacity: 0.7; stroke-width=
+: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); =
+stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(861=
+.0800170898438,44.70000076293945)" d=3D"M8.37,0A8.37,8.37 0 1,1 0,-8.37A8.3=
+7,8.37 0 0,1 8.37,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb=
+(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;=
+"></path><path class=3D"point" transform=3D"translate(869.25,50.68999862670=
+8984)" d=3D"M9.72,0A9.72,9.72 0 1,1 0,-9.72A9.72,9.72 0 0,1 9.72,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity=
+: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"poi=
+nt" transform=3D"translate(845.8499755859375,50.31999969482422)" d=3D"M3.5,=
+0A3.5,3.5 0 1,1 0,-3.5A3.5,3.5 0 0,1 3.5,0Z" style=3D"opacity: 0.7; stroke-=
+width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, =
+79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translat=
+e(781.9000244140625,79.72000122070312)" d=3D"M3.38,0A3.38,3.38 0 1,1 0,-3.3=
+8A3.38,3.38 0 0,1 3.38,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill=
+: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacit=
+y: 1;"></path><path class=3D"point" transform=3D"translate(886.940002441406=
+2,39.439998626708984)" d=3D"M0.59,0A0.59,0.59 0 1,1 0,-0.59A0.59,0.59 0 0,1=
+ 0.59,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59=
+); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pa=
+th class=3D"point" transform=3D"translate(904.5700073242188,53.180000305175=
+78)" d=3D"M2.17,0A2.17,2.17 0 1,1 0,-2.17A2.17,2.17 0 0,1 2.17,0Z" style=3D=
+"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1=
+; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point"=
+ transform=3D"translate(851.3800048828125,45.22999954223633)" d=3D"M8.17,0A=
+8.17,8.17 0 1,1 0,-8.17A8.17,8.17 0 0,1 8.17,0Z" style=3D"opacity: 0.7; str=
+oke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, =
+79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tran=
+slate(681.6599731445312,73.95999908447266)" d=3D"M0.89,0A0.89,0.89 0 1,1 0,=
+-0.89A0.89,0.89 0 0,1 0.89,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; =
+fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(889.48999023=
+4375,48.97999954223633)" d=3D"M4.36,0A4.36,4.36 0 1,1 0,-4.36A4.36,4.36 0 0=
+,1 4.36,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, =
+59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><=
+path class=3D"point" transform=3D"translate(933.6900024414062,46.9099998474=
+1211)" d=3D"M2.3,0A2.3,2.3 0 1,1 0,-2.3A2.3,2.3 0 0,1 2.3,0Z" style=3D"opac=
+ity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; str=
+oke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" tran=
+sform=3D"translate(758.239990234375,69.08000183105469)" d=3D"M6.65,0A6.65,6=
+.65 0 1,1 0,-6.65A6.65,6.65 0 0,1 6.65,0Z" style=3D"opacity: 0.7; stroke-wi=
+dth: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79=
+); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(=
+801.47998046875,56.95000076293945)" d=3D"M3.49,0A3.49,3.49 0 1,1 0,-3.49A3.=
+49,3.49 0 0,1 3.49,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rg=
+b(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1=
+;"></path><path class=3D"point" transform=3D"translate(705.0399780273438,83=
+.8499984741211)" d=3D"M5.05,0A5.05,5.05 0 1,1 0,-5.05A5.05,5.05 0 0,1 5.05,=
+0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fil=
+l-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path cla=
+ss=3D"point" transform=3D"translate(690.0800170898438,76.54000091552734)" d=
+=3D"M3.41,0A3.41,3.41 0 1,1 0,-3.41A3.41,3.41 0 0,1 3.41,0Z" style=3D"opaci=
+ty: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stro=
+ke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" trans=
+form=3D"translate(787.4000244140625,73.37999725341797)" d=3D"M2.5,0A2.5,2.5=
+ 0 1,1 0,-2.5A2.5,2.5 0 0,1 2.5,0Z" style=3D"opacity: 0.7; stroke-width: 0.=
+5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stro=
+ke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(835.840=
+0268554688,57.77000045776367)" d=3D"M1.52,0A1.52,1.52 0 1,1 0,-1.52A1.52,1.=
+52 0 0,1 1.52,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239=
+, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></=
+path><path class=3D"point" transform=3D"translate(852.7000122070312,43.3400=
+0015258789)" d=3D"M6.81,0A6.81,6.81 0 1,1 0,-6.81A6.81,6.81 0 0,1 6.81,0Z" =
+style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-op=
+acity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=
+=3D"point" transform=3D"translate(876.9600219726562,43.619998931884766)" d=
+=3D"M3.22,0A3.22,3.22 0 1,1 0,-3.22A3.22,3.22 0 0,1 3.22,0Z" style=3D"opaci=
+ty: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stro=
+ke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" trans=
+form=3D"translate(892.3599853515625,39.709999084472656)" d=3D"M2.94,0A2.94,=
+2.94 0 1,1 0,-2.94A2.94,2.94 0 0,1 2.94,0Z" style=3D"opacity: 0.7; stroke-w=
+idth: 0.5px; fill: rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 7=
+9); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate=
+(668.1199951171875,87.19000244140625)" d=3D"M9.03,0A9.03,9.03 0 1,1 0,-9.03=
+A9.03,9.03 0 0,1 9.03,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill:=
+ rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity=
+: 1;"></path><path class=3D"point" transform=3D"translate(874.010009765625,=
+50.599998474121094)" d=3D"M8.35,0A8.35,8.35 0 1,1 0,-8.35A8.35,8.35 0 0,1 8=
+.35,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(239, 85, 59);=
+ fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path></g><=
+g class=3D"text"></g></g><g class=3D"trace scatter trace83f285" style=3D"st=
+roke-miterlimit: 2; opacity: 1;"><g class=3D"fills"></g><g class=3D"errorba=
+rs"></g><g class=3D"lines"></g><g class=3D"points"><path class=3D"point" tr=
+ansform=3D"translate(621.9299926757812,84.68000030517578)" d=3D"M6.18,0A6.1=
+8,6.18 0 1,1 0,-6.18A6.18,6.18 0 0,1 6.18,0Z" style=3D"opacity: 0.7; stroke=
+-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79,=
+ 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"transla=
+te(582.739990234375,226.16000366210938)" d=3D"M3.77,0A3.77,3.77 0 1,1 0,-3.=
+77A3.77,3.77 0 0,1 3.77,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fil=
+l: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opaci=
+ty: 1;"></path><path class=3D"point" transform=3D"translate(401.70001220703=
+125,159.19000244140625)" d=3D"M3.04,0A3.04,3.04 0 1,1 0,-3.04A3.04,3.04 0 0=
+,1 3.04,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 1=
+50); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><=
+path class=3D"point" transform=3D"translate(727.77001953125,187.89999389648=
+438)" d=3D"M1.37,0A1.37,1.37 0 1,1 0,-1.37A1.37,1.37 0 0,1 1.37,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity=
+: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"poi=
+nt" transform=3D"translate(376.239990234375,180.39999389648438)" d=3D"M4.05=
+,0A4.05,4.05 0 1,1 0,-4.05A4.05,4.05 0 0,1 4.05,0Z" style=3D"opacity: 0.7; =
+stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(4=
+7, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"t=
+ranslate(219.6300048828125,193.38999938964844)" d=3D"M3.1,0A3.1,3.1 0 1,1 0=
+,-3.1A3.1,3.1 0 0,1 3.1,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fil=
+l: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opaci=
+ty: 1;"></path><path class=3D"point" transform=3D"translate(454.16000366210=
+94,189.3300018310547)" d=3D"M4.51,0A4.51,4.51 0 1,1 0,-4.51A4.51,4.51 0 0,1=
+ 4.51,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150=
+); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pa=
+th class=3D"point" transform=3D"translate(294.260009765625,216.550003051757=
+8)" d=3D"M2.24,0A2.24,2.24 0 1,1 0,-2.24A2.24,2.24 0 0,1 2.24,0Z" style=3D"=
+opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1;=
+ stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" =
+transform=3D"translate(426.9200134277344,188.27000427246094)" d=3D"M3.43,0A=
+3.43,3.43 0 1,1 0,-3.43A3.43,3.43 0 0,1 3.43,0Z" style=3D"opacity: 0.7; str=
+oke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, =
+79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tran=
+slate(344.57000732421875,118.88999938964844)" d=3D"M0.9,0A0.9,0.9 0 1,1 0,-=
+0.9A0.9,0.9 0 0,1 0.9,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill:=
+ rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity=
+: 1;"></path><path class=3D"point" transform=3D"translate(153.6900024414062=
+5,208.30999755859375)" d=3D"M8.61,0A8.61,8.61 0 1,1 0,-8.61A8.61,8.61 0 0,1=
+ 8.61,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150=
+); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pa=
+th class=3D"point" transform=3D"translate(540.8699951171875,165.91999816894=
+53)" d=3D"M2.09,0A2.09,2.09 0 1,1 0,-2.09A2.09,2.09 0 0,1 2.09,0Z" style=3D=
+"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1=
+; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point"=
+ transform=3D"translate(412.1400146484375,199.3800048828125)" d=3D"M4.55,0A=
+4.55,4.55 0 1,1 0,-4.55A4.55,4.55 0 0,1 4.55,0Z" style=3D"opacity: 0.7; str=
+oke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, =
+79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tran=
+slate(457.1099853515625,168.4600067138672)" d=3D"M0.75,0A0.75,0.75 0 1,1 0,=
+-0.75A0.75,0.75 0 0,1 0.75,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; =
+fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(605.53002929=
+6875,89.29000091552734)" d=3D"M9.59,0A9.59,9.59 0 1,1 0,-9.59A9.59,9.59 0 0=
+,1 9.59,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 1=
+50); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><=
+path class=3D"point" transform=3D"translate(722.7000122070312,183.830001831=
+0547)" d=3D"M0.8,0A0.8,0.8 0 1,1 0,-0.8A0.8,0.8 0 0,1 0.8,0Z" style=3D"opac=
+ity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; str=
+oke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" tran=
+sform=3D"translate(279.79998779296875,152.9199981689453)" d=3D"M2.37,0A2.37=
+,2.37 0 1,1 0,-2.37A2.37,2.37 0 0,1 2.37,0Z" style=3D"opacity: 0.7; stroke-=
+width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, =
+79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translat=
+e(290.9800109863281,177.27999877929688)" d=3D"M9.37,0A9.37,9.37 0 1,1 0,-9.=
+37A9.37,9.37 0 0,1 9.37,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fil=
+l: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opaci=
+ty: 1;"></path><path class=3D"point" transform=3D"translate(735.21002197265=
+62,159.16000366210938)" d=3D"M1.29,0A1.29,1.29 0 1,1 0,-1.29A1.29,1.29 0 0,=
+1 1.29,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 15=
+0); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><p=
+ath class=3D"point" transform=3D"translate(303.9100036621094,146.1799926757=
+8125)" d=3D"M1.39,0A1.39,1.39 0 1,1 0,-1.39A1.39,1.39 0 0,1 1.39,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity=
+: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"poi=
+nt" transform=3D"translate(389.3299865722656,143.42999267578125)" d=3D"M5.1=
+2,0A5.12,5.12 0 1,1 0,-5.12A5.12,5.12 0 0,1 5.12,0Z" style=3D"opacity: 0.7;=
+ stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(=
+47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"=
+translate(337.7799987792969,162.63999938964844)" d=3D"M3.38,0A3.38,3.38 0 1=
+,1 0,-3.38A3.38,3.38 0 0,1 3.38,0Z" style=3D"opacity: 0.7; stroke-width: 0.=
+5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stro=
+ke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(264.459=
+9914550781,208.6699981689453)" d=3D"M1.3,0A1.3,1.3 0 1,1 0,-1.3A1.3,1.3 0 0=
+,1 1.3,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 15=
+0); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><p=
+ath class=3D"point" transform=3D"translate(403.9800109863281,171.7200012207=
+0312)" d=3D"M6.39,0A6.39,6.39 0 1,1 0,-6.39A6.39,6.39 0 0,1 6.39,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity=
+: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"poi=
+nt" transform=3D"translate(414.510009765625,226.8300018310547)" d=3D"M1.52,=
+0A1.52,1.52 0 1,1 0,-1.52A1.52,1.52 0 0,1 1.52,0Z" style=3D"opacity: 0.7; s=
+troke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47=
+, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tr=
+anslate(214.0800018310547,212.05999755859375)" d=3D"M1.91,0A1.91,1.91 0 1,1=
+ 0,-1.91A1.91,1.91 0 0,1 1.91,0Z" style=3D"opacity: 0.7; stroke-width: 0.5p=
+x; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke=
+-opacity: 1;"></path><path class=3D"point" transform=3D"translate(721.5,76.=
+77999877929688)" d=3D"M2.63,0A2.63,2.63 0 1,1 0,-2.63A2.63,2.63 0 0,1 2.63,=
+0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fil=
+l-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path cla=
+ss=3D"point" transform=3D"translate(353.260009765625,146.1999969482422)" d=
+=3D"M4.69,0A4.69,4.69 0 1,1 0,-4.69A4.69,4.69 0 0,1 4.69,0Z" style=3D"opaci=
+ty: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stro=
+ke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" trans=
+form=3D"translate(305.2200012207031,199.5)" d=3D"M3.91,0A3.91,3.91 0 1,1 0,=
+-3.91A3.91,3.91 0 0,1 3.91,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; =
+fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(352.94000244=
+140625,170.00999450683594)" d=3D"M3.71,0A3.71,3.71 0 1,1 0,-3.71A3.71,3.71 =
+0 0,1 3.71,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204=
+, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></pat=
+h><path class=3D"point" transform=3D"translate(435.4200134277344,123.620002=
+74658203)" d=3D"M1.94,0A1.94,1.94 0 1,1 0,-1.94A1.94,1.94 0 0,1 1.94,0Z" st=
+yle=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opac=
+ity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"=
+point" transform=3D"translate(707.0900268554688,82.29000091552734)" d=3D"M1=
+.2,0A1.2,1.2 0 1,1 0,-1.2A1.2,1.2 0 0,1 1.2,0Z" style=3D"opacity: 0.7; stro=
+ke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 7=
+9, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"trans=
+late(548.4600219726562,90.12000274658203)" d=3D"M6.22,0A6.22,6.22 0 1,1 0,-=
+6.22A6.22,6.22 0 0,1 6.22,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; f=
+ill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opa=
+city: 1;"></path><path class=3D"point" transform=3D"translate(317.459991455=
+0781,229.27000427246094)" d=3D"M4.78,0A4.78,4.78 0 1,1 0,-4.78A4.78,4.78 0 =
+0,1 4.78,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, =
+150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path>=
+<path class=3D"point" transform=3D"translate(583.1799926757812,177.47999572=
+753906)" d=3D"M1.54,0A1.54,1.54 0 1,1 0,-1.54A1.54,1.54 0 0,1 1.54,0Z" styl=
+e=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacit=
+y: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"po=
+int" transform=3D"translate(274.6199951171875,158.52999877929688)" d=3D"M3.=
+85,0A3.85,3.85 0 1,1 0,-3.85A3.85,3.85 0 0,1 3.85,0Z" style=3D"opacity: 0.7=
+; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb=
+(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D=
+"translate(452.07000732421875,206.41000366210938)" d=3D"M12.44,0A12.44,12.4=
+4 0 1,1 0,-12.44A12.44,12.44 0 0,1 12.44,0Z" style=3D"opacity: 0.7; stroke-=
+width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, =
+79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translat=
+e(653.4000244140625,64.87000274658203)" d=3D"M0.96,0A0.96,0.96 0 1,1 0,-0.9=
+6A0.96,0.96 0 0,1 0.96,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill=
+: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacit=
+y: 1;"></path><path class=3D"point" transform=3D"translate(324.5,209.369995=
+1171875)" d=3D"M3.19,0A3.19,3.19 0 1,1 0,-3.19A3.19,3.19 0 0,1 3.19,0Z" sty=
+le=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opaci=
+ty: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"p=
+oint" transform=3D"translate(417.2799987792969,117.08999633789062)" d=3D"M0=
+.48,0A0.48,0.48 0 1,1 0,-0.48A0.48,0.48 0 0,1 0.48,0Z" style=3D"opacity: 0.=
+7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rg=
+b(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=
+=3D"translate(427.6600036621094,128.88999938964844)" d=3D"M3.75,0A3.75,3.75=
+ 0 1,1 0,-3.75A3.75,3.75 0 0,1 3.75,0Z" style=3D"opacity: 0.7; stroke-width=
+: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); =
+stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(324=
+.3999938964844,226.94000244140625)" d=3D"M2.65,0A2.65,2.65 0 1,1 0,-2.65A2.=
+65,2.65 0 0,1 2.65,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rg=
+b(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1=
+;"></path><path class=3D"point" transform=3D"translate(335.1099853515625,20=
+0.19000244140625)" d=3D"M3.23,0A3.23,3.23 0 1,1 0,-3.23A3.23,3.23 0 0,1 3.2=
+3,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); f=
+ill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path c=
+lass=3D"point" transform=3D"translate(681.9199829101562,194.5500030517578)"=
+ d=3D"M7.1,0A7.1,7.1 0 1,1 0,-7.1A7.1,7.1 0 0,1 7.1,0Z" style=3D"opacity: 0=
+.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: r=
+gb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=
+=3D"translate(490.6600036621094,150.4499969482422)" d=3D"M6.96,0A6.96,6.96 =
+0 1,1 0,-6.96A6.96,6.96 0 0,1 6.96,0Z" style=3D"opacity: 0.7; stroke-width:=
+ 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); s=
+troke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(573.=
+5599975585938,241.0800018310547)" d=3D"M1.14,0A1.14,1.14 0 1,1 0,-1.14A1.14=
+,1.14 0 0,1 1.14,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(=
+0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"=
+></path><path class=3D"point" transform=3D"translate(362.0400085449219,179.=
+33999633789062)" d=3D"M6.61,0A6.61,6.61 0 1,1 0,-6.61A6.61,6.61 0 0,1 6.61,=
+0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fil=
+l-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path cla=
+ss=3D"point" transform=3D"translate(327.92999267578125,151.10000610351562)"=
+ d=3D"M2.56,0A2.56,2.56 0 1,1 0,-2.56A2.56,2.56 0 0,1 2.56,0Z" style=3D"opa=
+city: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; st=
+roke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" tra=
+nsform=3D"translate(641.6199951171875,76.91999816894531)" d=3D"M3.43,0A3.43=
+,3.43 0 1,1 0,-3.43A3.43,3.43 0 0,1 3.43,0Z" style=3D"opacity: 0.7; stroke-=
+width: 0.5px; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, =
+79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translat=
+e(354.9200134277344,184.00999450683594)" d=3D"M5.78,0A5.78,5.78 0 1,1 0,-5.=
+78A5.78,5.78 0 0,1 5.78,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fil=
+l: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opaci=
+ty: 1;"></path><path class=3D"point" transform=3D"translate(382.79998779296=
+875,227.82000732421875)" d=3D"M3.67,0A3.67,3.67 0 1,1 0,-3.67A3.67,3.67 0 0=
+,1 3.67,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 1=
+50); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><=
+path class=3D"point" transform=3D"translate(232.89999389648438,222.55000305=
+17578)" d=3D"M3.76,0A3.76,3.76 0 1,1 0,-3.76A3.76,3.76 0 0,1 3.76,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(0, 204, 150); fill-opacity=
+: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path></g><g class=3D"te=
+xt"></g></g><g class=3D"trace scatter traced20ebb" style=3D"stroke-miterlim=
+it: 2; opacity: 1;"><g class=3D"fills"></g><g class=3D"errorbars"></g><g cl=
+ass=3D"lines"></g><g class=3D"points"><path class=3D"point" transform=3D"tr=
+anslate(730.260009765625,70.23999786376953)" d=3D"M6.8,0A6.8,6.8 0 1,1 0,-6=
+.8A6.8,6.8 0 0,1 6.8,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: =
+rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity=
+: 1;"></path><path class=3D"point" transform=3D"translate(548.530029296875,=
+116.95999908447266)" d=3D"M3.23,0A3.23,3.23 0 1,1 0,-3.23A3.23,3.23 0 0,1 3=
+.23,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250)=
+; fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><pat=
+h class=3D"point" transform=3D"translate(678.5700073242188,84.2600021362304=
+7)" d=3D"M14.76,0A14.76,14.76 0 1,1 0,-14.76A14.76,14.76 0 0,1 14.76,0Z" st=
+yle=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opa=
+city: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D=
+"point" transform=3D"translate(887.510009765625,44.720001220703125)" d=3D"M=
+6.19,0A6.19,6.19 0 1,1 0,-6.19A6.19,6.19 0 0,1 6.19,0Z" style=3D"opacity: 0=
+.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: =
+rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=
+=3D"translate(734.8099975585938,54.77000045776367)" d=3D"M4.32,0A4.32,4.32 =
+0 1,1 0,-4.32A4.32,4.32 0 0,1 4.32,0Z" style=3D"opacity: 0.7; stroke-width:=
+ 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); =
+stroke-opacity: 1;"></path><path class=3D"point" transform=3D"translate(639=
+.780029296875,81.87000274658203)" d=3D"M7.12,0A7.12,7.12 0 1,1 0,-7.12A7.12=
+,7.12 0 0,1 7.12,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(=
+171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;=
+"></path><path class=3D"point" transform=3D"translate(687.8900146484375,53.=
+66999816894531)" d=3D"M2.18,0A2.18,2.18 0 1,1 0,-2.18A2.18,2.18 0 0,1 2.18,=
+0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fi=
+ll-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path cl=
+ass=3D"point" transform=3D"translate(676.5999755859375,56.11000061035156)" =
+d=3D"M3.62,0A3.62,3.62 0 1,1 0,-3.62A3.62,3.62 0 0,1 3.62,0Z" style=3D"opac=
+ity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; st=
+roke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" tra=
+nsform=3D"translate(617.0599975585938,85)" d=3D"M3.27,0A3.27,3.27 0 1,1 0,-=
+3.27A3.27,3.27 0 0,1 3.27,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; f=
+ill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(636.88000488=
+28125,71.80000305175781)" d=3D"M3.97,0A3.97,3.97 0 1,1 0,-3.97A3.97,3.97 0 =
+0,1 3.97,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99,=
+ 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path=
+><path class=3D"point" transform=3D"translate(609.4500122070312,86.70999908=
+447266)" d=3D"M2.82,0A2.82,2.82 0 1,1 0,-2.82A2.82,2.82 0 0,1 2.82,0Z" styl=
+e=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opaci=
+ty: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"p=
+oint" transform=3D"translate(594.47998046875,94.44999694824219)" d=3D"M3.8,=
+0A3.8,3.8 0 1,1 0,-3.8A3.8,3.8 0 0,1 3.8,0Z" style=3D"opacity: 0.7; stroke-=
+width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79,=
+ 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"transla=
+te(374.32000732421875,139.16000366210938)" d=3D"M3.12,0A3.12,3.12 0 1,1 0,-=
+3.12A3.12,3.12 0 0,1 3.12,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; f=
+ill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(537.34002685=
+54688,94.73999786376953)" d=3D"M2.93,0A2.93,2.93 0 1,1 0,-2.93A2.93,2.93 0 =
+0,1 2.93,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99,=
+ 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path=
+><path class=3D"point" transform=3D"translate(646.3800048828125,83.41000366=
+210938)" d=3D"M1.79,0A1.79,1.79 0 1,1 0,-1.79A1.79,1.79 0 0,1 1.79,0Z" styl=
+e=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opaci=
+ty: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"p=
+oint" transform=3D"translate(720.5,66.05000305175781)" d=3D"M11.17,0A11.17,=
+11.17 0 1,1 0,-11.17A11.17,11.17 0 0,1 11.17,0Z" style=3D"opacity: 0.7; str=
+oke-width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47,=
+ 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tra=
+nslate(498.92999267578125,81.81999969482422)" d=3D"M2.55,0A2.55,2.55 0 1,1 =
+0,-2.55A2.55,2.55 0 0,1 2.55,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px=
+; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke=
+-opacity: 1;"></path><path class=3D"point" transform=3D"translate(690.42999=
+26757812,69.19999694824219)" d=3D"M1.93,0A1.93,1.93 0 1,1 0,-1.93A1.93,1.93=
+ 0 0,1 1.93,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, =
+99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></p=
+ath><path class=3D"point" transform=3D"translate(561.75,87.30999755859375)"=
+ d=3D"M2.77,0A2.77,2.77 0 1,1 0,-2.77A2.77,2.77 0 0,1 2.77,0Z" style=3D"opa=
+city: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; s=
+troke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" tr=
+ansform=3D"translate(648.1799926757812,88.88999938964844)" d=3D"M5.73,0A5.7=
+3,5.73 0 1,1 0,-5.73A5.73,5.73 0 0,1 5.73,0Z" style=3D"opacity: 0.7; stroke=
+-width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79=
+, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"transl=
+ate(792.5499877929688,53.849998474121094)" d=3D"M2.13,0A2.13,2.13 0 1,1 0,-=
+2.13A2.13,2.13 0 0,1 2.13,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; f=
+ill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-op=
+acity: 1;"></path><path class=3D"point" transform=3D"translate(781.90002441=
+40625,96.55999755859375)" d=3D"M1.1,0A1.1,1.1 0 1,1 0,-1.1A1.1,1.1 0 0,1 1.=
+1,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); =
+fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path =
+class=3D"point" transform=3D"translate(912.77001953125,56.2599983215332)" d=
+=3D"M18.58,0A18.58,18.58 0 1,1 0,-18.58A18.58,18.58 0 0,1 18.58,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(171, 99, 250); fill-opacit=
+y: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"po=
+int" transform=3D"translate(702.27001953125,65.1500015258789)" d=3D"M1.99,0=
+A1.99,1.99 0 1,1 0,-1.99A1.99,1.99 0 0,1 1.99,0Z" style=3D"opacity: 0.7; st=
+roke-width: 0.5px; fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47=
+, 79, 79); stroke-opacity: 1;"></path><path class=3D"point" transform=3D"tr=
+anslate(713.27001953125,77.76000213623047)" d=3D"M5.47,0A5.47,5.47 0 1,1 0,=
+-5.47A5.47,5.47 0 0,1 5.47,0Z" style=3D"opacity: 0.7; stroke-width: 0.5px; =
+fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-o=
+pacity: 1;"></path></g><g class=3D"text"></g></g><g class=3D"trace scatter =
+trace4da8a1" style=3D"stroke-miterlimit: 2; opacity: 1;"><g class=3D"fills"=
+></g><g class=3D"errorbars"></g><g class=3D"lines"></g><g class=3D"points">=
+<path class=3D"point" transform=3D"translate(879.489990234375,41.9399986267=
+08984)" d=3D"M4.84,0A4.84,4.84 0 1,1 0,-4.84A4.84,4.84 0 0,1 4.84,0Z" style=
+=3D"opacity: 0.7; stroke-width: 0.5px; fill: rgb(255, 161, 90); fill-opacit=
+y: 1; stroke: rgb(47, 79, 79); stroke-opacity: 1;"></path><path class=3D"po=
+int" transform=3D"translate(832.4000244140625,46.869998931884766)" d=3D"M2.=
+17,0A2.17,2.17 0 1,1 0,-2.17A2.17,2.17 0 0,1 2.17,0Z" style=3D"opacity: 0.7=
+; stroke-width: 0.5px; fill: rgb(255, 161, 90); fill-opacity: 1; stroke: rg=
+b(47, 79, 79); stroke-opacity: 1;"></path></g><g class=3D"text"></g></g></g=
+></g></g><path class=3D"xlines-above crisp" d=3D"M0,0" style=3D"fill: none;=
+"></path><path class=3D"ylines-above crisp" d=3D"M0,0" style=3D"fill: none;=
+"></path><g class=3D"overlines-above"></g><g class=3D"xaxislayer-above"><g =
+class=3D"xtick"><text text-anchor=3D"middle" x=3D"3.5" y=3D"433" data-unfor=
+matted=3D"100" data-math=3D"N" transform=3D"translate(80,0)" style=3D"font-=
+family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px;=
+ fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; font-style=
+: normal; font-variant: normal; white-space: pre; opacity: 1;">100</text></=
+g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-=
+unformatted=3D"2" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quo=
+t;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250)=
+; fill-opacity: 1; font-weight: normal; font-style: normal; font-variant: n=
+ormal; white-space: pre; opacity: 1;" transform=3D"translate(184.36,0)">2</=
+text></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5=
+" data-unformatted=3D"3" data-math=3D"N" style=3D"font-family: &quot;Open S=
+ans&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 24=
+5, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-var=
+iant: normal; white-space: pre; opacity: 1;" transform=3D"translate(245.4,0=
+)">3</text></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D=
+"422.5" data-unformatted=3D"4" data-math=3D"N" style=3D"font-family: &quot;=
+Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(2=
+42, 245, 250); fill-opacity: 1; font-weight: normal; font-style: normal; fo=
+nt-variant: normal; white-space: pre; opacity: 1;" transform=3D"translate(2=
+88.71000000000004,0)">4</text></g><g class=3D"xtick"><text text-anchor=3D"m=
+iddle" x=3D"0" y=3D"422.5" data-unformatted=3D"5" data-math=3D"N" style=3D"=
+font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: =
+10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; fon=
+t-style: normal; font-variant: normal; white-space: pre; opacity: 1;" trans=
+form=3D"translate(322.31,0)">5</text></g><g class=3D"xtick"><text text-anch=
+or=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"6" data-math=3D"N" st=
+yle=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font=
+-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: norm=
+al; font-style: normal; font-variant: normal; white-space: pre; opacity: 1;=
+" transform=3D"translate(349.76,0)">6</text></g><g class=3D"xtick"><text te=
+xt-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"7" data-math=
+=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-se=
+rif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-wei=
+ght: normal; font-style: normal; font-variant: normal; white-space: pre; op=
+acity: 1;" transform=3D"translate(372.97,0)">7</text></g><g class=3D"xtick"=
+><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"8" da=
+ta-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, =
+sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; f=
+ont-weight: normal; font-style: normal; font-variant: normal; white-space: =
+pre; opacity: 1;" transform=3D"translate(393.07,0)">8</text></g><g class=3D=
+"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=
+=3D"9" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana=
+, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opac=
+ity: 1; font-weight: normal; font-style: normal; font-variant: normal; whit=
+e-space: pre; opacity: 1;" transform=3D"translate(410.8,0)">9</text></g><g =
+class=3D"xtick"><text text-anchor=3D"middle" x=3D"3.5" y=3D"433" data-unfor=
+matted=3D"1000" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;=
+, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); fi=
+ll-opacity: 1; font-weight: normal; font-style: normal; font-variant: norma=
+l; white-space: pre; opacity: 1;" transform=3D"translate(426.67,0)">1000</t=
+ext></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5"=
+ data-unformatted=3D"2" data-math=3D"N" style=3D"font-family: &quot;Open Sa=
+ns&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 245=
+, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-vari=
+ant: normal; white-space: pre; opacity: 1;" transform=3D"translate(531.02,0=
+)">2</text></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D=
+"422.5" data-unformatted=3D"3" data-math=3D"N" style=3D"font-family: &quot;=
+Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(2=
+42, 245, 250); fill-opacity: 1; font-weight: normal; font-style: normal; fo=
+nt-variant: normal; white-space: pre; opacity: 1;" transform=3D"translate(5=
+92.07,0)">3</text></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"=
+0" y=3D"422.5" data-unformatted=3D"4" data-math=3D"N" style=3D"font-family:=
+ &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill=
+: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; font-style: nor=
+mal; font-variant: normal; white-space: pre; opacity: 1;" transform=3D"tran=
+slate(635.38,0)">4</text></g><g class=3D"xtick"><text text-anchor=3D"middle=
+" x=3D"0" y=3D"422.5" data-unformatted=3D"5" data-math=3D"N" style=3D"font-=
+family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5p=
+x; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; font-sty=
+le: normal; font-variant: normal; white-space: pre; opacity: 1;" transform=
+=3D"translate(668.98,0)">5</text></g><g class=3D"xtick"><text text-anchor=
+=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"6" data-math=3D"N" styl=
+e=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-s=
+ize: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal=
+; font-style: normal; font-variant: normal; white-space: pre; opacity: 1;" =
+transform=3D"translate(696.43,0)">6</text></g><g class=3D"xtick"><text text=
+-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"7" data-math=3D"=
+N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif;=
+ font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight:=
+ normal; font-style: normal; font-variant: normal; white-space: pre; opacit=
+y: 1;" transform=3D"translate(719.63,0)">7</text></g><g class=3D"xtick"><te=
+xt text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"8" data-m=
+ath=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans=
+-serif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-=
+weight: normal; font-style: normal; font-variant: normal; white-space: pre;=
+ opacity: 1;" transform=3D"translate(739.74,0)">8</text></g><g class=3D"xti=
+ck"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"9"=
+ data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, aria=
+l, sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1=
+; font-weight: normal; font-style: normal; font-variant: normal; white-spac=
+e: pre; opacity: 1;" transform=3D"translate(757.47,0)">9</text></g><g class=
+=3D"xtick"><text text-anchor=3D"middle" x=3D"3.5" y=3D"433" data-unformatte=
+d=3D"10k" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verd=
+ana, arial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); fill-opa=
+city: 1; font-weight: normal; font-style: normal; font-variant: normal; whi=
+te-space: pre; opacity: 1;" transform=3D"translate(773.33,0)">10k</text></g=
+><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-u=
+nformatted=3D"2" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot=
+;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250);=
+ fill-opacity: 1; font-weight: normal; font-style: normal; font-variant: no=
+rmal; white-space: pre; opacity: 1;" transform=3D"translate(877.69,0)">2</t=
+ext></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5"=
+ data-unformatted=3D"3" data-math=3D"N" style=3D"font-family: &quot;Open Sa=
+ns&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 245=
+, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-vari=
+ant: normal; white-space: pre; opacity: 1;" transform=3D"translate(938.74,0=
+)">3</text></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D=
+"422.5" data-unformatted=3D"4" data-math=3D"N" style=3D"font-family: &quot;=
+Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill: rgb(2=
+42, 245, 250); fill-opacity: 1; font-weight: normal; font-style: normal; fo=
+nt-variant: normal; white-space: pre; opacity: 1;" transform=3D"translate(9=
+82.05,0)">4</text></g><g class=3D"xtick"><text text-anchor=3D"middle" x=3D"=
+0" y=3D"422.5" data-unformatted=3D"5" data-math=3D"N" style=3D"font-family:=
+ &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5px; fill=
+: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; font-style: nor=
+mal; font-variant: normal; white-space: pre; opacity: 1;" transform=3D"tran=
+slate(1015.64,0)">5</text></g><g class=3D"xtick"><text text-anchor=3D"middl=
+e" x=3D"0" y=3D"422.5" data-unformatted=3D"6" data-math=3D"N" style=3D"font=
+-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 10.5=
+px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; font-st=
+yle: normal; font-variant: normal; white-space: pre; opacity: 1;" transform=
+=3D"translate(1043.0900000000001,0)">6</text></g><g class=3D"xtick"><text t=
+ext-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"7" data-math=
+=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-se=
+rif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; font-wei=
+ght: normal; font-style: normal; font-variant: normal; white-space: pre; op=
+acity: 1;" transform=3D"translate(1066.3,0)">7</text></g><g class=3D"xtick"=
+><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=3D"8" da=
+ta-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, =
+sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opacity: 1; f=
+ont-weight: normal; font-style: normal; font-variant: normal; white-space: =
+pre; opacity: 1;" transform=3D"translate(1086.4,0)">8</text></g><g class=3D=
+"xtick"><text text-anchor=3D"middle" x=3D"0" y=3D"422.5" data-unformatted=
+=3D"9" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana=
+, arial, sans-serif; font-size: 10.5px; fill: rgb(242, 245, 250); fill-opac=
+ity: 1; font-weight: normal; font-style: normal; font-variant: normal; whit=
+e-space: pre; opacity: 1;" transform=3D"translate(1104.14,0)">9</text></g><=
+g class=3D"xtick"><text text-anchor=3D"middle" x=3D"3.5" y=3D"433" data-unf=
+ormatted=3D"100k" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quo=
+t;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); =
+fill-opacity: 1; font-weight: normal; font-style: normal; font-variant: nor=
+mal; white-space: pre; opacity: 1;" transform=3D"translate(1120,0)">100k</t=
+ext></g></g><g class=3D"yaxislayer-above"><g class=3D"ytick"><text text-anc=
+hor=3D"end" x=3D"79" y=3D"4.8999999999999995" data-unformatted=3D"30" data-=
+math=3D"N" transform=3D"translate(0,387.08)" style=3D"font-family: &quot;Op=
+en Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242, =
+245, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-v=
+ariant: normal; white-space: pre; opacity: 1;">30</text></g><g class=3D"yti=
+ck"><text text-anchor=3D"end" x=3D"79" y=3D"4.8999999999999995" data-unform=
+atted=3D"40" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, v=
+erdana, arial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); fill-=
+opacity: 1; font-weight: normal; font-style: normal; font-variant: normal; =
+white-space: pre; opacity: 1;" transform=3D"translate(0,339.23)">40</text><=
+/g><g class=3D"ytick"><text text-anchor=3D"end" x=3D"79" y=3D"4.89999999999=
+99995" data-unformatted=3D"50" data-math=3D"N" style=3D"font-family: &quot;=
+Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242=
+, 245, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font=
+-variant: normal; white-space: pre; opacity: 1;" transform=3D"translate(0,2=
+91.38)">50</text></g><g class=3D"ytick"><text text-anchor=3D"end" x=3D"79" =
+y=3D"4.8999999999999995" data-unformatted=3D"60" data-math=3D"N" style=3D"f=
+ont-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 1=
+4px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; font-s=
+tyle: normal; font-variant: normal; white-space: pre; opacity: 1;" transfor=
+m=3D"translate(0,243.54)">60</text></g><g class=3D"ytick"><text text-anchor=
+=3D"end" x=3D"79" y=3D"4.8999999999999995" data-unformatted=3D"70" data-mat=
+h=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-s=
+erif; font-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weig=
+ht: normal; font-style: normal; font-variant: normal; white-space: pre; opa=
+city: 1;" transform=3D"translate(0,195.69)">70</text></g><g class=3D"ytick"=
+><text text-anchor=3D"end" x=3D"79" y=3D"4.8999999999999995" data-unformatt=
+ed=3D"80" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verd=
+ana, arial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); fill-opa=
+city: 1; font-weight: normal; font-style: normal; font-variant: normal; whi=
+te-space: pre; opacity: 1;" transform=3D"translate(0,147.85)">80</text></g>=
+<g class=3D"ytick"><text text-anchor=3D"end" x=3D"79" y=3D"4.89999999999999=
+95" data-unformatted=3D"90" data-math=3D"N" style=3D"font-family: &quot;Ope=
+n Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242, 2=
+45, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-va=
+riant: normal; white-space: pre; opacity: 1;" transform=3D"translate(0,100)=
+">90</text></g></g><g class=3D"overaxes-above"></g></g></g><g class=3D"pola=
+rlayer"></g><g class=3D"smithlayer"></g><g class=3D"ternarylayer"></g><g cl=
+ass=3D"geolayer"></g><g class=3D"funnelarealayer"></g><g class=3D"pielayer"=
+></g><g class=3D"iciclelayer"></g><g class=3D"treemaplayer"></g><g class=3D=
+"sunburstlayer"></g><g class=3D"glimages"></g></svg><div class=3D"gl-contai=
+ner"></div><svg class=3D"main-svg" xmlns=3D"http://www.w3.org/2000/svg" xml=
+ns:xlink=3D"http://www.w3.org/1999/xlink" width=3D"1264" height=3D"569.333"=
+><defs id=3D"topdefs-c507f3"><g class=3D"clips"></g><clipPath id=3D"legendc=
+507f3"><rect width=3D"111" height=3D"140" x=3D"0" y=3D"0"></rect></clipPath=
+></defs><g class=3D"indicatorlayer"></g><g class=3D"layer-above"><g class=
+=3D"imagelayer"></g><g class=3D"shapelayer"></g></g><g class=3D"selectionla=
+yer"></g><g class=3D"infolayer"><g class=3D"legend" pointer-events=3D"all" =
+transform=3D"translate(1140.8,100)"><rect class=3D"bg" shape-rendering=3D"c=
+rispEdges" style=3D"stroke: rgb(68, 68, 68); stroke-opacity: 1; fill: rgb(1=
+7, 17, 17); fill-opacity: 1; stroke-width: 0px;" width=3D"111" height=3D"14=
+0" x=3D"0" y=3D"0"></rect><g class=3D"scrollbox" transform=3D"" clip-path=
+=3D"url(#legendc507f3)"><text class=3D"legendtitletext" text-anchor=3D"star=
+t" data-unformatted=3D"continent" data-math=3D"N" x=3D"2" y=3D"23.400000000=
+000002" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-s=
+erif; font-size: 18px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weig=
+ht: normal; font-style: normal; font-variant: normal; white-space: pre;">co=
+ntinent</text><g class=3D"groups" transform=3D""><g class=3D"traces" transf=
+orm=3D"translate(0,39)" style=3D"opacity: 1;"><text class=3D"legendtext" te=
+xt-anchor=3D"start" x=3D"40" y=3D"5.46" data-unformatted=3D"Asia" data-math=
+=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-se=
+rif; font-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weigh=
+t: normal; font-style: normal; font-variant: normal; white-space: pre;">Asi=
+a</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"><=
+/g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"lege=
+ndpoints"><path class=3D"scatterpts" transform=3D"translate(20,0)" d=3D"M6,=
+0A6,6 0 1,1 0,-6A6,6 0 0,1 6,0Z" style=3D"opacity: 0.7; stroke-width: 2px; =
+fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-o=
+pacity: 1;"></path></g></g></g><rect class=3D"legendtoggle" pointer-events=
+=3D"all" x=3D"0" y=3D"-10.6" width=3D"105.04557800292969" height=3D"21.2" s=
+tyle=3D"cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></g><=
+/g><g class=3D"groups" transform=3D""><g class=3D"traces" transform=3D"tran=
+slate(0,60.2)" style=3D"opacity: 1;"><text class=3D"legendtext" text-anchor=
+=3D"start" x=3D"40" y=3D"5.46" data-unformatted=3D"Europe" data-math=3D"N" =
+style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; fo=
+nt-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: norm=
+al; font-style: normal; font-variant: normal; white-space: pre;">Europe</te=
+xt><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"></g><g=
+ class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"legendpoi=
+nts"><path class=3D"scatterpts" transform=3D"translate(20,0)" d=3D"M6,0A6,6=
+ 0 1,1 0,-6A6,6 0 0,1 6,0Z" style=3D"opacity: 0.7; stroke-width: 2px; fill:=
+ rgb(239, 85, 59); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opacity=
+: 1;"></path></g></g></g><rect class=3D"legendtoggle" pointer-events=3D"all=
+" x=3D"0" y=3D"-10.6" width=3D"105.04557800292969" height=3D"21.2" style=3D=
+"cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></g></g><g c=
+lass=3D"groups" transform=3D""><g class=3D"traces" transform=3D"translate(0=
+,81.39999999999999)" style=3D"opacity: 1;"><text class=3D"legendtext" text-=
+anchor=3D"start" x=3D"40" y=3D"5.46" data-unformatted=3D"Africa" data-math=
+=3D"N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-se=
+rif; font-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weigh=
+t: normal; font-style: normal; font-variant: normal; white-space: pre;">Afr=
+ica</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"=
+></g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"le=
+gendpoints"><path class=3D"scatterpts" transform=3D"translate(20,0)" d=3D"M=
+6,0A6,6 0 1,1 0,-6A6,6 0 0,1 6,0Z" style=3D"opacity: 0.7; stroke-width: 2px=
+; fill: rgb(0, 204, 150); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-=
+opacity: 1;"></path></g></g></g><rect class=3D"legendtoggle" pointer-events=
+=3D"all" x=3D"0" y=3D"-10.6" width=3D"105.04557800292969" height=3D"21.2" s=
+tyle=3D"cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></g><=
+/g><g class=3D"groups" transform=3D""><g class=3D"traces" transform=3D"tran=
+slate(0,102.6)" style=3D"opacity: 1;"><text class=3D"legendtext" text-ancho=
+r=3D"start" x=3D"40" y=3D"5.46" data-unformatted=3D"Americas" data-math=3D"=
+N" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif;=
+ font-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: n=
+ormal; font-style: normal; font-variant: normal; white-space: pre;">America=
+s</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"><=
+/g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"lege=
+ndpoints"><path class=3D"scatterpts" transform=3D"translate(20,0)" d=3D"M6,=
+0A6,6 0 1,1 0,-6A6,6 0 0,1 6,0Z" style=3D"opacity: 0.7; stroke-width: 2px; =
+fill: rgb(171, 99, 250); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-o=
+pacity: 1;"></path></g></g></g><rect class=3D"legendtoggle" pointer-events=
+=3D"all" x=3D"0" y=3D"-10.6" width=3D"105.04557800292969" height=3D"21.2" s=
+tyle=3D"cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></g><=
+/g><g class=3D"groups" transform=3D""><g class=3D"traces" transform=3D"tran=
+slate(0,123.8)" style=3D"opacity: 1;"><text class=3D"legendtext" text-ancho=
+r=3D"start" x=3D"40" y=3D"5.46" data-unformatted=3D"Oceania" data-math=3D"N=
+" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; =
+font-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: no=
+rmal; font-style: normal; font-variant: normal; white-space: pre;">Oceania<=
+/text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"></g=
+><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"legend=
+points"><path class=3D"scatterpts" transform=3D"translate(20,0)" d=3D"M6,0A=
+6,6 0 1,1 0,-6A6,6 0 0,1 6,0Z" style=3D"opacity: 0.7; stroke-width: 2px; fi=
+ll: rgb(255, 161, 90); fill-opacity: 1; stroke: rgb(47, 79, 79); stroke-opa=
+city: 1;"></path></g></g></g><rect class=3D"legendtoggle" pointer-events=3D=
+"all" x=3D"0" y=3D"-10.6" width=3D"105.04557800292969" height=3D"21.2" styl=
+e=3D"cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></g></g>=
+</g><rect class=3D"scrollbar" rx=3D"20" ry=3D"3" width=3D"0" height=3D"0" s=
+tyle=3D"fill: rgb(128, 139, 164); fill-opacity: 1;" x=3D"0" y=3D"0"></rect>=
+</g><g class=3D"slider-container" style=3D"cursor: ew-resize;"><g class=3D"=
+slider-group" transform=3D"translate(184,471)"><text class=3D"slider-label"=
+ text-anchor=3D"left" data-notex=3D"1" data-unformatted=3D"year=3D2007" dat=
+a-math=3D"N" x=3D"0" y=3D"18.2" style=3D"font-family: &quot;Open Sans&quot;=
+, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); fi=
+ll-opacity: 1; font-weight: normal; font-style: normal; font-variant: norma=
+l; white-space: pre;">year=3D2007</text><rect class=3D"slider-rail-rect" wi=
+dth=3D"920" height=3D"5" rx=3D"2" ry=3D"2" shape-rendering=3D"crispEdges" t=
+ransform=3D"translate(8,34.5)" style=3D"stroke: rgb(17, 17, 17); stroke-opa=
+city: 1; fill: rgb(200, 212, 227); fill-opacity: 1; stroke-width: 1px;"></r=
+ect><g class=3D"slider-labels"><g class=3D"slider-label-group" transform=3D=
+"translate(10,77.2)"><text class=3D"slider-label" text-anchor=3D"middle" da=
+ta-notex=3D"1" data-unformatted=3D"2002" data-math=3D"N" x=3D"0" y=3D"0" st=
+yle=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font=
+-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal=
+; font-style: normal; font-variant: normal; white-space: pre;">2002</text><=
+/g><g class=3D"slider-label-group" transform=3D"translate(926,77.2)"><text =
+class=3D"slider-label" text-anchor=3D"middle" data-notex=3D"1" data-unforma=
+tted=3D"2007" data-math=3D"N" x=3D"0" y=3D"0" style=3D"font-family: &quot;O=
+pen Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(242,=
+ 245, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-=
+variant: normal; white-space: pre;">2007</text></g></g><rect class=3D"slide=
+r-tick-rect" width=3D"0px" shape-rendering=3D"crispEdges" height=3D"7" tran=
+sform=3D"translate(10,52)" style=3D"fill: rgb(51, 51, 51); fill-opacity: 1;=
+"></rect><rect class=3D"slider-tick-rect" width=3D"0px" shape-rendering=3D"=
+crispEdges" height=3D"7" transform=3D"translate(926,52)" style=3D"fill: rgb=
+(51, 51, 51); fill-opacity: 1;"></rect><rect class=3D"slider-rail-touch-rec=
+t" width=3D"936" height=3D"48.66666793823242" opacity=3D"0" transform=3D"tr=
+anslate(0,27)" style=3D"pointer-events: all; fill: rgb(200, 212, 227); fill=
+-opacity: 1;"></rect><rect class=3D"slider-grip-rect" width=3D"20" height=
+=3D"20" rx=3D"10" ry=3D"10" transform=3D"translate(916,27)" style=3D"pointe=
+r-events: all; stroke: rgb(17, 17, 17); stroke-opacity: 1; fill: rgb(200, 2=
+12, 227); fill-opacity: 1; stroke-width: 1px;"></rect></g></g><g class=3D"g=
+-gtitle"><text class=3D"gtitle" x=3D"63.2" y=3D"50" text-anchor=3D"start" d=
+y=3D"0em" data-unformatted=3D"Gapminder Data" data-math=3D"N" style=3D"opac=
+ity: 1; font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; fon=
+t-size: 24px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: norma=
+l; font-style: normal; font-variant: normal; white-space: pre;">Gapminder D=
+ata</text></g><g class=3D"g-xtitle"><text class=3D"xtitle" x=3D"600" y=3D"4=
+72.76666793823244" text-anchor=3D"middle" data-unformatted=3D"GDP per Capit=
+a" data-math=3D"N" style=3D"opacity: 1; font-family: &quot;Open Sans&quot;,=
+ verdana, arial, sans-serif; font-size: 18px; fill: rgb(242, 245, 250); fil=
+l-opacity: 1; font-weight: normal; font-style: normal; font-variant: normal=
+; white-space: pre;">GDP per Capita</text></g><g class=3D"g-ytitle"><text c=
+lass=3D"ytitle" transform=3D"rotate(-90,30.397265625000003,255.5)" x=3D"30.=
+397265625000003" y=3D"255.5" text-anchor=3D"middle" data-unformatted=3D"Lif=
+e Expectancy" data-math=3D"N" style=3D"opacity: 1; font-family: &quot;Open =
+Sans&quot;, verdana, arial, sans-serif; font-size: 18px; fill: rgb(242, 245=
+, 250); fill-opacity: 1; font-weight: normal; font-style: normal; font-vari=
+ant: normal; white-space: pre;">Life Expectancy</text></g></g><g class=3D"m=
+enulayer"><g class=3D"updatemenu-container" style=3D"cursor: pointer;"><g c=
+lass=3D"updatemenu-header-group" pointer-events=3D"all"><g class=3D"updatem=
+enu-button" transform=3D"translate(98,481)"><rect class=3D"updatemenu-item-=
+rect" rx=3D"2" ry=3D"2" shape-rendering=3D"crispEdges" x=3D"0" y=3D"0" widt=
+h=3D"37" height=3D"33" style=3D"stroke: rgb(190, 200, 217); stroke-opacity:=
+ 1; fill: rgb(80, 103, 132); fill-opacity: 1; stroke-width: 0px;"></rect><t=
+ext class=3D"updatemenu-item-text" text-anchor=3D"start" data-notex=3D"1" d=
+ata-unformatted=3D"&amp;#9654;" data-math=3D"N" x=3D"12" y=3D"19.5" style=
+=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-si=
+ze: 14px; fill: rgb(242, 245, 250); fill-opacity: 1; font-weight: normal; f=
+ont-style: normal; font-variant: normal; white-space: pre;">=E2=96=B6</text=
+></g><g class=3D"updatemenu-button" transform=3D"translate(137,481)"><rect =
+class=3D"updatemenu-item-rect" rx=3D"2" ry=3D"2" shape-rendering=3D"crispEd=
+ges" x=3D"0" y=3D"0" width=3D"37" height=3D"33" style=3D"stroke: rgb(190, 2=
+00, 217); stroke-opacity: 1; fill: rgb(80, 103, 132); fill-opacity: 1; stro=
+ke-width: 0px;"></rect><text class=3D"updatemenu-item-text" text-anchor=3D"=
+start" data-notex=3D"1" data-unformatted=3D"&amp;#9724;" data-math=3D"N" x=
+=3D"12" y=3D"19.5" style=3D"font-family: &quot;Open Sans&quot;, verdana, ar=
+ial, sans-serif; font-size: 14px; fill: rgb(242, 245, 250); fill-opacity: 1=
+; font-weight: normal; font-style: normal; font-variant: normal; white-spac=
+e: pre;">=E2=97=BC</text></g></g><g class=3D"updatemenu-dropdown-button-gro=
+up" updatemenu-active-index=3D"-1" style=3D"pointer-events: all;"><rect cla=
+ss=3D"scrollbox-bg" opacity=3D"0" x=3D"0" y=3D"0" width=3D"0" height=3D"0" =
+style=3D"pointer-events: all;"></rect></g></g></g><g class=3D"zoomlayer"></=
+g></svg><div class=3D"modebar-container" style=3D"position: absolute; top: =
+0px; right: 0px; width: 100%;"><div id=3D"modebar-c507f3" class=3D"modebar =
+modebar--hover ease-bg"><div class=3D"modebar-group" style=3D"background-co=
+lor: rgba(17, 17, 17, 0.5);"><a rel=3D"tooltip" class=3D"modebar-btn" data-=
+title=3D"Download plot as a png" data-toggle=3D"false" data-gravity=3D"n" d=
+ata-btn-style-event-added=3D"true"><svg viewBox=3D"0 0 1000 1000" class=3D"=
+icon" height=3D"1em" width=3D"1em"><path d=3D"m500 450c-83 0-150-67-150-150=
+ 0-83 67-150 150-150 83 0 150 67 150 150 0 83-67 150-150 150z m400 150h-120=
+c-16 0-34 13-39 29l-31 93c-6 15-23 28-40 28h-340c-16 0-34-13-39-28l-31-94c-=
+6-15-23-28-40-28h-120c-55 0-100-45-100-100v-450c0-55 45-100 100-100h800c55 =
+0 100 45 100 100v450c0 55-45 100-100 100z m-400-550c-138 0-250 112-250 250 =
+0 138 112 250 250 250 138 0 250-112 250-250 0-138-112-250-250-250z m365 380=
+c-19 0-35 16-35 35 0 19 16 35 35 35 19 0 35-16 35-35 0-19-16-35-35-35z" tra=
+nsform=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255, 0.3);"=
+></path></svg></a></div><div class=3D"modebar-group" style=3D"background-co=
+lor: rgba(17, 17, 17, 0.5);"><a rel=3D"tooltip" class=3D"modebar-btn active=
+" data-title=3D"Zoom" data-attr=3D"dragmode" data-val=3D"zoom" data-toggle=
+=3D"false" data-gravity=3D"n" data-btn-style-event-added=3D"true"><svg view=
+Box=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path d=
+=3D"m1000-25l-250 251c40 63 63 138 63 218 0 224-182 406-407 406-224 0-406-1=
+82-406-406s183-406 407-406c80 0 155 22 218 62l250-250 125 125z m-812 250l0 =
+438 437 0 0-438-437 0z m62 375l313 0 0-312-313 0 0 312z" transform=3D"matri=
+x(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255, 0.7);"></path></svg><=
+/a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Pan" data-attr=3D=
+"dragmode" data-val=3D"pan" data-toggle=3D"false" data-gravity=3D"n" data-b=
+tn-style-event-added=3D"true"><svg viewBox=3D"0 0 1000 1000" class=3D"icon"=
+ height=3D"1em" width=3D"1em"><path d=3D"m1000 350l-187 188 0-125-250 0 0 2=
+50 125 0-188 187-187-187 125 0 0-250-250 0 0 125-188-188 186-187 0 125 252 =
+0 0-250-125 0 187-188 188 188-125 0 0 250 250 0 0-126 187 188z" transform=
+=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255, 0.3);"></pat=
+h></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Box Sele=
+ct" data-attr=3D"dragmode" data-val=3D"select" data-toggle=3D"false" data-g=
+ravity=3D"n" data-btn-style-event-added=3D"true"><svg viewBox=3D"0 0 1000 1=
+000" class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m0 850l0-143 14=
+3 0 0 143-143 0z m286 0l0-143 143 0 0 143-143 0z m285 0l0-143 143 0 0 143-1=
+43 0z m286 0l0-143 143 0 0 143-143 0z m-857-286l0-143 143 0 0 143-143 0z m8=
+57 0l0-143 143 0 0 143-143 0z m-857-285l0-143 143 0 0 143-143 0z m857 0l0-1=
+43 143 0 0 143-143 0z m-857-286l0-143 143 0 0 143-143 0z m286 0l0-143 143 0=
+ 0 143-143 0z m285 0l0-143 143 0 0 143-143 0z m286 0l0-143 143 0 0 143-143 =
+0z" transform=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255,=
+ 0.3);"></path></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-titl=
+e=3D"Lasso Select" data-attr=3D"dragmode" data-val=3D"lasso" data-toggle=3D=
+"false" data-gravity=3D"n" data-btn-style-event-added=3D"true"><svg viewBox=
+=3D"0 0 1031 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m=
+1018 538c-36 207-290 336-568 286-277-48-473-256-436-463 10-57 36-108 76-151=
+-13-66 11-137 68-183 34-28 75-41 114-42l-55-70 0 0c-2-1-3-2-4-3-10-14-8-34 =
+5-45 14-11 34-8 45 4 1 1 2 3 2 5l0 0 113 140c16 11 31 24 45 40 4 3 6 7 8 11=
+ 48-3 100 0 151 9 278 48 473 255 436 462z m-624-379c-80 14-149 48-197 96 42=
+ 42 109 47 156 9 33-26 47-66 41-105z m-187-74c-19 16-33 37-39 60 50-32 109-=
+55 174-68-42-25-95-24-135 8z m360 75c-34-7-69-9-102-8 8 62-16 128-68 170-73=
+ 59-175 54-244-5-9 20-16 40-20 61-28 159 121 317 333 354s407-60 434-217c28-=
+159-121-318-333-355z" transform=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: r=
+gba(255, 255, 255, 0.3);"></path></svg></a></div><div class=3D"modebar-grou=
+p" style=3D"background-color: rgba(17, 17, 17, 0.5);"><a rel=3D"tooltip" cl=
+ass=3D"modebar-btn" data-title=3D"Zoom in" data-attr=3D"zoom" data-val=3D"i=
+n" data-toggle=3D"false" data-gravity=3D"n" data-btn-style-event-added=3D"t=
+rue"><svg viewBox=3D"0 0 875 1000" class=3D"icon" height=3D"1em" width=3D"1=
+em"><path d=3D"m1 787l0-875 875 0 0 875-875 0z m687-500l-187 0 0-187-125 0 =
+0 187-188 0 0 125 188 0 0 187 125 0 0-187 187 0 0-125z" transform=3D"matrix=
+(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255, 0.3);"></path></svg></=
+a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Zoom out" data-att=
+r=3D"zoom" data-val=3D"out" data-toggle=3D"false" data-gravity=3D"n" data-b=
+tn-style-event-added=3D"true"><svg viewBox=3D"0 0 875 1000" class=3D"icon" =
+height=3D"1em" width=3D"1em"><path d=3D"m0 788l0-876 875 0 0 876-875 0z m68=
+8-500l-500 0 0 125 500 0 0-125z" transform=3D"matrix(1 0 0 -1 0 850)" style=
+=3D"fill: rgba(255, 255, 255, 0.3);"></path></svg></a><a rel=3D"tooltip" cl=
+ass=3D"modebar-btn" data-title=3D"Autoscale" data-attr=3D"zoom" data-val=3D=
+"auto" data-toggle=3D"false" data-gravity=3D"n" data-btn-style-event-added=
+=3D"true"><svg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" widt=
+h=3D"1em"><path d=3D"m250 850l-187 0-63 0 0-62 0-188 63 0 0 188 187 0 0 62z=
+ m688 0l-188 0 0-62 188 0 0-188 62 0 0 188 0 62-62 0z m-875-938l0 188-63 0 =
+0-188 0-62 63 0 187 0 0 62-187 0z m875 188l0-188-188 0 0-62 188 0 62 0 0 62=
+ 0 188-62 0z m-125 188l-1 0-93-94-156 156 156 156 92-93 2 0 0 250-250 0 0-2=
+ 93-92-156-156-156 156 94 92 0 2-250 0 0-250 0 0 93 93 157-156-157-156-93 9=
+4 0 0 0-250 250 0 0 0-94 93 156 157 156-157-93-93 0 0 250 0 0 250z" transfo=
+rm=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255, 0.3);"></p=
+ath></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Reset =
+axes" data-attr=3D"zoom" data-val=3D"reset" data-toggle=3D"false" data-grav=
+ity=3D"n" data-btn-style-event-added=3D"true"><svg viewBox=3D"0 0 928.6 100=
+0" class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m786 296v-267q0-1=
+5-11-26t-25-10h-214v214h-143v-214h-214q-15 0-25 10t-11 26v267q0 1 0 2t0 2l3=
+21 264 321-264q1-1 1-4z m124 39l-34-41q-5-5-12-6h-2q-7 0-12 3l-386 322-386-=
+322q-7-4-13-4-7 2-12 7l-35 41q-4 5-3 13t6 12l401 334q18 15 42 15t43-15l136-=
+114v109q0 8 5 13t13 5h107q8 0 13-5t5-13v-227l122-102q5-5 6-12t-4-13z" trans=
+form=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba(255, 255, 255, 0.3);"><=
+/path></svg></a></div><div class=3D"modebar-group" style=3D"background-colo=
+r: rgba(17, 17, 17, 0.5);"><a href=3D"https://plotly.com/" target=3D"_blank=
+" data-title=3D"Produced with Plotly.js (v3.0.1)" class=3D"modebar-btn plot=
+lyjsicon modebar-btn--logo" data-btn-style-event-added=3D"true"><svg xmlns=
+=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 132 132" height=3D"1em" widt=
+h=3D"1em"> <title>plotly-logomark</title> <g id=3D"symbol">  <rect fill=3D"=
+#000" x=3D"0" y=3D"0" width=3D"132" height=3D"132" rx=3D"18" ry=3D"18"></re=
+ct>  <circle fill=3D"#9EF" cx=3D"102" cy=3D"30" r=3D"6"></circle>  <circle =
+fill=3D"#BAC" cx=3D"78" cy=3D"30" r=3D"6"></circle>  <circle fill=3D"#BAC" =
+cx=3D"78" cy=3D"54" r=3D"6"></circle>  <circle fill=3D"#D69" cx=3D"54" cy=
+=3D"30" r=3D"6"></circle>  <circle fill=3D"#F26" cx=3D"30" cy=3D"30" r=3D"6=
+"></circle>  <circle fill=3D"#F26" cx=3D"30" cy=3D"54" r=3D"6"></circle>  <=
+path fill=3D"#FFF" d=3D"M30,72a6,6,0,0,0-6,6v24a6,6,0,0,0,12,0V78A6,6,0,0,0=
+,30,72Z"></path>  <path fill=3D"#FFF" d=3D"M78,72a6,6,0,0,0-6,6v24a6,6,0,0,=
+0,12,0V78A6,6,0,0,0,78,72Z"></path>  <path fill=3D"#FFF" d=3D"M54,48a6,6,0,=
+0,0-6,6v48a6,6,0,0,0,12,0V54A6,6,0,0,0,54,48Z"></path>  <path fill=3D"#FFF"=
+ d=3D"M102,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V54A6,6,0,0,0,102,48Z"></path>=
+ </g></svg></a></div></div></div><svg class=3D"main-svg" xmlns=3D"http://ww=
+w.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" width=3D"12=
+64" height=3D"569.333"><g class=3D"hoverlayer"></g></svg></div></div></div>=
+                    </div><svg id=3D"js-plotly-tester" xmlns=3D"http://www.=
+w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" style=3D"posi=
+tion: absolute; left: -10000px; top: -10000px; width: 9000px; height: 9000p=
+x; z-index: 1;"><path class=3D"js-reference-point" d=3D"M0,0H1V1H0Z" style=
+=3D"stroke-width: 0; fill: black;"></path></svg>
+
+</body></html>
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-96b2aa4a-12b1-4d0c-b885-08091a514035@mhtml.blink
+
+@charset "utf-8";
+
+.MJXp-script { font-size: 0.8em; }
+
+.MJXp-right { transform-origin: right center; }
+
+.MJXp-bold { font-weight: bold; }
+
+.MJXp-italic { font-style: italic; }
+
+.MJXp-scr { font-family: MathJax_Script, "Times New Roman", Times, STIXGene=
+ral, serif; }
+
+.MJXp-frak { font-family: MathJax_Fraktur, "Times New Roman", Times, STIXGe=
+neral, serif; }
+
+.MJXp-sf { font-family: MathJax_SansSerif, "Times New Roman", Times, STIXGe=
+neral, serif; }
+
+.MJXp-cal { font-family: MathJax_Caligraphic, "Times New Roman", Times, STI=
+XGeneral, serif; }
+
+.MJXp-mono { font-family: MathJax_Typewriter, "Times New Roman", Times, STI=
+XGeneral, serif; }
+
+.MJXp-largeop { font-size: 150%; }
+
+.MJXp-largeop.MJXp-int { vertical-align: -0.2em; }
+
+.MJXp-math { display: inline-block; line-height: 1.2; text-indent: 0px; fon=
+t-family: "Times New Roman", Times, STIXGeneral, serif; white-space: nowrap=
+; border-collapse: collapse; }
+
+.MJXp-display { display: block; text-align: center; margin: 1em 0px; }
+
+.MJXp-math span { display: inline-block; }
+
+.MJXp-box { text-align: center; display: block !important; }
+
+.MJXp-box::after { content: " "; }
+
+.MJXp-rule { margin-top: 0.1em; display: block !important; }
+
+.MJXp-char { display: block !important; }
+
+.MJXp-mo { margin: 0px 0.15em; }
+
+.MJXp-mfrac { margin: 0px 0.125em; vertical-align: 0.25em; }
+
+.MJXp-denom { width: 100%; display: inline-table !important; }
+
+.MJXp-denom > * { display: table-row !important; }
+
+.MJXp-surd { vertical-align: top; }
+
+.MJXp-surd > * { display: block !important; }
+
+.MJXp-script-box > * { height: 50%; display: table !important; }
+
+.MJXp-script-box > * > * { vertical-align: top; display: table-cell !import=
+ant; }
+
+.MJXp-script-box > :last-child > * { vertical-align: bottom; }
+
+.MJXp-script-box > * > * > * { display: block !important; }
+
+.MJXp-mphantom { visibility: hidden; }
+
+.MJXp-munderover, .MJXp-munder { display: inline-table !important; }
+
+.MJXp-over { text-align: center; display: inline-block !important; }
+
+.MJXp-over > * { display: block !important; }
+
+.MJXp-munderover > *, .MJXp-munder > * { display: table-row !important; }
+
+.MJXp-mtable { vertical-align: 0.25em; margin: 0px 0.125em; }
+
+.MJXp-mtable > * { vertical-align: middle; display: inline-table !important=
+; }
+
+.MJXp-mtr { display: table-row !important; }
+
+.MJXp-mtd { text-align: center; padding: 0.5em 0px 0px 0.5em; display: tabl=
+e-cell !important; }
+
+.MJXp-mtr > .MJXp-mtd:first-child { padding-left: 0px; }
+
+.MJXp-mtr:first-child > .MJXp-mtd { padding-top: 0px; }
+
+.MJXp-mlabeledtr { display: table-row !important; }
+
+.MJXp-mlabeledtr > .MJXp-mtd:first-child { padding-left: 0px; }
+
+.MJXp-mlabeledtr:first-child > .MJXp-mtd { padding-top: 0px; }
+
+.MJXp-merror { background-color: rgb(255, 255, 136); color: rgb(204, 0, 0);=
+ border: 1px solid rgb(204, 0, 0); padding: 1px 3px; font-style: normal; fo=
+nt-size: 90%; }
+
+.MJXp-scale0 { transform: scaleX(0); }
+
+.MJXp-scale1 { transform: scaleX(0.1); }
+
+.MJXp-scale2 { transform: scaleX(0.2); }
+
+.MJXp-scale3 { transform: scaleX(0.3); }
+
+.MJXp-scale4 { transform: scaleX(0.4); }
+
+.MJXp-scale5 { transform: scaleX(0.5); }
+
+.MJXp-scale6 { transform: scaleX(0.6); }
+
+.MJXp-scale7 { transform: scaleX(0.7); }
+
+.MJXp-scale8 { transform: scaleX(0.8); }
+
+.MJXp-scale9 { transform: scaleX(0.9); }
+
+.MathJax_PHTML .noError { font-size: 90%; text-align: left; color: black; p=
+adding: 1px 3px; border: 1px solid; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9e1a0164-e993-4efb-9044-772aa3245a9a@mhtml.blink
+
+@charset "utf-8";
+
+.MathJax_Preview { color: rgb(136, 136, 136); }
+
+#MathJax_Message { position: fixed; left: 1em; bottom: 1.5em; background-co=
+lor: rgb(230, 230, 230); border: 1px solid rgb(149, 149, 149); margin: 0px;=
+ padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto;=
+ white-space: nowrap; }
+
+#MathJax_MSIE_Frame { position: absolute; top: 0px; left: 0px; width: 0px; =
+z-index: 101; border: 0px; margin: 0px; padding: 0px; }
+
+.MathJax_Error { color: rgb(204, 0, 0); font-style: italic; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c5897a9f-383f-4211-93d1-eb140a8e2773@mhtml.blink
+
+@charset "utf-8";
+
+#MathJax_Zoom { position: absolute; background-color: rgb(240, 240, 240); o=
+verflow: auto; display: block; z-index: 301; padding: 0.5em; border: 1px so=
+lid black; margin: 0px; font-weight: normal; font-style: normal; text-align=
+: left; text-indent: 0px; text-transform: none; line-height: normal; letter=
+-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space:=
+ nowrap; float: none; box-sizing: content-box; box-shadow: rgb(170, 170, 17=
+0) 5px 5px 15px; }
+
+#MathJax_ZoomOverlay { position: absolute; left: 0px; top: 0px; z-index: 30=
+0; display: inline-block; width: 100%; height: 100%; border: 0px; padding: =
+0px; margin: 0px; background-color: white; opacity: 0; }
+
+#MathJax_ZoomFrame { position: relative; display: inline-block; height: 0px=
+; width: 0px; }
+
+#MathJax_ZoomEventTrap { position: absolute; left: 0px; top: 0px; z-index: =
+302; display: inline-block; border: 0px; padding: 0px; margin: 0px; backgro=
+und-color: white; opacity: 0; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-198c6814-1318-445c-a265-55d0c515e374@mhtml.blink
+
+@charset "utf-8";
+
+.MJX_Assistive_MathML { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px)=
+; user-select: none; position: absolute !important; padding: 1px 0px 0px !i=
+mportant; border: 0px !important; height: 1px !important; width: 1px !impor=
+tant; overflow: hidden !important; display: block !important; }
+
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block { width: 100% !important; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-263b7aba-de55-45dc-8d5c-4b3683863721@mhtml.blink
+
+@charset "utf-8";
+
+.MathJax_Preview .MJXf-math { color: inherit !important; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cac0d14f-1f8c-44bd-8352-5b5b053a6de1@mhtml.blink
+
+@charset "utf-8";
+
+#MathJax_About { position: fixed; left: 50%; width: auto; text-align: cente=
+r; border: 3px outset; padding: 1em 2em; background-color: rgb(221, 221, 22=
+1); color: black; cursor: default; font-family: message-box; font-size: 120=
+%; font-style: normal; text-indent: 0px; text-transform: none; line-height:=
+ normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: norma=
+l; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box=
+-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+
+#MathJax_About.MathJax_MousePost { outline: none; }
+
+.MathJax_Menu { position: absolute; background-color: white; color: black; =
+width: auto; padding: 2px; border: 1px solid rgb(204, 204, 204); margin: 0p=
+x; cursor: default; font-style: ; font-variant: normal; font-weight: ; font=
+-stretch: ; font-size: ; font-family: ; font-optical-sizing: ; font-size-ad=
+just: ; font-kerning: ; font-feature-settings: ; font-variation-settings: ;=
+ text-align: left; text-indent: 0px; text-transform: none; line-height: nor=
+mal; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; w=
+hite-space: nowrap; float: none; z-index: 201; box-shadow: rgb(128, 128, 12=
+8) 0px 10px 20px; }
+
+.MathJax_MenuItem { padding: 2px 2em; background: transparent; }
+
+.MathJax_MenuArrow { position: absolute; right: 0.5em; padding-top: 0.25em;=
+ color: rgb(102, 102, 102); font-size: 0.75em; }
+
+.MathJax_MenuActive .MathJax_MenuArrow { color: white; }
+
+.MathJax_MenuArrow.RTL { left: 0.5em; right: auto; }
+
+.MathJax_MenuCheck { position: absolute; left: 0.7em; }
+
+.MathJax_MenuCheck.RTL { right: 0.7em; left: auto; }
+
+.MathJax_MenuRadioCheck { position: absolute; left: 1em; }
+
+.MathJax_MenuRadioCheck.RTL { right: 1em; left: auto; }
+
+.MathJax_MenuLabel { padding: 2px 2em 4px 1.33em; font-style: italic; }
+
+.MathJax_MenuRule { border-top: 1px solid rgb(204, 204, 204); margin: 4px 1=
+px 0px; }
+
+.MathJax_MenuDisabled { color: graytext; }
+
+.MathJax_MenuActive { background-color: highlight; color: highlighttext; }
+
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus { background-color: r=
+gb(232, 232, 232); }
+
+.MathJax_ContextMenu:focus { outline: none; }
+
+.MathJax_ContextMenu .MathJax_MenuItem:focus { outline: none; }
+
+#MathJax_AboutClose { top: 0.2em; right: 0.2em; }
+
+.MathJax_Menu .MathJax_MenuClose { top: -10px; left: -10px; }
+
+.MathJax_MenuClose { position: absolute; cursor: pointer; display: inline-b=
+lock; border: 2px solid rgb(170, 170, 170); border-radius: 18px; font-famil=
+y: "Courier New", Courier; font-size: 24px; color: rgb(240, 240, 240); }
+
+.MathJax_MenuClose span { display: block; background-color: rgb(170, 170, 1=
+70); border: 1.5px solid; border-radius: 18px; line-height: 0; padding: 8px=
+ 0px 6px; }
+
+.MathJax_MenuClose:hover { color: white !important; border: 2px solid rgb(2=
+04, 204, 204) !important; }
+
+.MathJax_MenuClose:hover span { background-color: rgb(204, 204, 204) !impor=
+tant; }
+
+.MathJax_MenuClose:hover:focus { outline: none; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-16add040-aa30-43b4-914c-5e9ee7fc360f@mhtml.blink
+
+@charset "utf-8";
+
+.MathJax_Hover_Frame { border-radius: 0.25em; box-shadow: rgb(136, 51, 170)=
+ 0px 0px 15px; display: inline-block; position: absolute; border: 1px solid=
+ rgb(170, 102, 221) !important; }
+
+.MathJax_Menu_Button .MathJax_Hover_Arrow { position: absolute; cursor: poi=
+nter; display: inline-block; border: 2px solid rgb(170, 170, 170); border-r=
+adius: 4px; font-family: "Courier New", Courier; font-size: 9px; color: rgb=
+(240, 240, 240); }
+
+.MathJax_Menu_Button .MathJax_Hover_Arrow span { display: block; background=
+-color: rgb(170, 170, 170); border: 1px solid; border-radius: 3px; line-hei=
+ght: 0; padding: 4px; }
+
+.MathJax_Hover_Arrow:hover { color: white !important; border: 2px solid rgb=
+(204, 204, 204) !important; }
+
+.MathJax_Hover_Arrow:hover span { background-color: rgb(204, 204, 204) !imp=
+ortant; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c1694790-91d9-4b39-892a-ef3bd2264155@mhtml.blink
+
+@charset "utf-8";
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.plotly-notifier .notifier-close:hover { color: rgb(68, 68, 68); text-decor=
+ation: none; cursor: pointer; }
+
+.plotly-notifier .notifier-close { color: rgb(255, 255, 255); opacity: 0.8;=
+ float: right; padding: 0px 5px; background: none; border: none; font-size:=
+ 20px; font-weight: bold; line-height: 20px; }
+
+.plotly-notifier .notifier-note { min-width: 180px; max-width: 250px; borde=
+r: 1px solid rgb(255, 255, 255); z-index: 3000; margin: 0px; background-col=
+or: rgba(140, 151, 175, 0.9); color: rgb(255, 255, 255); padding: 10px; ove=
+rflow-wrap: break-word; hyphens: auto; }
+
+.plotly-notifier p { margin: 0px; }
+
+.plotly-notifier { font-family: "Open Sans", verdana, arial, sans-serif; po=
+sition: fixed; top: 50px; right: 20px; z-index: 10000; font-size: 10pt; max=
+-width: 180px; }
+
+.js-plotly-plot .plotly .vertical [data-title]::before { border-width: 6px;=
+ border-style: solid; border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(=
+0, 0, 0, 0) rgb(105, 115, 138); border-image: initial; margin-top: 8px; mar=
+gin-right: -30px; }
+
+.js-plotly-plot .plotly .vertical [data-title]::before, .js-plotly-plot .pl=
+otly .vertical [data-title]::after { top: 0%; right: 200%; }
+
+.js-plotly-plot .plotly [data-title]::after { content: attr(data-title); ba=
+ckground: rgb(105, 115, 138); color: rgb(255, 255, 255); padding: 8px 10px;=
+ font-size: 12px; line-height: 12px; white-space: nowrap; margin-right: -18=
+px; border-radius: 2px; }
+
+.js-plotly-plot .plotly [data-title]::before { content: ""; position: absol=
+ute; background: rgba(0, 0, 0, 0); border-width: 6px; border-style: solid; =
+border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(105, 115, 138); border-=
+image: initial; z-index: 1002; margin-top: -12px; margin-right: -6px; }
+
+.js-plotly-plot .plotly [data-title]:hover::before, .js-plotly-plot .plotly=
+ [data-title]:hover::after { display: block; opacity: 1; }
+
+.js-plotly-plot .plotly [data-title]::before, .js-plotly-plot .plotly [data=
+-title]::after { position: absolute; transform: translate3d(0px, 0px, 0px);=
+ display: none; opacity: 0; z-index: 1001; pointer-events: none; top: 110%;=
+ right: 50%; }
+
+.js-plotly-plot .plotly .modebar.vertical .modebar-group .modebar-btn { dis=
+play: block; text-align: center; }
+
+.js-plotly-plot .plotly .modebar.vertical .modebar-group { display: block; =
+float: none; padding-left: 0px; padding-bottom: 8px; }
+
+.js-plotly-plot .plotly .modebar.vertical svg { top: -1px; }
+
+.js-plotly-plot .plotly .modebar.vertical { display: flex; flex-flow: colum=
+n wrap; align-content: flex-end; max-height: 100%; }
+
+.js-plotly-plot .plotly .modebar-btn svg { position: relative; top: 2px; }
+
+.js-plotly-plot .plotly .modebar-btn { position: relative; font-size: 16px;=
+ padding: 3px 4px; height: 22px; cursor: pointer; line-height: normal; box-=
+sizing: border-box; }
+
+.js-plotly-plot .plotly .modebar-group { float: left; display: inline-block=
+; box-sizing: border-box; padding-left: 8px; position: relative; vertical-a=
+lign: middle; white-space: nowrap; }
+
+.js-plotly-plot .plotly:hover .modebar--hover .modebar-group { opacity: 1; =
+}
+
+.js-plotly-plot .plotly .modebar--hover > :not(.watermark) { opacity: 0; tr=
+ansition: opacity 0.3s; }
+
+.js-plotly-plot .plotly .ease-bg { transition: background-color 0.3s; }
+
+.js-plotly-plot .plotly .modebar { position: absolute; top: 2px; right: 2px=
+; }
+
+.js-plotly-plot .plotly .cursor-grab { cursor: grab; }
+
+.js-plotly-plot .plotly .cursor-ne-resize { cursor: ne-resize; }
+
+.js-plotly-plot .plotly .cursor-n-resize { cursor: n-resize; }
+
+.js-plotly-plot .plotly .cursor-nw-resize { cursor: nw-resize; }
+
+.js-plotly-plot .plotly .cursor-e-resize { cursor: e-resize; }
+
+.js-plotly-plot .plotly .cursor-w-resize { cursor: w-resize; }
+
+.js-plotly-plot .plotly .cursor-se-resize { cursor: se-resize; }
+
+.js-plotly-plot .plotly .cursor-s-resize { cursor: s-resize; }
+
+.js-plotly-plot .plotly .cursor-sw-resize { cursor: sw-resize; }
+
+.js-plotly-plot .plotly .cursor-ew-resize { cursor: ew-resize; }
+
+.js-plotly-plot .plotly .cursor-ns-resize { cursor: ns-resize; }
+
+.js-plotly-plot .plotly .cursor-row-resize { cursor: row-resize; }
+
+.js-plotly-plot .plotly .cursor-col-resize { cursor: col-resize; }
+
+.js-plotly-plot .plotly .cursor-move { cursor: move; }
+
+.js-plotly-plot .plotly .cursor-crosshair { cursor: crosshair; }
+
+.js-plotly-plot .plotly .cursor-pointer { cursor: pointer; }
+
+.js-plotly-plot .plotly .cursor-default { cursor: default; }
+
+.js-plotly-plot .plotly .main-svg .draglayer { pointer-events: all; }
+
+.js-plotly-plot .plotly .main-svg { position: absolute; top: 0px; left: 0px=
+; pointer-events: none; }
+
+.js-plotly-plot .plotly svg a:hover { fill: rgb(60, 109, 197); }
+
+.js-plotly-plot .plotly svg a { fill: rgb(68, 122, 219); }
+
+.js-plotly-plot .plotly .user-select-none { user-select: none; }
+
+.js-plotly-plot .plotly .crisp { shape-rendering: crispedges; }
+
+.js-plotly-plot .plotly a:hover { text-decoration: none; }
+
+.js-plotly-plot .plotly a { text-decoration: none; }
+
+.js-plotly-plot .plotly input:focus, .js-plotly-plot .plotly button:focus {=
+ outline: none; }
+
+.js-plotly-plot .plotly input, .js-plotly-plot .plotly button { font-family=
+: "Open Sans", verdana, arial, sans-serif; }
+
+.js-plotly-plot .plotly, .js-plotly-plot .plotly div { direction: ltr; font=
+-family: "Open Sans", verdana, arial, sans-serif; margin: 0px; padding: 0px=
+; }
+------MultipartBoundary--wYm647LXbkb3MMhFUjyzz8saxzTvW0ZuPgWXXfiivn------
