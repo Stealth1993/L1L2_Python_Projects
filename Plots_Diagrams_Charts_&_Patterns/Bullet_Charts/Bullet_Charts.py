@@ -7,6 +7,9 @@ markers = [80]  # Marker for the bullet chart
 fig, ax = plt.subplots(figsize=(8, 4))
 
 ax.barh(categories, values, color='lightblue', edgecolor='black')
+ax.set_xlim(0, 100)  # Set x-axis limit
+ax.set_xlabel('Value')  
+
 
 for i, (low, high) in enumerate(ranges):
     ax.plot([low, high], [i, i], color='red', linewidth=8, label='Range')
