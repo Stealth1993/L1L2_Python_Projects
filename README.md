@@ -106,6 +106,8 @@ python maze_solver.py
 ```
 
 ### 📊 **Plots/Charts/Diagram/Pattern** 
+Various types of **graphs**, **plots**, **diagrams**, **charts** and **patterns**.
+Updating daily till the reserve runs out.
 
 📜 **License:**  
 MIT License.
