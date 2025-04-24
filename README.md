@@ -105,6 +105,8 @@ import time
 python maze_solver.py
 ```
 
+### 📊 **Plots/Charts/Diagram/Pattern** 
+
 📜 **License:**  
 MIT License.
 
