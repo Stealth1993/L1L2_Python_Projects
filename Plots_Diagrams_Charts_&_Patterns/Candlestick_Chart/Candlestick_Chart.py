@@ -1,7 +1,7 @@
 import pandas_datareader.data as web
 import datetime as dt
 import mplfinance as mpf
-import pandas as pd # Often needed when working with pandas_datareader
+import pandas as pd 
 
 # Define the ticker symbol and the date range
 symbol = input("Enter Stock Name (e.g., AAPL, MSFT, GOOGL): ")
