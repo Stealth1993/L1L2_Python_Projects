@@ -8,7 +8,7 @@ symbol = input("Enter Stock Name (e.g., AAPL, MSFT, GOOGL): ")
 
 # Define the date range using datetime objects
 start_date = dt.datetime(2023, 1, 1)
-end_date = dt.datetime(2023, 10, 13)
+end_date = dt.datetime(2025, 4, 4)
 
 # --- Fetch Stock Data using pandas_datareader ---
 try:
@@ -19,8 +19,6 @@ try:
 except Exception as e:
     print(f"Error fetching data for {symbol}: {e}")
     print("Please check the ticker symbol and your internet connection.")
-    # You might want to handle the error more gracefully here,
-    # such as prompting the user to try again or exiting.
     exit() # Exit the program if data fetching fails
 
 # --- Create a candlestick chart ---
@@ -34,7 +32,7 @@ if not data.empty and isinstance(data.index, pd.DatetimeIndex):
         mpf.plot(data,
                  type='candle',
                  style='charles', # You can choose different styles
-                 title=f'{symbol} Candlestick Chart',
+                 title=f'{symbol} Candlestick Chart ({start_date.year} to {end_date.year})',
                  ylabel='Price',
                  volume=True, # Display volume sub-plot
                  show_nontrading=False # Do not show gaps for non-trading days
