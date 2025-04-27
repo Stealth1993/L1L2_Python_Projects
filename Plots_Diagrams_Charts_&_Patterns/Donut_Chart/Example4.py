@@ -117,7 +117,8 @@ with PdfPages(pdf_file_path) as pdf:
                                           autopct='%1.1f%%',
                                           shadow=True,
                                           startangle=140,
-                                          pctdistance=0.85)
+                                          pctdistance=0.85,
+                                          wedgeprops={'edgecolor': 'white', 'linewidth': 1.5})
 
         # --- Adjust Autotext (Percentage Label) Colors for Readability ---
         for i, autotext in enumerate(autotexts):
