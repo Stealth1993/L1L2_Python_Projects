@@ -1,0 +1,998 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:1509/
+Subject: 
+Date: Mon, 28 Apr 2025 22:43:06 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----"
+
+
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/html
+Content-ID: <frame-87D16D598F8EDDBB683AF31C5DCE3208@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:1509/
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6e583a=
+fe-1c87-4faa-b994-0a190ef33f2e@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-08a6fce5-80e4-4857-af16-22dd3e9d3485@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-afa84a69-=
+a518-49b7-bfb3-fcbec9aa670e@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-a2598d0f-22c8-4867-b50f-322afdee24a6@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6402c2f6-63d=
+9-46e4-b5e9-57338006f771@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-34149d98-6bcc-47f3-855f-fce79657943f@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e3553e41-64bb-4=
+d6a-b350-8a0535de6423@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-68259c4c-562f-4a68-bf73-4942d864ddf1@mhtml.blink" /></=
+head>
+<body><div id=3D"MathJax_Message" style=3D"display: none;"></div>
+    <div>                           =20
+                        <div id=3D"d6b1946a-ecbb-4013-9fde-76ab0829d70d" cl=
+ass=3D"plotly-graph-div js-plotly-plot" style=3D"height:100%; width:100%;">=
+<div class=3D"plot-container plotly" style=3D"width: 100%; height: 100%;"><=
+div class=3D"user-select-none svg-container" style=3D"position: relative; w=
+idth: 100%; height: 100%;"><svg class=3D"main-svg" xmlns=3D"http://www.w3.o=
+rg/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" width=3D"1264" he=
+ight=3D"569.333" style=3D"background: white;"><defs id=3D"defs-44cc37"><g c=
+lass=3D"clips"><clipPath id=3D"clip44cc37xyplot" class=3D"plotclip"><rect w=
+idth=3D"1104" height=3D"389"></rect></clipPath><clipPath class=3D"axesclip"=
+ id=3D"clip44cc37x"><rect x=3D"80" y=3D"0" width=3D"1104" height=3D"569.333=
+"></rect></clipPath><clipPath class=3D"axesclip" id=3D"clip44cc37y"><rect x=
+=3D"0" y=3D"100" width=3D"1264" height=3D"389"></rect></clipPath><clipPath =
+class=3D"axesclip" id=3D"clip44cc37xy"><rect x=3D"80" y=3D"100" width=3D"11=
+04" height=3D"389"></rect></clipPath></g><g class=3D"gradients"></g><g clas=
+s=3D"patterns"></g></defs><g class=3D"bglayer"><rect class=3D"bg" x=3D"80" =
+y=3D"100" width=3D"1104" height=3D"389" style=3D"fill: rgb(229, 236, 246); =
+fill-opacity: 1; stroke-width: 0;"></rect></g><g class=3D"draglayer cursor-=
+crosshair"><g class=3D"xy"><rect class=3D"nsewdrag drag" data-subplot=3D"xy=
+" x=3D"80" y=3D"100" width=3D"1104" height=3D"389" style=3D"fill: transpare=
+nt; stroke-width: 0; pointer-events: all;"></rect><rect class=3D"nwdrag dra=
+g cursor-nw-resize" data-subplot=3D"xy" x=3D"60" y=3D"80" width=3D"20" heig=
+ht=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-events: all;=
+"></rect><rect class=3D"nedrag drag cursor-ne-resize" data-subplot=3D"xy" x=
+=3D"1184" y=3D"80" width=3D"20" height=3D"20" style=3D"fill: transparent; s=
+troke-width: 0; pointer-events: all;"></rect><rect class=3D"swdrag drag cur=
+sor-sw-resize" data-subplot=3D"xy" x=3D"60" y=3D"489" width=3D"20" height=
+=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-events: all;">=
+</rect><rect class=3D"sedrag drag cursor-se-resize" data-subplot=3D"xy" x=
+=3D"1184" y=3D"489" width=3D"20" height=3D"20" style=3D"fill: transparent; =
+stroke-width: 0; pointer-events: all;"></rect><rect class=3D"ewdrag drag cu=
+rsor-ew-resize" data-subplot=3D"xy" x=3D"190.4" y=3D"489.5" width=3D"883.2"=
+ height=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-events:=
+ all;"></rect><rect class=3D"wdrag drag cursor-w-resize" data-subplot=3D"xy=
+" x=3D"80" y=3D"489.5" width=3D"110.4" height=3D"20" style=3D"fill: transpa=
+rent; stroke-width: 0; pointer-events: all;"></rect><rect class=3D"edrag dr=
+ag cursor-e-resize" data-subplot=3D"xy" x=3D"1073.6" y=3D"489.5" width=3D"1=
+10.4" height=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-ev=
+ents: all;"></rect><rect class=3D"nsdrag drag cursor-ns-resize" data-subplo=
+t=3D"xy" x=3D"59.5" y=3D"138.9" width=3D"20" height=3D"311.20000000000005" =
+style=3D"fill: transparent; stroke-width: 0; pointer-events: all;"></rect><=
+rect class=3D"sdrag drag cursor-s-resize" data-subplot=3D"xy" x=3D"59.5" y=
+=3D"450.1" width=3D"20" height=3D"38.900000000000006" style=3D"fill: transp=
+arent; stroke-width: 0; pointer-events: all;"></rect><rect class=3D"ndrag d=
+rag cursor-n-resize" data-subplot=3D"xy" x=3D"59.5" y=3D"100" width=3D"20" =
+height=3D"38.900000000000006" style=3D"fill: transparent; stroke-width: 0; =
+pointer-events: all;"></rect></g></g><g class=3D"layer-below"><g class=3D"i=
+magelayer"></g><g class=3D"shapelayer"></g></g><g class=3D"cartesianlayer">=
+<g class=3D"subplot xy"><g class=3D"layer-subplot"><g class=3D"shapelayer">=
+</g><g class=3D"imagelayer"></g></g><g class=3D"minor-gridlayer"><g class=
+=3D"x"></g><g class=3D"y"></g></g><g class=3D"gridlayer"><g class=3D"x"></g=
+><g class=3D"y"></g></g><g class=3D"zerolinelayer"></g><g class=3D"layer-be=
+tween"><g class=3D"shapelayer"></g><g class=3D"imagelayer"></g></g><path cl=
+ass=3D"xlines-below"></path><path class=3D"ylines-below"></path><g class=3D=
+"overlines-below"></g><g class=3D"xaxislayer-below"></g><g class=3D"yaxisla=
+yer-below"></g><g class=3D"overaxes-below"></g><g class=3D"overplot"><g cla=
+ss=3D"xy" transform=3D"translate(80,100)" clip-path=3D"url(#clip44cc37xyplo=
+t)"><g class=3D"funnellayer mlayer"><g class=3D"trace bars" style=3D"opacit=
+y: 1;"><g class=3D"regions"><g class=3D"region"><path d=3D"M55.2,87.53L154.=
+56,106.98H949.44L1048.8,87.53Z" style=3D"stroke-width: 0; fill: rgb(99, 110=
+, 250); fill-opacity: 0.5;"></path></g><g class=3D"region"><path d=3D"M154.=
+56,184.77L253.92,204.23H850.08L949.44,184.77Z" style=3D"stroke-width: 0; fi=
+ll: rgb(99, 110, 250); fill-opacity: 0.5;"></path></g><g class=3D"region"><=
+path d=3D"M253.92,282.03L353.28,301.48H750.72L850.08,282.03Z" style=3D"stro=
+ke-width: 0; fill: rgb(99, 110, 250); fill-opacity: 0.5;"></path></g><g cla=
+ss=3D"region"><path d=3D"M0,0Z" style=3D"stroke-width: 0; fill: rgb(99, 110=
+, 250); fill-opacity: 0.5;"></path></g></g><g class=3D"points"><g class=3D"=
+point"><path d=3D"M55.2,9.72V87.53H1048.8V9.72Z" style=3D"vector-effect: no=
+n-scaling-stroke; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: rgb(68,=
+ 68, 68); stroke-opacity: 1; stroke-width: 0px; opacity: 1;"></path><text c=
+lass=3D"bartext bartext-inside" text-anchor=3D"middle" data-notex=3D"1" dat=
+a-unformatted=3D"100<br>100%" data-math=3D"N" x=3D"0" y=3D"0" style=3D"font=
+-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px=
+; fill: rgb(255, 255, 255); fill-opacity: 1; font-weight: normal; font-styl=
+e: normal; font-variant: normal; white-space: pre;" transform=3D"translate(=
+552.0003242492676,45.491536140441895)"><tspan class=3D"line" dy=3D"0em" x=
+=3D"0" y=3D"0">100</tspan><tspan class=3D"line" dy=3D"1.3em" x=3D"0" y=3D"0=
+">100%</tspan></text></g><g class=3D"point"><path d=3D"M154.56,106.98V184.7=
+7H949.44V106.98Z" style=3D"vector-effect: non-scaling-stroke; fill: rgb(99,=
+ 110, 250); fill-opacity: 1; stroke: rgb(68, 68, 68); stroke-opacity: 1; st=
+roke-width: 0px; opacity: 1;"></path><text class=3D"bartext bartext-inside"=
+ text-anchor=3D"middle" data-notex=3D"1" data-unformatted=3D"80<br>80%" dat=
+a-math=3D"N" x=3D"0" y=3D"0" style=3D"font-family: &quot;Open Sans&quot;, v=
+erdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-=
+opacity: 1; font-weight: normal; font-style: normal; font-variant: normal; =
+white-space: pre;" transform=3D"translate(552.0003252029419,142.74153614044=
+19)"><tspan class=3D"line" dy=3D"0em" x=3D"0" y=3D"0">80</tspan><tspan clas=
+s=3D"line" dy=3D"1.3em" x=3D"0" y=3D"0">80%</tspan></text></g><g class=3D"p=
+oint"><path d=3D"M253.92,204.23V282.03H850.08V204.23Z" style=3D"vector-effe=
+ct: non-scaling-stroke; fill: rgb(99, 110, 250); fill-opacity: 1; stroke: r=
+gb(68, 68, 68); stroke-opacity: 1; stroke-width: 0px; opacity: 1;"></path><=
+text class=3D"bartext bartext-inside" text-anchor=3D"middle" data-notex=3D"=
+1" data-unformatted=3D"60<br>60%" data-math=3D"N" x=3D"0" y=3D"0" style=3D"=
+font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: =
+12px; fill: rgb(255, 255, 255); fill-opacity: 1; font-weight: normal; font-=
+style: normal; font-variant: normal; white-space: pre;" transform=3D"transl=
+ate(552.0003252029419,239.9965361404419)"><tspan class=3D"line" dy=3D"0em" =
+x=3D"0" y=3D"0">60</tspan><tspan class=3D"line" dy=3D"1.3em" x=3D"0" y=3D"0=
+">60%</tspan></text></g><g class=3D"point"><path d=3D"M353.28,301.48V379.28=
+H750.72V301.48Z" style=3D"vector-effect: non-scaling-stroke; fill: rgb(99, =
+110, 250); fill-opacity: 1; stroke: rgb(68, 68, 68); stroke-opacity: 1; str=
+oke-width: 0px; opacity: 1;"></path><text class=3D"bartext bartext-inside" =
+text-anchor=3D"middle" data-notex=3D"1" data-unformatted=3D"40<br>40%" data=
+-math=3D"N" x=3D"0" y=3D"0" style=3D"font-family: &quot;Open Sans&quot;, ve=
+rdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-o=
+pacity: 1; font-weight: normal; font-style: normal; font-variant: normal; w=
+hite-space: pre;" transform=3D"translate(552.0003252029419,337.246536140441=
+9)"><tspan class=3D"line" dy=3D"0em" x=3D"0" y=3D"0">40</tspan><tspan class=
+=3D"line" dy=3D"1.3em" x=3D"0" y=3D"0">40%</tspan></text></g></g></g></g></=
+g></g><path class=3D"xlines-above crisp" d=3D"M0,0" style=3D"fill: none;"><=
+/path><path class=3D"ylines-above crisp" d=3D"M0,0" style=3D"fill: none;"><=
+/path><g class=3D"overlines-above"></g><g class=3D"xaxislayer-above"></g><g=
+ class=3D"yaxislayer-above"><g class=3D"ytick"><text text-anchor=3D"end" x=
+=3D"79" y=3D"4.199999999999999" data-unformatted=3D"D" data-math=3D"N" tran=
+sform=3D"translate(0,440.38)" style=3D"font-family: &quot;Open Sans&quot;, =
+verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-op=
+acity: 1; font-weight: normal; font-style: normal; font-variant: normal; wh=
+ite-space: pre; opacity: 1;">D</text></g><g class=3D"ytick"><text text-anch=
+or=3D"end" x=3D"79" y=3D"4.199999999999999" data-unformatted=3D"C" data-mat=
+h=3D"N" transform=3D"translate(0,343.13)" style=3D"font-family: &quot;Open =
+Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, =
+95); fill-opacity: 1; font-weight: normal; font-style: normal; font-variant=
+: normal; white-space: pre; opacity: 1;">C</text></g><g class=3D"ytick"><te=
+xt text-anchor=3D"end" x=3D"79" y=3D"4.199999999999999" data-unformatted=3D=
+"B" data-math=3D"N" transform=3D"translate(0,245.88)" style=3D"font-family:=
+ &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: =
+rgb(42, 63, 95); fill-opacity: 1; font-weight: normal; font-style: normal; =
+font-variant: normal; white-space: pre; opacity: 1;">B</text></g><g class=
+=3D"ytick"><text text-anchor=3D"end" x=3D"79" y=3D"4.199999999999999" data-=
+unformatted=3D"A" data-math=3D"N" transform=3D"translate(0,148.63)" style=
+=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-si=
+ze: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; font-weight: normal; font=
+-style: normal; font-variant: normal; white-space: pre; opacity: 1;">A</tex=
+t></g></g><g class=3D"overaxes-above"></g></g></g><g class=3D"polarlayer"><=
+/g><g class=3D"smithlayer"></g><g class=3D"ternarylayer"></g><g class=3D"ge=
+olayer"></g><g class=3D"funnelarealayer"></g><g class=3D"pielayer"></g><g c=
+lass=3D"iciclelayer"></g><g class=3D"treemaplayer"></g><g class=3D"sunburst=
+layer"></g><g class=3D"glimages"></g></svg><div class=3D"gl-container"></di=
+v><svg class=3D"main-svg" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=
+=3D"http://www.w3.org/1999/xlink" width=3D"1264" height=3D"569.333"><defs i=
+d=3D"topdefs-44cc37"><g class=3D"clips"></g></defs><g class=3D"indicatorlay=
+er"></g><g class=3D"layer-above"><g class=3D"imagelayer"></g><g class=3D"sh=
+apelayer"></g></g><g class=3D"selectionlayer"></g><g class=3D"infolayer"><g=
+ class=3D"g-gtitle"><text class=3D"gtitle" x=3D"632" y=3D"50" text-anchor=
+=3D"middle" dy=3D"0em" data-unformatted=3D"Funnel Chart Example" data-math=
+=3D"N" style=3D"opacity: 1; font-family: &quot;Open Sans&quot;, verdana, ar=
+ial, sans-serif; font-size: 17px; fill: rgb(42, 63, 95); fill-opacity: 1; f=
+ont-weight: normal; font-style: normal; font-variant: normal; white-space: =
+pre;">Funnel Chart Example</text></g><g class=3D"g-ytitle"></g></g><g class=
+=3D"menulayer"></g><g class=3D"zoomlayer"></g></svg><div class=3D"modebar-c=
+ontainer" style=3D"position: absolute; top: 0px; right: 0px; width: 100%;">=
+<div id=3D"modebar-44cc37" class=3D"modebar modebar--hover ease-bg"><div cl=
+ass=3D"modebar-group" style=3D"background-color: rgba(255, 255, 255, 0.5);"=
+><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Download plot as a =
+png" data-toggle=3D"false" data-gravity=3D"n" data-btn-style-event-added=3D=
+"true"><svg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=
+=3D"1em"><path d=3D"m500 450c-83 0-150-67-150-150 0-83 67-150 150-150 83 0 =
+150 67 150 150 0 83-67 150-150 150z m400 150h-120c-16 0-34 13-39 29l-31 93c=
+-6 15-23 28-40 28h-340c-16 0-34-13-39-28l-31-94c-6-15-23-28-40-28h-120c-55 =
+0-100-45-100-100v-450c0-55 45-100 100-100h800c55 0 100 45 100 100v450c0 55-=
+45 100-100 100z m-400-550c-138 0-250 112-250 250 0 138 112 250 250 250 138 =
+0 250-112 250-250 0-138-112-250-250-250z m365 380c-19 0-35 16-35 35 0 19 16=
+ 35 35 35 19 0 35-16 35-35 0-19-16-35-35-35z" transform=3D"matrix(1 0 0 -1 =
+0 850)" style=3D"fill: rgba(68, 68, 68, 0.3);"></path></svg></a></div><div =
+class=3D"modebar-group" style=3D"background-color: rgba(255, 255, 255, 0.5)=
+;"><a rel=3D"tooltip" class=3D"modebar-btn active" data-title=3D"Zoom" data=
+-attr=3D"dragmode" data-val=3D"zoom" data-toggle=3D"false" data-gravity=3D"=
+n" data-btn-style-event-added=3D"true"><svg viewBox=3D"0 0 1000 1000" class=
+=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m1000-25l-250 251c40 63 6=
+3 138 63 218 0 224-182 406-407 406-224 0-406-182-406-406s183-406 407-406c80=
+ 0 155 22 218 62l250-250 125 125z m-812 250l0 438 437 0 0-438-437 0z m62 37=
+5l313 0 0-312-313 0 0 312z" transform=3D"matrix(1 0 0 -1 0 850)" style=3D"f=
+ill: rgba(68, 68, 68, 0.7);"></path></svg></a><a rel=3D"tooltip" class=3D"m=
+odebar-btn" data-title=3D"Pan" data-attr=3D"dragmode" data-val=3D"pan" data=
+-toggle=3D"false" data-gravity=3D"n" data-btn-style-event-added=3D"true"><s=
+vg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=3D"1em"><p=
+ath d=3D"m1000 350l-187 188 0-125-250 0 0 250 125 0-188 187-187-187 125 0 0=
+-250-250 0 0 125-188-188 186-187 0 125 252 0 0-250-125 0 187-188 188 188-12=
+5 0 0 250 250 0 0-126 187 188z" transform=3D"matrix(1 0 0 -1 0 850)" style=
+=3D"fill: rgba(68, 68, 68, 0.3);"></path></svg></a><a rel=3D"tooltip" class=
+=3D"modebar-btn" data-title=3D"Box Select" data-attr=3D"dragmode" data-val=
+=3D"select" data-toggle=3D"false" data-gravity=3D"n" data-btn-style-event-a=
+dded=3D"true"><svg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" =
+width=3D"1em"><path d=3D"m0 850l0-143 143 0 0 143-143 0z m286 0l0-143 143 0=
+ 0 143-143 0z m285 0l0-143 143 0 0 143-143 0z m286 0l0-143 143 0 0 143-143 =
+0z m-857-286l0-143 143 0 0 143-143 0z m857 0l0-143 143 0 0 143-143 0z m-857=
+-285l0-143 143 0 0 143-143 0z m857 0l0-143 143 0 0 143-143 0z m-857-286l0-1=
+43 143 0 0 143-143 0z m286 0l0-143 143 0 0 143-143 0z m285 0l0-143 143 0 0 =
+143-143 0z m286 0l0-143 143 0 0 143-143 0z" transform=3D"matrix(1 0 0 -1 0 =
+850)" style=3D"fill: rgba(68, 68, 68, 0.3);"></path></svg></a><a rel=3D"too=
+ltip" class=3D"modebar-btn" data-title=3D"Lasso Select" data-attr=3D"dragmo=
+de" data-val=3D"lasso" data-toggle=3D"false" data-gravity=3D"n" data-btn-st=
+yle-event-added=3D"true"><svg viewBox=3D"0 0 1031 1000" class=3D"icon" heig=
+ht=3D"1em" width=3D"1em"><path d=3D"m1018 538c-36 207-290 336-568 286-277-4=
+8-473-256-436-463 10-57 36-108 76-151-13-66 11-137 68-183 34-28 75-41 114-4=
+2l-55-70 0 0c-2-1-3-2-4-3-10-14-8-34 5-45 14-11 34-8 45 4 1 1 2 3 2 5l0 0 1=
+13 140c16 11 31 24 45 40 4 3 6 7 8 11 48-3 100 0 151 9 278 48 473 255 436 4=
+62z m-624-379c-80 14-149 48-197 96 42 42 109 47 156 9 33-26 47-66 41-105z m=
+-187-74c-19 16-33 37-39 60 50-32 109-55 174-68-42-25-95-24-135 8z m360 75c-=
+34-7-69-9-102-8 8 62-16 128-68 170-73 59-175 54-244-5-9 20-16 40-20 61-28 1=
+59 121 317 333 354s407-60 434-217c28-159-121-318-333-355z" transform=3D"mat=
+rix(1 0 0 -1 0 850)" style=3D"fill: rgba(68, 68, 68, 0.3);"></path></svg></=
+a></div><div class=3D"modebar-group" style=3D"background-color: rgba(255, 2=
+55, 255, 0.5);"><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Zoom=
+ in" data-attr=3D"zoom" data-val=3D"in" data-toggle=3D"false" data-gravity=
+=3D"n" data-btn-style-event-added=3D"true"><svg viewBox=3D"0 0 875 1000" cl=
+ass=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m1 787l0-875 875 0 0 8=
+75-875 0z m687-500l-187 0 0-187-125 0 0 187-188 0 0 125 188 0 0 187 125 0 0=
+-187 187 0 0-125z" transform=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba=
+(68, 68, 68, 0.3);"></path></svg></a><a rel=3D"tooltip" class=3D"modebar-bt=
+n" data-title=3D"Zoom out" data-attr=3D"zoom" data-val=3D"out" data-toggle=
+=3D"false" data-gravity=3D"n" data-btn-style-event-added=3D"true"><svg view=
+Box=3D"0 0 875 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D=
+"m0 788l0-876 875 0 0 876-875 0z m688-500l-500 0 0 125 500 0 0-125z" transf=
+orm=3D"matrix(1 0 0 -1 0 850)" style=3D"fill: rgba(68, 68, 68, 0.3);"></pat=
+h></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Autoscal=
+e" data-attr=3D"zoom" data-val=3D"auto" data-toggle=3D"false" data-gravity=
+=3D"n" data-btn-style-event-added=3D"true"><svg viewBox=3D"0 0 1000 1000" c=
+lass=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m250 850l-187 0-63 0 =
+0-62 0-188 63 0 0 188 187 0 0 62z m688 0l-188 0 0-62 188 0 0-188 62 0 0 188=
+ 0 62-62 0z m-875-938l0 188-63 0 0-188 0-62 63 0 187 0 0 62-187 0z m875 188=
+l0-188-188 0 0-62 188 0 62 0 0 62 0 188-62 0z m-125 188l-1 0-93-94-156 156 =
+156 156 92-93 2 0 0 250-250 0 0-2 93-92-156-156-156 156 94 92 0 2-250 0 0-2=
+50 0 0 93 93 157-156-157-156-93 94 0 0 0-250 250 0 0 0-94 93 156 157 156-15=
+7-93-93 0 0 250 0 0 250z" transform=3D"matrix(1 0 0 -1 0 850)" style=3D"fil=
+l: rgba(68, 68, 68, 0.3);"></path></svg></a><a rel=3D"tooltip" class=3D"mod=
+ebar-btn" data-title=3D"Reset axes" data-attr=3D"zoom" data-val=3D"reset" d=
+ata-toggle=3D"false" data-gravity=3D"n" data-btn-style-event-added=3D"true"=
+><svg viewBox=3D"0 0 928.6 1000" class=3D"icon" height=3D"1em" width=3D"1em=
+"><path d=3D"m786 296v-267q0-15-11-26t-25-10h-214v214h-143v-214h-214q-15 0-=
+25 10t-11 26v267q0 1 0 2t0 2l321 264 321-264q1-1 1-4z m124 39l-34-41q-5-5-1=
+2-6h-2q-7 0-12 3l-386 322-386-322q-7-4-13-4-7 2-12 7l-35 41q-4 5-3 13t6 12l=
+401 334q18 15 42 15t43-15l136-114v109q0 8 5 13t13 5h107q8 0 13-5t5-13v-227l=
+122-102q5-5 6-12t-4-13z" transform=3D"matrix(1 0 0 -1 0 850)" style=3D"fill=
+: rgba(68, 68, 68, 0.3);"></path></svg></a></div><div class=3D"modebar-grou=
+p" style=3D"background-color: rgba(255, 255, 255, 0.5);"><a href=3D"https:/=
+/plotly.com/" target=3D"_blank" data-title=3D"Produced with Plotly.js (v3.0=
+.1)" class=3D"modebar-btn plotlyjsicon modebar-btn--logo" data-btn-style-ev=
+ent-added=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0=
+ 132 132" height=3D"1em" width=3D"1em"> <title>plotly-logomark</title> <g i=
+d=3D"symbol">  <rect fill=3D"#000" x=3D"0" y=3D"0" width=3D"132" height=3D"=
+132" rx=3D"18" ry=3D"18"></rect>  <circle fill=3D"#9EF" cx=3D"102" cy=3D"30=
+" r=3D"6"></circle>  <circle fill=3D"#BAC" cx=3D"78" cy=3D"30" r=3D"6"></ci=
+rcle>  <circle fill=3D"#BAC" cx=3D"78" cy=3D"54" r=3D"6"></circle>  <circle=
+ fill=3D"#D69" cx=3D"54" cy=3D"30" r=3D"6"></circle>  <circle fill=3D"#F26"=
+ cx=3D"30" cy=3D"30" r=3D"6"></circle>  <circle fill=3D"#F26" cx=3D"30" cy=
+=3D"54" r=3D"6"></circle>  <path fill=3D"#FFF" d=3D"M30,72a6,6,0,0,0-6,6v24=
+a6,6,0,0,0,12,0V78A6,6,0,0,0,30,72Z"></path>  <path fill=3D"#FFF" d=3D"M78,=
+72a6,6,0,0,0-6,6v24a6,6,0,0,0,12,0V78A6,6,0,0,0,78,72Z"></path>  <path fill=
+=3D"#FFF" d=3D"M54,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V54A6,6,0,0,0,54,48Z">=
+</path>  <path fill=3D"#FFF" d=3D"M102,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V5=
+4A6,6,0,0,0,102,48Z"></path> </g></svg></a></div></div></div><svg class=3D"=
+main-svg" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3=
+.org/1999/xlink" width=3D"1264" height=3D"569.333"><g class=3D"hoverlayer">=
+</g></svg></div></div></div>                    </div><svg id=3D"js-plotly-=
+tester" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.o=
+rg/1999/xlink" style=3D"position: absolute; left: -10000px; top: -10000px; =
+width: 9000px; height: 9000px; z-index: 1;"><path class=3D"js-reference-poi=
+nt" d=3D"M0,0H1V1H0Z" style=3D"stroke-width: 0; fill: black;"></path></svg>
+
+</body></html>
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-68259c4c-562f-4a68-bf73-4942d864ddf1@mhtml.blink
+
+@charset "utf-8";
+
+.MJXp-script { font-size: 0.8em; }
+
+.MJXp-right { transform-origin: right center; }
+
+.MJXp-bold { font-weight: bold; }
+
+.MJXp-italic { font-style: italic; }
+
+.MJXp-scr { font-family: MathJax_Script, "Times New Roman", Times, STIXGene=
+ral, serif; }
+
+.MJXp-frak { font-family: MathJax_Fraktur, "Times New Roman", Times, STIXGe=
+neral, serif; }
+
+.MJXp-sf { font-family: MathJax_SansSerif, "Times New Roman", Times, STIXGe=
+neral, serif; }
+
+.MJXp-cal { font-family: MathJax_Caligraphic, "Times New Roman", Times, STI=
+XGeneral, serif; }
+
+.MJXp-mono { font-family: MathJax_Typewriter, "Times New Roman", Times, STI=
+XGeneral, serif; }
+
+.MJXp-largeop { font-size: 150%; }
+
+.MJXp-largeop.MJXp-int { vertical-align: -0.2em; }
+
+.MJXp-math { display: inline-block; line-height: 1.2; text-indent: 0px; fon=
+t-family: "Times New Roman", Times, STIXGeneral, serif; white-space: nowrap=
+; border-collapse: collapse; }
+
+.MJXp-display { display: block; text-align: center; margin: 1em 0px; }
+
+.MJXp-math span { display: inline-block; }
+
+.MJXp-box { text-align: center; display: block !important; }
+
+.MJXp-box::after { content: " "; }
+
+.MJXp-rule { margin-top: 0.1em; display: block !important; }
+
+.MJXp-char { display: block !important; }
+
+.MJXp-mo { margin: 0px 0.15em; }
+
+.MJXp-mfrac { margin: 0px 0.125em; vertical-align: 0.25em; }
+
+.MJXp-denom { width: 100%; display: inline-table !important; }
+
+.MJXp-denom > * { display: table-row !important; }
+
+.MJXp-surd { vertical-align: top; }
+
+.MJXp-surd > * { display: block !important; }
+
+.MJXp-script-box > * { height: 50%; display: table !important; }
+
+.MJXp-script-box > * > * { vertical-align: top; display: table-cell !import=
+ant; }
+
+.MJXp-script-box > :last-child > * { vertical-align: bottom; }
+
+.MJXp-script-box > * > * > * { display: block !important; }
+
+.MJXp-mphantom { visibility: hidden; }
+
+.MJXp-munderover, .MJXp-munder { display: inline-table !important; }
+
+.MJXp-over { text-align: center; display: inline-block !important; }
+
+.MJXp-over > * { display: block !important; }
+
+.MJXp-munderover > *, .MJXp-munder > * { display: table-row !important; }
+
+.MJXp-mtable { vertical-align: 0.25em; margin: 0px 0.125em; }
+
+.MJXp-mtable > * { vertical-align: middle; display: inline-table !important=
+; }
+
+.MJXp-mtr { display: table-row !important; }
+
+.MJXp-mtd { text-align: center; padding: 0.5em 0px 0px 0.5em; display: tabl=
+e-cell !important; }
+
+.MJXp-mtr > .MJXp-mtd:first-child { padding-left: 0px; }
+
+.MJXp-mtr:first-child > .MJXp-mtd { padding-top: 0px; }
+
+.MJXp-mlabeledtr { display: table-row !important; }
+
+.MJXp-mlabeledtr > .MJXp-mtd:first-child { padding-left: 0px; }
+
+.MJXp-mlabeledtr:first-child > .MJXp-mtd { padding-top: 0px; }
+
+.MJXp-merror { background-color: rgb(255, 255, 136); color: rgb(204, 0, 0);=
+ border: 1px solid rgb(204, 0, 0); padding: 1px 3px; font-style: normal; fo=
+nt-size: 90%; }
+
+.MJXp-scale0 { transform: scaleX(0); }
+
+.MJXp-scale1 { transform: scaleX(0.1); }
+
+.MJXp-scale2 { transform: scaleX(0.2); }
+
+.MJXp-scale3 { transform: scaleX(0.3); }
+
+.MJXp-scale4 { transform: scaleX(0.4); }
+
+.MJXp-scale5 { transform: scaleX(0.5); }
+
+.MJXp-scale6 { transform: scaleX(0.6); }
+
+.MJXp-scale7 { transform: scaleX(0.7); }
+
+.MJXp-scale8 { transform: scaleX(0.8); }
+
+.MJXp-scale9 { transform: scaleX(0.9); }
+
+.MathJax_PHTML .noError { font-size: 90%; text-align: left; color: black; p=
+adding: 1px 3px; border: 1px solid; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e3553e41-64bb-4d6a-b350-8a0535de6423@mhtml.blink
+
+@charset "utf-8";
+
+.MathJax_Preview { color: rgb(136, 136, 136); }
+
+#MathJax_Message { position: fixed; left: 1em; bottom: 1.5em; background-co=
+lor: rgb(230, 230, 230); border: 1px solid rgb(149, 149, 149); margin: 0px;=
+ padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto;=
+ white-space: nowrap; }
+
+#MathJax_MSIE_Frame { position: absolute; top: 0px; left: 0px; width: 0px; =
+z-index: 101; border: 0px; margin: 0px; padding: 0px; }
+
+.MathJax_Error { color: rgb(204, 0, 0); font-style: italic; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-34149d98-6bcc-47f3-855f-fce79657943f@mhtml.blink
+
+@charset "utf-8";
+
+#MathJax_Zoom { position: absolute; background-color: rgb(240, 240, 240); o=
+verflow: auto; display: block; z-index: 301; padding: 0.5em; border: 1px so=
+lid black; margin: 0px; font-weight: normal; font-style: normal; text-align=
+: left; text-indent: 0px; text-transform: none; line-height: normal; letter=
+-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space:=
+ nowrap; float: none; box-sizing: content-box; box-shadow: rgb(170, 170, 17=
+0) 5px 5px 15px; }
+
+#MathJax_ZoomOverlay { position: absolute; left: 0px; top: 0px; z-index: 30=
+0; display: inline-block; width: 100%; height: 100%; border: 0px; padding: =
+0px; margin: 0px; background-color: white; opacity: 0; }
+
+#MathJax_ZoomFrame { position: relative; display: inline-block; height: 0px=
+; width: 0px; }
+
+#MathJax_ZoomEventTrap { position: absolute; left: 0px; top: 0px; z-index: =
+302; display: inline-block; border: 0px; padding: 0px; margin: 0px; backgro=
+und-color: white; opacity: 0; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6402c2f6-63d9-46e4-b5e9-57338006f771@mhtml.blink
+
+@charset "utf-8";
+
+.MJX_Assistive_MathML { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px)=
+; user-select: none; position: absolute !important; padding: 1px 0px 0px !i=
+mportant; border: 0px !important; height: 1px !important; width: 1px !impor=
+tant; overflow: hidden !important; display: block !important; }
+
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block { width: 100% !important; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a2598d0f-22c8-4867-b50f-322afdee24a6@mhtml.blink
+
+@charset "utf-8";
+
+.MathJax_Preview .MJXf-math { color: inherit !important; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-afa84a69-a518-49b7-bfb3-fcbec9aa670e@mhtml.blink
+
+@charset "utf-8";
+
+#MathJax_About { position: fixed; left: 50%; width: auto; text-align: cente=
+r; border: 3px outset; padding: 1em 2em; background-color: rgb(221, 221, 22=
+1); color: black; cursor: default; font-family: message-box; font-size: 120=
+%; font-style: normal; text-indent: 0px; text-transform: none; line-height:=
+ normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: norma=
+l; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box=
+-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+
+#MathJax_About.MathJax_MousePost { outline: none; }
+
+.MathJax_Menu { position: absolute; background-color: white; color: black; =
+width: auto; padding: 2px; border: 1px solid rgb(204, 204, 204); margin: 0p=
+x; cursor: default; font-style: ; font-variant: normal; font-weight: ; font=
+-stretch: ; font-size: ; font-family: ; font-optical-sizing: ; font-size-ad=
+just: ; font-kerning: ; font-feature-settings: ; font-variation-settings: ;=
+ text-align: left; text-indent: 0px; text-transform: none; line-height: nor=
+mal; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; w=
+hite-space: nowrap; float: none; z-index: 201; box-shadow: rgb(128, 128, 12=
+8) 0px 10px 20px; }
+
+.MathJax_MenuItem { padding: 2px 2em; background: transparent; }
+
+.MathJax_MenuArrow { position: absolute; right: 0.5em; padding-top: 0.25em;=
+ color: rgb(102, 102, 102); font-size: 0.75em; }
+
+.MathJax_MenuActive .MathJax_MenuArrow { color: white; }
+
+.MathJax_MenuArrow.RTL { left: 0.5em; right: auto; }
+
+.MathJax_MenuCheck { position: absolute; left: 0.7em; }
+
+.MathJax_MenuCheck.RTL { right: 0.7em; left: auto; }
+
+.MathJax_MenuRadioCheck { position: absolute; left: 1em; }
+
+.MathJax_MenuRadioCheck.RTL { right: 1em; left: auto; }
+
+.MathJax_MenuLabel { padding: 2px 2em 4px 1.33em; font-style: italic; }
+
+.MathJax_MenuRule { border-top: 1px solid rgb(204, 204, 204); margin: 4px 1=
+px 0px; }
+
+.MathJax_MenuDisabled { color: graytext; }
+
+.MathJax_MenuActive { background-color: highlight; color: highlighttext; }
+
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus { background-color: r=
+gb(232, 232, 232); }
+
+.MathJax_ContextMenu:focus { outline: none; }
+
+.MathJax_ContextMenu .MathJax_MenuItem:focus { outline: none; }
+
+#MathJax_AboutClose { top: 0.2em; right: 0.2em; }
+
+.MathJax_Menu .MathJax_MenuClose { top: -10px; left: -10px; }
+
+.MathJax_MenuClose { position: absolute; cursor: pointer; display: inline-b=
+lock; border: 2px solid rgb(170, 170, 170); border-radius: 18px; font-famil=
+y: "Courier New", Courier; font-size: 24px; color: rgb(240, 240, 240); }
+
+.MathJax_MenuClose span { display: block; background-color: rgb(170, 170, 1=
+70); border: 1.5px solid; border-radius: 18px; line-height: 0; padding: 8px=
+ 0px 6px; }
+
+.MathJax_MenuClose:hover { color: white !important; border: 2px solid rgb(2=
+04, 204, 204) !important; }
+
+.MathJax_MenuClose:hover span { background-color: rgb(204, 204, 204) !impor=
+tant; }
+
+.MathJax_MenuClose:hover:focus { outline: none; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-08a6fce5-80e4-4857-af16-22dd3e9d3485@mhtml.blink
+
+@charset "utf-8";
+
+.MathJax_Hover_Frame { border-radius: 0.25em; box-shadow: rgb(136, 51, 170)=
+ 0px 0px 15px; display: inline-block; position: absolute; border: 1px solid=
+ rgb(170, 102, 221) !important; }
+
+.MathJax_Menu_Button .MathJax_Hover_Arrow { position: absolute; cursor: poi=
+nter; display: inline-block; border: 2px solid rgb(170, 170, 170); border-r=
+adius: 4px; font-family: "Courier New", Courier; font-size: 9px; color: rgb=
+(240, 240, 240); }
+
+.MathJax_Menu_Button .MathJax_Hover_Arrow span { display: block; background=
+-color: rgb(170, 170, 170); border: 1px solid; border-radius: 3px; line-hei=
+ght: 0; padding: 4px; }
+
+.MathJax_Hover_Arrow:hover { color: white !important; border: 2px solid rgb=
+(204, 204, 204) !important; }
+
+.MathJax_Hover_Arrow:hover span { background-color: rgb(204, 204, 204) !imp=
+ortant; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6e583afe-1c87-4faa-b994-0a190ef33f2e@mhtml.blink
+
+@charset "utf-8";
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.plotly-notifier .notifier-close:hover { color: rgb(68, 68, 68); text-decor=
+ation: none; cursor: pointer; }
+
+.plotly-notifier .notifier-close { color: rgb(255, 255, 255); opacity: 0.8;=
+ float: right; padding: 0px 5px; background: none; border: none; font-size:=
+ 20px; font-weight: bold; line-height: 20px; }
+
+.plotly-notifier .notifier-note { min-width: 180px; max-width: 250px; borde=
+r: 1px solid rgb(255, 255, 255); z-index: 3000; margin: 0px; background-col=
+or: rgba(140, 151, 175, 0.9); color: rgb(255, 255, 255); padding: 10px; ove=
+rflow-wrap: break-word; hyphens: auto; }
+
+.plotly-notifier p { margin: 0px; }
+
+.plotly-notifier { font-family: "Open Sans", verdana, arial, sans-serif; po=
+sition: fixed; top: 50px; right: 20px; z-index: 10000; font-size: 10pt; max=
+-width: 180px; }
+
+.js-plotly-plot .plotly .vertical [data-title]::before { border-width: 6px;=
+ border-style: solid; border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(=
+0, 0, 0, 0) rgb(105, 115, 138); border-image: initial; margin-top: 8px; mar=
+gin-right: -30px; }
+
+.js-plotly-plot .plotly .vertical [data-title]::before, .js-plotly-plot .pl=
+otly .vertical [data-title]::after { top: 0%; right: 200%; }
+
+.js-plotly-plot .plotly [data-title]::after { content: attr(data-title); ba=
+ckground: rgb(105, 115, 138); color: rgb(255, 255, 255); padding: 8px 10px;=
+ font-size: 12px; line-height: 12px; white-space: nowrap; margin-right: -18=
+px; border-radius: 2px; }
+
+.js-plotly-plot .plotly [data-title]::before { content: ""; position: absol=
+ute; background: rgba(0, 0, 0, 0); border-width: 6px; border-style: solid; =
+border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(105, 115, 138); border-=
+image: initial; z-index: 1002; margin-top: -12px; margin-right: -6px; }
+
+.js-plotly-plot .plotly [data-title]:hover::before, .js-plotly-plot .plotly=
+ [data-title]:hover::after { display: block; opacity: 1; }
+
+.js-plotly-plot .plotly [data-title]::before, .js-plotly-plot .plotly [data=
+-title]::after { position: absolute; transform: translate3d(0px, 0px, 0px);=
+ display: none; opacity: 0; z-index: 1001; pointer-events: none; top: 110%;=
+ right: 50%; }
+
+.js-plotly-plot .plotly .modebar.vertical .modebar-group .modebar-btn { dis=
+play: block; text-align: center; }
+
+.js-plotly-plot .plotly .modebar.vertical .modebar-group { display: block; =
+float: none; padding-left: 0px; padding-bottom: 8px; }
+
+.js-plotly-plot .plotly .modebar.vertical svg { top: -1px; }
+
+.js-plotly-plot .plotly .modebar.vertical { display: flex; flex-flow: colum=
+n wrap; align-content: flex-end; max-height: 100%; }
+
+.js-plotly-plot .plotly .modebar-btn svg { position: relative; top: 2px; }
+
+.js-plotly-plot .plotly .modebar-btn { position: relative; font-size: 16px;=
+ padding: 3px 4px; height: 22px; cursor: pointer; line-height: normal; box-=
+sizing: border-box; }
+
+.js-plotly-plot .plotly .modebar-group { float: left; display: inline-block=
+; box-sizing: border-box; padding-left: 8px; position: relative; vertical-a=
+lign: middle; white-space: nowrap; }
+
+.js-plotly-plot .plotly:hover .modebar--hover .modebar-group { opacity: 1; =
+}
+
+.js-plotly-plot .plotly .modebar--hover > :not(.watermark) { opacity: 0; tr=
+ansition: opacity 0.3s; }
+
+.js-plotly-plot .plotly .ease-bg { transition: background-color 0.3s; }
+
+.js-plotly-plot .plotly .modebar { position: absolute; top: 2px; right: 2px=
+; }
+
+.js-plotly-plot .plotly .cursor-grab { cursor: grab; }
+
+.js-plotly-plot .plotly .cursor-ne-resize { cursor: ne-resize; }
+
+.js-plotly-plot .plotly .cursor-n-resize { cursor: n-resize; }
+
+.js-plotly-plot .plotly .cursor-nw-resize { cursor: nw-resize; }
+
+.js-plotly-plot .plotly .cursor-e-resize { cursor: e-resize; }
+
+.js-plotly-plot .plotly .cursor-w-resize { cursor: w-resize; }
+
+.js-plotly-plot .plotly .cursor-se-resize { cursor: se-resize; }
+
+.js-plotly-plot .plotly .cursor-s-resize { cursor: s-resize; }
+
+.js-plotly-plot .plotly .cursor-sw-resize { cursor: sw-resize; }
+
+.js-plotly-plot .plotly .cursor-ew-resize { cursor: ew-resize; }
+
+.js-plotly-plot .plotly .cursor-ns-resize { cursor: ns-resize; }
+
+.js-plotly-plot .plotly .cursor-row-resize { cursor: row-resize; }
+
+.js-plotly-plot .plotly .cursor-col-resize { cursor: col-resize; }
+
+.js-plotly-plot .plotly .cursor-move { cursor: move; }
+
+.js-plotly-plot .plotly .cursor-crosshair { cursor: crosshair; }
+
+.js-plotly-plot .plotly .cursor-pointer { cursor: pointer; }
+
+.js-plotly-plot .plotly .cursor-default { cursor: default; }
+
+.js-plotly-plot .plotly .main-svg .draglayer { pointer-events: all; }
+
+.js-plotly-plot .plotly .main-svg { position: absolute; top: 0px; left: 0px=
+; pointer-events: none; }
+
+.js-plotly-plot .plotly svg a:hover { fill: rgb(60, 109, 197); }
+
+.js-plotly-plot .plotly svg a { fill: rgb(68, 122, 219); }
+
+.js-plotly-plot .plotly .user-select-none { user-select: none; }
+
+.js-plotly-plot .plotly .crisp { shape-rendering: crispedges; }
+
+.js-plotly-plot .plotly a:hover { text-decoration: none; }
+
+.js-plotly-plot .plotly a { text-decoration: none; }
+
+.js-plotly-plot .plotly input:focus, .js-plotly-plot .plotly button:focus {=
+ outline: none; }
+
+.js-plotly-plot .plotly input, .js-plotly-plot .plotly button { font-family=
+: "Open Sans", verdana, arial, sans-serif; }
+
+.js-plotly-plot .plotly, .js-plotly-plot .plotly div { direction: ltr; font=
+-family: "Open Sans", verdana, arial, sans-serif; margin: 0px; padding: 0px=
+; }
+------MultipartBoundary--4JMR9uOlJaXDcrH05XwLpcIByZylMXVQFxN7e7kBpv------
