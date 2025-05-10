@@ -15,8 +15,8 @@ wind_direction = np.array([0, 45, 90, 135, 180, 225, 270])  # degrees
 
 # Create a Skew-T Log-P plot
 fig = plt.figure(figsize=(10, 8))
-ax = fig.add_subplot(1, 1, 1, projection='skewx')
-skewt = SkewT(ax, rotation=45)
+#ax = fig.add_subplot(1, 1, 1, projection='skewx')
+skewt = SkewT(fig, rotation=45)
 skewt.plot(pressure_levels, temperature, 'r', label='Temperature (°C)')
 skewt.plot(pressure_levels, dew_point, 'g', label='Dew Point (°C)')
 skewt.plot_barbs(pressure_levels, temperature, wind_speed, wind_direction, color='blue', label='Wind Barbs')
