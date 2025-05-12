@@ -109,6 +109,8 @@ python maze_solver.py
 Various types of **graphs**, **plots**, **diagrams**, **charts** and **patterns**.
 Updating daily till the reserve runs out.
 
+see next project:- plots, graphs, charts....
+
 📜 **License:**  
 MIT License.
 
