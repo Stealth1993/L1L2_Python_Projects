@@ -18,7 +18,7 @@ ax.set_zlabel('Z axis')
 
 # Generate a random seed and print it
 np.random.seed(0)
-print("Random seed:", np.random.get_state()[1])
+#print("Random seed:", np.random.get_state()[1])
 # Add a footer to the plot
 #plt.figtext(0.5, 0.01, "Random seed: {}".format(np.random.get_state()[1]), ha="center")
 plt.title("3D Surface Plot")
