@@ -29,3 +29,5 @@ plt.xticks(rotation=45)
 
 plt.tight_layout()
 plt.show()
+# This code creates a swarm plot using seaborn with the x-axis values binned into 10 equal-width bins.
+# The y-axis represents the original 'y' values, and the hue represents different categories.
