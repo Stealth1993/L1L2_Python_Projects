@@ -14,7 +14,7 @@ data = pd.DataFrame({
 
 # Create a violin plot
 plt.figure(figsize=(10, 6))
-sns.violinplot(x="Category", y="Value", data=data, inner="quartile")
+sns.violinplot(x="Category", y="Value", data=data, inner="quartile", palette="muted")
 plt.title("Violin Plot Example")
 plt.xlabel("Category")
 plt.ylabel("Value")
