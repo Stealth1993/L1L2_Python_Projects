@@ -20,3 +20,5 @@ plt.xlabel("Category")
 plt.ylabel("Value")
 plt.grid(True)
 plt.show()
+# This code creates a violin plot using the seaborn library in Python.
+# It uses dummy data generated with numpy and pandas for demonstration purposes.
