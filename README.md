@@ -111,10 +111,10 @@ Updating daily till the reserve runs out.
 
 see next project:- plots, graphs, charts....Python programs to visualize the data using matplotlib, pandas, and many other libraries.
 
-🔹 **3D_Contour_Plot**
-🔹 **Animated_Scatter_Plot**
-🔹 ****
-🔹 ****
+🔹 **3D_Contour_Plot**. 
+🔹 **Animated_Scatter_Plot**. 
+🔹 **Box_And_WhiskerPlot**. 
+🔹 **Bullet_Chart**. 
 🔹 ****
 🔹 ****
 🔹 ****
