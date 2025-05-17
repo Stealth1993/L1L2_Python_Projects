@@ -111,12 +111,12 @@ Updating daily till the reserve runs out.
 
 see next project:- plots, graphs, charts....Python programs to visualize the data using matplotlib, pandas, and many other libraries.
 
-🔹 **3D_Contour_Plot**\n
-🔹 **Animated_Scatter_Plot**\n
-🔹 **Box_And_WhiskerPlot**\n
-🔹 **Bullet_Chart**\n
-🔹 **Butterfly_Pattern**\n
-🔹 **Candlestick_Chart**\n
+🔹 **3D_Contour_Plot**
+🔹 **Animated_Scatter_Plot**
+🔹 **Box_And_WhiskerPlot**
+🔹 **Bullet_Chart**
+🔹 **Butterfly_Pattern**
+🔹 **Candlestick_Chart**
 🔹 ****
 
 📜 **License:**  
