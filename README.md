@@ -117,7 +117,8 @@ see next project:- plots, graphs, charts....Python programs to visualize the dat
 🔹 **Bullet_Chart**
 🔹 **Butterfly_Pattern**
 🔹 **Candlestick_Chart**
-🔹 ****
+🔹 **Donut Chart**
+🔹 **Funnel chart**
 
 📜 **License:**  
 MIT License.
