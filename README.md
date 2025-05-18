@@ -120,6 +120,7 @@ see next project:- plots, graphs, charts....Python programs to visualize the dat
 🔹 **Donut Chart**
 🔹 **Funnel chart**
 🔹 **Hecanin plot**
+🔹 **Honeycomb plot**
 
 📜 **License:**  
 MIT License.
