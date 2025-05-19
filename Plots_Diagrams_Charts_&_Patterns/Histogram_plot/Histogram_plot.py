@@ -1,17 +1,12 @@
-import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
+import matplotlib.pyplot as plt
 
-#sample data
-data = {
-    'A': np.random.normal(0, 1, 1000),
-    'B': np.random.normal(1, 2, 1000),
-    'C': np.random.normal(2, 3, 1000)
-}
+# Generate sample data: 1000 random numbers from a normal distribution
 
-df = pd.DataFrame(data)
-# Create a histogram for each column in the DataFrame
-for column in df.columns:
-    plt.hist(df[column], bins=30, alpha=0.5, label=column)
-plt.legend()
+data = np.random.randn(1000)
+# Create a histogram
+plt.hist(data, bins=30, alpha=0.5, color='b')
+plt.title('Histogram of Random Data')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
 plt.show()
