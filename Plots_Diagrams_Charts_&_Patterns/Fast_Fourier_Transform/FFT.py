@@ -29,3 +29,5 @@ plt.grid()
 plt.legend()
 plt.tight_layout()
 plt.show()
+# This code generates a square wave signal, computes its Fast Fourier Transform (FFT),
+# and plots both the time-domain signal and its frequency-domain representation.
