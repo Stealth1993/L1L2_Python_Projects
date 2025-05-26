@@ -20,16 +20,16 @@ n_y = np.arange(0, len(y) * 0.1, 0.1)
 plt.figure(figsize=(12, 8))
 
 plt.subplot(3, 1, 1)
-plt.plot(n, x1, label='Sine Wave')
+plt.plot(n, x1, label='Sine Wave', color='blue')
 plt.title('Original Signals')
 plt.legend()
 
 plt.subplot(3, 1, 2)
-plt.plot(n, x2, label='Exponential Decay')
+plt.plot(n, x2, label='Exponential Decay', color='orange')
 plt.legend()
 
 plt.subplot(3, 1, 3)
-plt.plot(n_y, y, label='Convolution Result')
+plt.plot(n_y, y, label='Convolution Result', color='green')
 plt.legend()
 
 plt.tight_layout()
