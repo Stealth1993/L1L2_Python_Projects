@@ -34,3 +34,5 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+# This code generates a plot showing the convolution of a sine wave and an exponential decay function.
+# The first two subplots display the original signals, while the third subplot shows the result of their convolution.
