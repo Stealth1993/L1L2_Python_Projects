@@ -2,23 +2,26 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 rows, cols = 10, 10
+radius = 0.5
+def fish_scale_pattern(rows, cols, radius):
+    fig, ax = plt.subplots(figsize=(8, 8))
+    ax.set_aspect('equal')
+    ax.axis('off')
 
-# Create a grid of points
-x = np.linspace(0, 1, cols)
-y = np.linspace(0, 1, rows)
-X, Y = np.meshgrid(x, y)
+    for i in range(rows):
+        for j in range(cols):
+            x = j * radius * 2
+            y = i * radius * 2
+            circle = plt.Circle((x, y), radius, color='blue', fill=False, linewidth=1.5)
+            ax.add_artist(circle)
 
-# Define the fish scale pattern function
-def fish_scale_pattern(x, y):
-    return np.sin(3 * np.pi * x) * np.cos(3 * np.pi * y)
+            if (i + j) % 2 == 0:
+                scale = plt.Circle((x, y), radius * 0.5, color='blue', fill=True)
+                ax.add_artist(scale)
 
-Z = fish_scale_pattern(X, Y)
+    plt.xlim(-radius, cols * radius * 2)
+    plt.ylim(-radius, rows * radius * 2)
+    plt.title('Fish Scale Pattern')
+    plt.show()
 
-# Plotting the fish scale pattern
-plt.figure(figsize=(8, 8))
-plt.contourf(X, Y, Z, levels=20, cmap='viridis')
-plt.colorbar()
-plt.title('Fish Scale Pattern')
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.show()
+fish_scale_pattern(rows, cols, radius)
