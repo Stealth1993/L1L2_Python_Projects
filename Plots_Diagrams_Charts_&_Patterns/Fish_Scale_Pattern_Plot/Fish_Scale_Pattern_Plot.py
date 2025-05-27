@@ -5,26 +5,22 @@ rows, cols = 10, 10
 radius = 0.5
 
 fig, ax = plt.subplots(figsize=(8, 8))
-for i in range(rows):
-    for j in range(cols):
-        # Calculate the center of each square
-        center_x = j + 0.5
-        center_y = i + 0.5
-        
-        # Create a circle at the center of each square
-        circle = plt.Circle((center_x, center_y), radius, color='blue', alpha=0.5)
-        
-        # Add the circle to the plot
-        ax.add_artist(circle)
 
-
-# Set the limits and aspect of the plot
-ax.set_xlim(0, cols)
-ax.set_ylim(0, rows)
+ax.set_xlim(0, cols * radius)
+ax.set_ylim(0, (rows + 1) * (radius / 2))
 ax.set_aspect('equal')
-
-# Hide the axes
 ax.axis('off')
+colors = ['#FF5733', '#33FF57', '#3357FF', '#F0E68C', '#FF69B4']
+
+# Create the fish scale pattern
+for row in range(rows):
+    for col in range(cols):
+        x = col * radius
+        y = row * (radius / 2)
+        if row % 2 == 0:
+            x += radius / 2
+        semicircle = plt.Circle((x, y), radius, color=np.random.choice(colors), alpha=0.7, edgecolor='black')
+        ax.add_artist(semicircle)
 
 # Show the plot
 plt.title('Fish Scale Pattern Plot')
