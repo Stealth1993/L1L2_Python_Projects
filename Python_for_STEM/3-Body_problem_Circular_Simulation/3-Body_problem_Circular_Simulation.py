@@ -12,7 +12,7 @@ AU = 1.495978707e11  # 1 AU in meters
 class NBodySimulation:
     def __init__(self, root):
         self.root = root
-        self.root.title("Interactive N-Body Simulation")
+        self.root.title("Interactive 3-Body Simulation")
 
         # Create frames for side-by-side layout
         self.input_frame = tk.Frame(self.root)
@@ -47,7 +47,7 @@ class NBodySimulation:
         self.ax.set_ylim(-6, 6)
         self.ax.set_xlabel("x (AU)")
         self.ax.set_ylabel("y (AU)")
-        self.ax.set_title("N-Body Simulation")
+        self.ax.set_title("3-Body Simulation")
         self.ax.grid(True)
 
         # Scatter Plot
@@ -251,7 +251,7 @@ if __name__ == "__main__":
     app = NBodySimulation(root)
     root.mainloop()
 
-# This code creates an interactive N-body simulation using Tkinter for the GUI and Matplotlib for visualization.
+# This code creates an interactive 3-body simulation using Tkinter for the GUI and Matplotlib for visualization.
 # Users can adjust masses and initial positions of celestial bodies, start an animation, and predict future positions.
 # The simulation uses the gravitational force to calculate the motion of the bodies over time.
 # The code is structured to allow for easy modifications and extensions, such as adding more bodies or changing the simulation parameters.
