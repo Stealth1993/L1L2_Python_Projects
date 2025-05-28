@@ -254,3 +254,17 @@ if __name__ == "__main__":
 # This code creates an interactive N-body simulation using Tkinter for the GUI and Matplotlib for visualization.
 # Users can adjust masses and initial positions of celestial bodies, start an animation, and predict future positions.
 # The simulation uses the gravitational force to calculate the motion of the bodies over time.
+# The code is structured to allow for easy modifications and extensions, such as adding more bodies or changing the simulation parameters.
+# The simulation is designed to be educational, demonstrating the principles of gravitational interactions in a user-friendly manner.
+# The code is modular, with clear separation of GUI elements, simulation logic, and animation handling.
+# The simulation can be run in a standalone window, and it provides real-time updates based on user inputs.
+# The code is well-commented to explain the purpose of each function and the overall flow of the program.
+# The simulation is designed to be efficient, using numerical integration to solve the equations of motion for multiple bodies.
+# The use of ODE solvers allows for accurate simulation of the gravitational interactions over time.
+# The code is compatible with Python 3 and requires the NumPy, Matplotlib, and SciPy libraries.
+# The simulation can be extended to include more complex features, such as collision detection or additional forces.
+# The code is structured to be easily maintainable and extendable, with clear function definitions and a logical flow.
+# The simulation provides a hands-on way to explore celestial mechanics and the dynamics of multiple-body systems.
+# The code is designed to be user-friendly, with a simple interface for adjusting parameters and starting the simulation.
+# The simulation can serve as a tool for educational purposes, allowing users to visualize and understand the behavior of gravitational systems.
+# The code is open for contributions and improvements, making it a collaborative project for those interested in physics simulations.
