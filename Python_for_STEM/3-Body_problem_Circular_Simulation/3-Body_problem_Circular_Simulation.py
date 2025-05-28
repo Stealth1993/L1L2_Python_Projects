@@ -250,3 +250,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = NBodySimulation(root)
     root.mainloop()
+
+# This code creates an interactive N-body simulation using Tkinter for the GUI and Matplotlib for visualization.
+# Users can adjust masses and initial positions of celestial bodies, start an animation, and predict future positions.
+# The simulation uses the gravitational force to calculate the motion of the bodies over time.
