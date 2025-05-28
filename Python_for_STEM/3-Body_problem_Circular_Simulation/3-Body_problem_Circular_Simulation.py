@@ -268,3 +268,7 @@ if __name__ == "__main__":
 # The code is designed to be user-friendly, with a simple interface for adjusting parameters and starting the simulation.
 # The simulation can serve as a tool for educational purposes, allowing users to visualize and understand the behavior of gravitational systems.
 # The code is open for contributions and improvements, making it a collaborative project for those interested in physics simulations.
+# The simulation can be run on various platforms, including Windows, macOS, and Linux, as long as the required libraries are installed.
+# The code is released under an open-source license, allowing others to use, modify, and distribute it freely.
+# The simulation can be a valuable resource for students, educators, and anyone interested in astronomy and physics.
+# The code is designed to be efficient and responsive, providing a smooth user experience during the simulation.
