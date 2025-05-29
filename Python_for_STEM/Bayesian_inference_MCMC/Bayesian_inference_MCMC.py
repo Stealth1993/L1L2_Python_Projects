@@ -1,6 +1,10 @@
 # Description: This program performs Bayesian inference on a Gaussian signal using MCMC,
 # estimating parameters with a Metropolis-Hastings algorithm.
 
+# MCMC stands for Markov Chain Monte Carlo, a method used to sample from probability distributions.
+# It is particularly useful in Bayesian inference for estimating posterior distributions.
+
+# Required Libraries
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
