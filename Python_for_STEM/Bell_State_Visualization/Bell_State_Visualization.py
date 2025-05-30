@@ -32,3 +32,4 @@ plt.legend()
 plt.grid()
 plt.show()
 # This code visualizes the measurement probabilities of a Bell state in the Bell basis.
+# It calculates the probabilities of measuring the states |00⟩ and |11⟩ as a function of the measurement angle θ.
