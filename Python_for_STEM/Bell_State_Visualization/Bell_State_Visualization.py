@@ -33,3 +33,4 @@ plt.grid()
 plt.show()
 # This code visualizes the measurement probabilities of a Bell state in the Bell basis.
 # It calculates the probabilities of measuring the states |00⟩ and |11⟩ as a function of the measurement angle θ.
+# The Bell state is defined as |Φ+⟩ = (|00⟩ + |11⟩) / √2, and the probabilities are computed using the inner product with the measurement vector.
