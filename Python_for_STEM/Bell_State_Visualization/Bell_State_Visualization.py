@@ -28,7 +28,7 @@ plt.plot(theta, prob_11, label='Probability of |11⟩', color='red')
 plt.title('Bell State Measurement Probabilities')
 plt.xlabel('Measurement Angle (θ)')
 plt.ylabel('Probability')
-plt.legend()
+plt.legend(loc='upper right')
 plt.grid()
 plt.show()
 # This code visualizes the measurement probabilities of a Bell state in the Bell basis.
