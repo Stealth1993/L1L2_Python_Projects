@@ -47,3 +47,4 @@ if __name__ == "__main__":
     plot_bifurcation_diagram(r_values, x_values)
 
 # This code generates a bifurcation diagram for the logistic map.
+# It visualizes how the population dynamics change with varying growth rates.
