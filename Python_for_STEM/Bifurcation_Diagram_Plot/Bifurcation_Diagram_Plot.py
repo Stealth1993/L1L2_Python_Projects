@@ -48,3 +48,5 @@ if __name__ == "__main__":
 
 # This code generates a bifurcation diagram for the logistic map.
 # It visualizes how the population dynamics change with varying growth rates.
+# The logistic map is a classic example of how complex behavior can arise from simple nonlinear dynamics.
+# The bifurcation diagram shows the stable states of the system as a function of the growth rate.
