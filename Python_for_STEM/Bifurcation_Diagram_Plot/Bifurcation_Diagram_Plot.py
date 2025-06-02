@@ -50,3 +50,9 @@ if __name__ == "__main__":
 # It visualizes how the population dynamics change with varying growth rates.
 # The logistic map is a classic example of how complex behavior can arise from simple nonlinear dynamics.
 # The bifurcation diagram shows the stable states of the system as a function of the growth rate.
+# The code uses numpy for numerical calculations and matplotlib for plotting.
+# The bifurcation diagram is a powerful tool in dynamical systems to visualize transitions between different behaviors.
+# The code is structured to be modular, allowing for easy adjustments of parameters.
+
+# Rabbit population dynamics can be modeled using the logistic map, which is a simple yet powerful model in chaos theory.
+# The logistic map is defined as x_{n+1} = r * x_n * (1 - x_n), where r is the growth rate and x_n is the population at time n.
