@@ -25,3 +25,12 @@ plt.axvline(x=x0, color='red', linestyle='--', label='Location Parameter (x0)')
 plt.legend()
 plt.grid()
 plt.show()
+
+# This code generates a plot of the Cauchy distribution with a specified location and scale parameter.
+# The plot includes a vertical line indicating the location parameter.
+# The Cauchy distribution is known for its heavy tails and undefined mean and variance.
+# The plot helps visualize the characteristics of the Cauchy distribution.
+
+# The Cauchy distribution is often used in statistics to model data with heavy tails.
+# It is also known for its applications in physics and engineering, particularly in resonance phenomena.
+# The plot can be customized further by changing the parameters or adding more features.
