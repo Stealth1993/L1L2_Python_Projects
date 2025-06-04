@@ -5,6 +5,11 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import yt_dlp
 
+#This Program is a YouTube Downloader with GUI using yt-dlp and tkinter.
+#It allows users to download videos or audio from YouTube, including playlists.
+#It supports various download types and qualities, and provides a progress bar and status updates.
+# Strictly for educational purposes, not for commercial use.
+
 class YouTubeDownloader:
     def __init__(self, root):
         self.root = root
