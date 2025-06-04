@@ -9,7 +9,8 @@ class YouTubeDownloader:
     def __init__(self, root):
         self.root = root
         self.root.title("YouTube Downloader")
-        self.root.geometry("700x400")
+        self.root.geometry("700x400")  # Set fixed size
+        self.root.resizable(False, False)  # Disable resizing
         self.root.configure(bg="#F0F0F0")  # Light gray background
 
         # Flag to track if a download is in progress
