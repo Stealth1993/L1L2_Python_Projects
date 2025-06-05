@@ -1,42 +1,29 @@
 import numpy as np
-import matplotlib.pyplot as plt 
-from astropy.cosmology import Planck18 as cosmo
-from astropy import units as u
+import matplotlib.pyplot as plt
 import camb
+from astropy.cosmology import FlatLambdaCDM
 
-# Cosmological parameters
-H0 = 67.4  # Hubble constant in km/s/Mpc
-ombh2 = 0.0224  # Baryon density parameter
-omch2 = 0.1198  # Cold dark matter density parameter
-omk = 0.0  # Curvature density parameter
-tau = 0.054  # Optical depth to reionization
-# Neutrino parameters
-Nnu = 3.046  # Effective number of neutrino species
-mnu = 0.06  # Total neutrino mass in eV
-# Create a CAMB cosmology object
-params = camb.CAMBparams()
-params.set_cosmology(H0=H0, ombh2=ombh2, omch2=omch2, omk=omk, tau=tau)
-params.set_dark_energy(w=-1.0, wa=0.0)  # Dark energy parameters
-params.f_SetNeutrinoHierarchy('normal')  # Neutrino hierarchy
-params.set_nnu(Nnu)  # Effective number of neutrino species
-params.set_mnu(mnu)  # Total neutrino mass
-# Set the redshift range for the CMB power spectrum
-params.set_redshift(0.0, 10.0)  # From z=0 to z=10
-# Set the maximum multipole moment
-params.set_max_l(2500)  # Maximum multipole moment
-# Calculate the CMB power spectrum
-results = camb.get_results(params)
-# Get the CMB power spectrum
-cls = results.get_cmb_power_spectra(params, CMB_unit='muK')
-# Extract the temperature power spectrum
-l = np.arange(len(cls['total'][:, 0]))
-cl_tt = cls['total'][:, 0]  # Temperature power spectrum
-# Plot the CMB power spectrum
+# Cosmology
+cosmo = FlatLambdaCDM(H0=70, Om0=0.3, Tcmb0=2.725)
+pars = camb.CAMBparams()
+pars.set_cosmology(H0=70, ombh2=0.022, omch2=0.122)
+pars.InitPower.set_params(As=2e-9, ns=0.965)
+pars.set_for_lmax(2500, lens_potential_accuracy=1)
+
+# Calculate power spectrum
+results = camb.get_results(pars)
+powers = results.get_cmb_power_spectra(pars, CMB_unit='muK')
+l = np.arange(2, 2501)
+
+# Plot
 plt.figure(figsize=(10, 6))
-plt.plot(l, cl_tt, label='CMB Temperature Power Spectrum', color='blue')
-plt.xlabel('Multipole Moment (l)')
-plt.ylabel('C_l (μK^2)')
+plt.loglog(l, powers['total'][2:2501, 0])
 plt.title('CMB Temperature Power Spectrum')
+plt.xlabel('Multipole (ℓ)')
+plt.ylabel('C_ℓ (μK²)')
 plt.legend()
 plt.grid()
 plt.show()
+
+#This code generates a plot of the CMB temperature power spectrum using the CAMB package. The x-axis represents the multipole moment (ℓ), and the y-axis represents the power spectrum (C_ℓ) in units of μK². The plot is logarithmic on both axes to better visualize the range of values.
+#The CMB power spectrum is a fundamental aspect of cosmology, providing insights into the early universe's conditions and the formation of large-scale structures. The parameters used in the code can be adjusted to explore different cosmological models and their effects on the CMB power spectrum.
