@@ -27,3 +27,6 @@ plt.show()
 
 #This code generates a plot of the CMB temperature power spectrum using the CAMB package. The x-axis represents the multipole moment (ℓ), and the y-axis represents the power spectrum (C_ℓ) in units of μK². The plot is logarithmic on both axes to better visualize the range of values.
 #The CMB power spectrum is a fundamental aspect of cosmology, providing insights into the early universe's conditions and the formation of large-scale structures. The parameters used in the code can be adjusted to explore different cosmological models and their effects on the CMB power spectrum.
+
+#Applicability:
+#This code is applicable in the context of cosmology, particularly in the study of the Cosmic Microwave Background (CMB) radiation. The CMB power spectrum is crucial for understanding the early universe's conditions, including inflation, baryon acoustic oscillations, and the distribution of matter. It is widely used in cosmological analyses to test theories of structure formation and to constrain cosmological parameters.
