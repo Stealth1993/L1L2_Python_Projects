@@ -49,3 +49,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Description:# This code visualizes Descartes' Theorem using spheres in a 3D plot.
+# It generates spheres of different radii, calculates their curvatures, and displays them interactively.
+# The total curvature is also annotated on the plot.
+# Descartes' Theorem with Differential Geometry
+# This code visualizes Descartes' Theorem using spheres in a 3D plot.
