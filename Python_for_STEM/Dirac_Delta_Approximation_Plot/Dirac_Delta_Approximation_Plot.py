@@ -22,7 +22,9 @@ plt.ylabel('Amplitude')
 plt.axhline(0, color='black', lw=0.5, ls='--')
 plt.axvline(0, color='black', lw=0.5, ls='--')
 plt.xlim(-5, 5)
-plt.ylim(-0.1, 2.0)
+plt.ylim(-0.1, 1.5)
 plt.grid()
 plt.legend()
 plt.show()
+
+# This code generates a plot of the Gaussian function as an approximation of the Dirac delta function.
