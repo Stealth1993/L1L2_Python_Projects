@@ -28,3 +28,8 @@ plt.legend()
 plt.show()
 
 # This code generates a plot of the Gaussian function as an approximation of the Dirac delta function.
+# The Gaussian function is centered at zero and has a small standard deviation (sigma).
+# The plot illustrates how the Gaussian function approaches the Dirac delta function as sigma approaches zero.
+# The plot shows the Gaussian function's peak at x=0, which represents the Dirac delta function's property of being infinitely high at zero and zero elsewhere.
+# The code uses numpy for numerical calculations and matplotlib for plotting.
+
