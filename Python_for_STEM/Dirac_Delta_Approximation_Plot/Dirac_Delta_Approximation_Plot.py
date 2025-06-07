@@ -33,3 +33,6 @@ plt.show()
 # The plot shows the Gaussian function's peak at x=0, which represents the Dirac delta function's property of being infinitely high at zero and zero elsewhere.
 # The code uses numpy for numerical calculations and matplotlib for plotting.
 
+# Application:
+# This code can be used in physics and engineering contexts where the Dirac delta function is needed,
+# such as in signal processing, quantum mechanics, and systems analysis.
