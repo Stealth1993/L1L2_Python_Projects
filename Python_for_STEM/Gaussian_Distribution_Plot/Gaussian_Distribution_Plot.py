@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Description: This program generates a Gaussian distribution plot with specified parameters.
+# This program is designed to visualize the Gaussian distribution, which is a fundamental concept in statistics and probability theory.
+# It uses NumPy for numerical calculations and Matplotlib for plotting the distribution.
 
 # Parameters for the Gaussian distribution
 mu = 0.0  # Mean of the distribution
