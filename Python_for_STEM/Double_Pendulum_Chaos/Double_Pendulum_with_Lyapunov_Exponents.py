@@ -1,67 +1,58 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.integrate as integrate
+from scipy.integrate import odeint
 
 # Parameters
-g , L1, L2, m1, m2 = 9.81, 1.0, 1.0, 1.0, 1.0
-
+g, L1, L2, m1, m2 = 9.81, 1.0, 1.0, 1.0, 1.0
 t = np.linspace(0, 10, 1000)  # time array
 
 # Equations of motion for the double pendulum
-def equations_of_motion(y, t, g, L1, L2, m1, m2):
-    theta1, theta2, p1, p2 = y
-    dtheta1_dt = p1 / (m1 * L1**2)
-    dtheta2_dt = p2 / (m2 * L2**2)
+def equations_of_motion(state, t, g, L1, L2, m1, m2):
+    theta1, omega1, theta2, omega2 = state
+    delta = theta1 - theta2
+    den = m1 + m2 * np.sin(delta)**2
     
-    delta = theta2 - theta1
-    d_p1_dt = -m2 * L1 * dtheta1_dt**2 * np.sin(delta) - (m1 + m2) * g * np.sin(theta1)
-    d_p2_dt = m2 * L2 * dtheta2_dt**2 * np.sin(delta) + (m1 + m2) * g * np.sin(theta1) * np.cos(delta)
+    domega1 = (m2 * L2 * omega2**2 * np.sin(delta) - m2 * g * np.sin(theta2) * np.cos(delta)
+               - (m1 + m2) * g * np.sin(theta1)) / (L1 * den)
+    domega2 = ((m1 + m2) * (L1 * omega1**2 * np.sin(delta) + g * np.sin(theta1) * np.cos(delta))
+               + m2 * g * np.sin(theta2)) / (L2 * den)
     
-    return [dtheta1_dt, dtheta2_dt, d_p1_dt, d_p2_dt]
+    return [omega1, domega1, omega2, domega2]
 
 # Initial conditions
 def initial_conditions():
     theta1_0 = np.pi / 2  # initial angle of first pendulum (radians)
+    omega1_0 = 0.0        # initial angular velocity of first pendulum (rad/s)
     theta2_0 = np.pi / 2  # initial angle of second pendulum (radians)
-    p1_0 = 0.0  # initial momentum of first pendulum
-    p2_0 = 0.0  # initial momentum of second pendulum
-    return [theta1_0, theta2_0, p1_0, p2_0]
+    omega2_0 = 0.0        # initial angular velocity of second pendulum (rad/s)
+    return [theta1_0, omega1_0, theta2_0, omega2_0]
 
 # Integrate the equations of motion
 def integrate_double_pendulum():
     y0 = initial_conditions()
-    sol = integrate.odeint(equations_of_motion, y0, t, args=(g, L1, L2, m1, m2))
+    sol = odeint(equations_of_motion, y0, t, args=(g, L1, L2, m1, m2))
     return sol
-
-# Calculate Lyapunov exponents
-def lyapunov_exponents(sol):
-    # Compute the Jacobian matrix and its eigenvalues
-    # For simplicity, we'll use a placeholder implementation
-    # In practice, you would compute the actual Jacobian
-    J = np.eye(4)  # Placeholder for the Jacobian
-    eigenvalues = np.linalg.eigvals(J)
-    return np.log(np.abs(eigenvalues))
 
 # Main function to run the simulation and plot results
 def main():
     sol = integrate_double_pendulum()
-    lyapunov_exp = lyapunov_exponents(sol)
 
     # Plotting the results
     plt.figure(figsize=(12, 6))
 
     plt.subplot(2, 1, 1)
     plt.plot(t, sol[:, 0], label='Theta 1 (rad)')
-    plt.plot(t, sol[:, 1], label='Theta 2 (rad)')
+    plt.plot(t, sol[:, 2], label='Theta 2 (rad)')
     plt.xlabel('Time (s)')
     plt.ylabel('Angle (rad)')
     plt.legend()
     plt.grid()
 
     plt.subplot(2, 1, 2)
-    plt.plot(t, lyapunov_exp, label='Lyapunov Exponents')
+    plt.plot(t, sol[:, 1], label='Omega 1 (rad/s)')
+    plt.plot(t, sol[:, 3], label='Omega 2 (rad/s)')
     plt.xlabel('Time (s)')
-    plt.ylabel('Lyapunov Exponent')
+    plt.ylabel('Angular Velocity (rad/s)')
     plt.legend()
     plt.grid()
 
