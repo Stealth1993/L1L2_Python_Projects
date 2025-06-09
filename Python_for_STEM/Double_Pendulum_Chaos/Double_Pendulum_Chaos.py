@@ -2,7 +2,6 @@
 # It uses the Euler method to solve the equations of motion and plots the angles and angular velocities over time.
 # Double Pendulum Chaos Simulation
 
-
 import numpy as np
 import matplotlib.pyplot as plt
 
