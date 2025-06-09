@@ -1,3 +1,8 @@
+#This code simulates the motion of a double pendulum using numerical integration.
+# It uses the Euler method to solve the equations of motion and plots the angles and angular velocities over time.
+# Double Pendulum Chaos Simulation
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
