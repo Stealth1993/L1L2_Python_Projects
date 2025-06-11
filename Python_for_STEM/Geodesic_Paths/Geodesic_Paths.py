@@ -35,3 +35,9 @@ plt.title('Geodesic Path')
 plt.axis('equal')
 plt.grid()
 plt.show()
+
+# This code simulates the geodesic path of a particle in a Schwarzschild spacetime, plotting its trajectory in Cartesian coordinates.
+# The geodesic equations are derived from the Schwarzschild metric, and the particle's motion is influenced by the gravitational field of a massive body.
+# The initial conditions and parameters can be adjusted to explore different geodesic paths.
+# The code uses the `odeint` function from `scipy.integrate` to numerically solve the differential equations governing the geodesic motion.
+# The resulting plot shows the trajectory of the particle in a two-dimensional plane, illustrating how it moves under the influence of gravity.
