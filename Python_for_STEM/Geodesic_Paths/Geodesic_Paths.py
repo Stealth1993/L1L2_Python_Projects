@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.integrate as odeint
+from scipy.integrate import odeint
 
 # Parameters
 M = 1.0  # Mass
