@@ -26,3 +26,12 @@ r, phi = solution[:, 0], solution[:, 1]
 x = r * np.cos(phi)
 y = r * np.sin(phi)
 
+# Plotting the geodesic path
+plt.figure(figsize=(8, 8))
+plt.plot(x, y)
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.title('Geodesic Path')
+plt.axis('equal')
+plt.grid()
+plt.show()
