@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters
-M = 1.0  # Mass of the lensing object (in solar masses)
+M = 10.0  # Mass of the lensing object (in solar masses)
 G = 6.67430e-11  # Gravitational constant (m^3 kg^-1 s^-2)
 D_L = 1e22 # Distance to lensing object (in meters)
 D_S = 2e22 # Distance to source (in meters)
