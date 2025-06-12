@@ -48,3 +48,20 @@ plt.ylabel('Y Position (m)')
 plt.legend()
 plt.grid()
 plt.show()
+
+# This code simulates gravitational lensing by calculating the deflection of light rays
+# around a massive object and visualizing the lensed positions of light sources.    
+
+# The parameters can be adjusted to simulate different lensing scenarios.
+# The code uses a grid of points to calculate the deflection angles and lensed positions,
+# and visualizes the results using a quiver plot for deflection vectors and scatter plots for source and lensed positions.
+# The Einstein radius is calculated based on the mass of the lensing object and distances involved.
+# The deflection angle is calculated using the formula for gravitational lensing.
+
+# The simulation can be extended to include multiple sources or different mass distributions.
+# The visualization can be enhanced by adding more details or using different color schemes.
+# The code is designed to be modular, allowing for easy adjustments and extensions.
+
+# Application of this simulation includes studying the effects of gravitational lensing in astrophysics,
+# understanding the distribution of dark matter, and exploring the properties of distant galaxies.
+# The simulation can also be used to test theories of gravity and general relativity.
