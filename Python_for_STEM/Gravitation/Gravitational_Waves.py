@@ -17,7 +17,7 @@ chirp_mass = (mass1 * mass2)**(3/5) / (mass1 + mass2)**(1/5)
 def strain(t, chirp_mass, distance):
     """Calculate the strain of the gravitational wave."""
     h0 = (4 * G * chirp_mass / (c**2 * distance)).to(u.dimensionless_unscaled)
-    return h0 * np.sin(2 * np.pi * frequency * t)
+    return h0 * np.sin(2 * np.pi * frequency * t * u.radian)
 
 # Generate the waveform
 waveform = strain(t, chirp_mass, distance)
