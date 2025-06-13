@@ -31,3 +31,17 @@ plt.ylabel('Strain')
 plt.legend(loc='upper right')
 plt.grid()
 plt.show()
+
+# This code simulates the gravitational wave strain from a binary black hole merger and plots the waveform.
+# The parameters can be adjusted to simulate different scenarios.
+# Note: The strain function is a simplified model and does not represent the full complexity of gravitational waveforms.
+# The code uses Astropy for units and constants, and Matplotlib for plotting.
+# The waveform generated is a basic representation and does not include all the complexities of real gravitational wave signals.
+
+# The code is designed to be run in a Python environment with the necessary libraries installed.
+# Ensure you have the required libraries installed:
+# pip install numpy matplotlib astropy
+# The code is a simplified model and does not include all the complexities of real gravitational wave signals.
+
+# Application:
+# This code can be used in astrophysics research to simulate and visualize gravitational wave signals from binary black hole mergers.
