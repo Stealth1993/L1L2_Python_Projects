@@ -271,4 +271,3 @@ root.mainloop()
 
 # The simulation uses a simplified post-Newtonian approximation for GR effects.
 # The GR factor can be adjusted to exaggerate the effects for visibility.
-# The simulation is designed for educational purposes and may not reflect real-world physics accurately.
