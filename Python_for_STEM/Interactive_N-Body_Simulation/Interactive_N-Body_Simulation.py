@@ -217,17 +217,3 @@ class NBodyGUI:
 root = tk.Tk()
 app = NBodyGUI(root)
 root.mainloop()
-
-
-
-#Usage Example:
-#Launch the program.
-#Set the number of bodies (e.g., 2).
-#Enter masses (e.g., 1e30 kg for a star, 1e24 kg for a planet) and positions (e.g., (0, 0) AU and (1, 0) AU).
-#Adjust the total time (e.g., 1e7 seconds) and number of frames (e.g., 500).
-#Watch the animation update instantly as you tweak any value.
-#Enter a future time (e.g., 5e6 seconds) and click "Predict Positions" to see the results.
-#Notes:
-#The simulation assumes zero initial velocities for simplicity. You can extend it by adding velocity inputs if needed.
-#Error handling is included to prevent crashes from invalid inputs, though it’s basic—enhance it for production use.
-#Performance may degrade with many bodies or long simulation times due to real-time recomputation.
