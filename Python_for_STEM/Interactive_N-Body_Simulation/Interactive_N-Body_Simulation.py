@@ -260,3 +260,15 @@ class NBodyGUI:
 root = tk.Tk()
 app = NBodyGUI(root)
 root.mainloop()
+
+# Usage Example:
+# To run the simulation, simply execute this script. The GUI will allow you to set the number of bodies,
+# their initial positions and velocities, and other simulation parameters.
+# The simulation will display the motion of the bodies in a 2D plot, and you can predict their positions
+# at a future time using the "Predict Positions" button.
+# The output will show the predicted positions and relative distances between bodies.
+# Note: The gravitational constant G and other constants are set for a simplified simulation.
+
+# The simulation uses a simplified post-Newtonian approximation for GR effects.
+# The GR factor can be adjusted to exaggerate the effects for visibility.
+# The simulation is designed for educational purposes and may not reflect real-world physics accurately.
