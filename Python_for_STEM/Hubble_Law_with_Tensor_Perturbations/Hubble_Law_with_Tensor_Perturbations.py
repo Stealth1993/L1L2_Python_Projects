@@ -11,23 +11,21 @@ z = np.linspace(0, 2, 100)
 d_L = cosmo.luminosity_distance(z).value  # Luminosity distance in Mpc
 
 # tensor perturbations
-def tensor_perturbations(z):
-    """Calculate tensor perturbations as a function of redshift."""
-    # Placeholder for actual tensor perturbation calculation
-    # Here we assume a simple model where perturbations decrease with redshift
-    return 0.1 * (1 + z)**(-2)
 
-# Calculate the tensor perturbations
-perturbations = tensor_perturbations(z)
-# Calculate the observed velocities
-velocities = H0 * d_L + perturbations
+h_ij = 0.01 * np.sin(z)
+v = cosmo.H0.value * d_L * (1 + z + h_ij) / (1 + z)
+
 # Plot the Hubble diagram
 plt.figure(figsize=(10, 6))
-plt.scatter(d_L, velocities, c='blue', label='Observed Velocities')
-plt.plot(d_L, H0 * d_L, 'r-', label=f'H₀ = {H0} km/s/Mpc')
+plt.plot(d_L, v, 'o', label='Observed Velocities with Tensor Perturbations', markersize=3)
+plt.plot(d_L, cosmo.H0.value * d_L, 'r-', label=f'H₀ = {H0} km/s/Mpc')
 plt.title('Hubble Diagram with Tensor Perturbations')
 plt.xlabel('Luminosity Distance (Mpc)')
 plt.ylabel('Velocity (km/s)')
 plt.legend()
 plt.grid(True)
+plt.xscale('log')
+plt.yscale('log')
+plt.xlim(1, 1000)
+plt.ylim(1, 10000)
 plt.show()
