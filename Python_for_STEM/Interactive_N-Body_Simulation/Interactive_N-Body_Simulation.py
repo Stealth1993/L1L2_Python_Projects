@@ -9,9 +9,10 @@ import matplotlib.animation as animation
 # Constants
 G = 6.67430e-11  # Gravitational constant in m^3 kg^-1 s^-2
 AU = 1.495978707e11  # 1 AU in meters
+C = 3.0e8  # Speed of light in m/s
 
 # Derivatives function for n-body system
-def derivatives(state, t, m, n):
+def derivatives(state, t, m, n, use_gr, gr_factor):
     positions = state[:2*n]
     velocities = state[2*n:]
     accelerations = np.zeros(2*n)
@@ -22,8 +23,16 @@ def derivatives(state, t, m, n):
                 dy = positions[2*j+1] - positions[2*i+1]
                 r = np.sqrt(dx**2 + dy**2)
                 if r > 0:
-                    accelerations[2*i] += G * m[j] * dx / r**3
-                    accelerations[2*i+1] += G * m[j] * dy / r**3
+                    # Newtonian acceleration
+                    a_newton = G * m[j] / r**3
+                    accelerations[2*i] += a_newton * dx
+                    accelerations[2*i+1] += a_newton * dy
+                    # GR correction (simplified post-Newtonian term)
+                    if use_gr and gr_factor > 0:
+                        gamma = gr_factor * (G * m[j]) / (C**2 * r)
+                        a_gr = a_newton * gamma
+                        accelerations[2*i] += a_gr * dx
+                        accelerations[2*i+1] += a_gr * dy
     return np.concatenate([velocities, accelerations])
 
 class NBodyGUI:
@@ -43,11 +52,25 @@ class NBodyGUI:
         self.n_spin = tk.Spinbox(root, from_=1, to=5, textvariable=self.n_var)
         self.n_spin.pack()
 
-        # Input fields for masses and positions
+        # Input fields for masses, positions, and velocities
         self.mass_entries = []
         self.pos_entries = []
+        self.vel_entries = []
         self.input_frame = tk.Frame(root)
         self.input_frame.pack()
+
+        # GR toggle and factor
+        self.gr_frame = tk.Frame(root)
+        self.gr_frame.pack()
+        self.use_gr_var = tk.BooleanVar(value=False)
+        self.gr_check = tk.Checkbutton(self.gr_frame, text="Use GR Approximation", variable=self.use_gr_var, command=self.update_simulation)
+        self.gr_check.pack(side=tk.LEFT)
+        self.gr_factor_label = tk.Label(self.gr_frame, text="GR Factor:")
+        self.gr_factor_label.pack(side=tk.LEFT)
+        self.gr_factor_var = tk.StringVar(value="1000")  # Exaggerated for visibility
+        self.gr_factor_var.trace("w", self.update_simulation)
+        self.gr_factor_entry = tk.Entry(self.gr_frame, textvariable=self.gr_factor_var, width=10)
+        self.gr_factor_entry.pack(side=tk.LEFT)
 
         # Total time and num frames
         self.time_label = tk.Label(root, text="Total Time (s):")
@@ -95,6 +118,7 @@ class NBodyGUI:
         n = self.n_var.get()
         self.mass_entries = []
         self.pos_entries = []
+        self.vel_entries = []
 
         # Create new input fields
         for i in range(n):
@@ -122,8 +146,22 @@ class NBodyGUI:
             y_entry = tk.Entry(self.input_frame, textvariable=y_var)
             y_entry.grid(row=i, column=6)
             self.pos_entries.append((x_entry, y_entry))
+            
+            vel_label = tk.Label(self.input_frame, text="vx (m/s):")
+            vel_label.grid(row=i, column=7)
+            vx_var = tk.StringVar(value="0")
+            vx_var.trace("w", self.update_simulation)
+            vx_entry = tk.Entry(self.input_frame, textvariable=vx_var)
+            vx_entry.grid(row=i, column=8)
+            
+            vel_label_y = tk.Label(self.input_frame, text="vy (m/s):")
+            vel_label_y.grid(row=i, column=9)
+            vy_var = tk.StringVar(value="0" if i == 0 else "2.11e4" if i == 1 and n == 2 else "0")
+            vy_var.trace("w", self.update_simulation)
+            vy_entry = tk.Entry(self.input_frame, textvariable=vy_var)
+            vy_entry.grid(row=i, column=10)
+            self.vel_entries.append((vx_entry, vy_entry))
 
-        # Trigger simulation update
         self.update_simulation()
 
     def get_parameters(self):
@@ -135,14 +173,20 @@ class NBodyGUI:
                 x = float(x_entry.get()) * AU
                 y = float(y_entry.get()) * AU
                 initial_positions.extend([x, y])
+            initial_velocities = []
+            for vx_entry, vy_entry in self.vel_entries:
+                vx = float(vx_entry.get())
+                vy = float(vy_entry.get())
+                initial_velocities.extend([vx, vy])
             total_time = float(self.time_var.get())
             num_frames = int(self.frames_var.get())
-            return n, m, initial_positions, total_time, num_frames
+            use_gr = self.use_gr_var.get()
+            gr_factor = float(self.gr_factor_var.get())
+            return n, m, initial_positions, initial_velocities, total_time, num_frames, use_gr, gr_factor
         except ValueError:
             return None
 
     def update_simulation(self, *args):
-        # Stop existing animation if running
         if self.ani is not None:
             self.ani.event_source.stop()
             self.running = False
@@ -151,14 +195,12 @@ class NBodyGUI:
         if params is None:
             return
 
-        n, m, initial_positions, total_time, num_frames = params
-        initial_velocities = [0.0] * (2 * n)  # Zero initial velocities
+        n, m, initial_positions, initial_velocities, total_time, num_frames, use_gr, gr_factor = params
         initial_state = np.array(initial_positions + initial_velocities)
 
         times = np.linspace(0, total_time, num_frames)
-        sol = odeint(derivatives, initial_state, times, args=(m, n))
+        sol = odeint(derivatives, initial_state, times, args=(m, n, use_gr, gr_factor))
 
-        # Setup animation
         self.ax.clear()
         x_all = sol[:, 0:2*n:2] / AU
         y_all = sol[:, 1:2*n:2] / AU
@@ -166,7 +208,8 @@ class NBodyGUI:
         self.ax.set_ylim(np.min(y_all) * 1.1, np.max(y_all) * 1.1)
         self.ax.set_xlabel("x (AU)")
         self.ax.set_ylabel("y (AU)")
-        self.ax.set_title("N-Body Simulation")
+        title = "N-Body Simulation (Newtonian)" if not use_gr else "N-Body Simulation (GR Approx)"
+        self.ax.set_title(title)
         self.ax.grid(True)
 
         scatter = self.ax.scatter(x_all[0], y_all[0], c=np.arange(n), cmap='tab10', s=50)
@@ -175,7 +218,6 @@ class NBodyGUI:
             scatter.set_offsets(np.c_[x_all[frame], y_all[frame]])
             return scatter,
 
-        # Start new animation
         self.ani = animation.FuncAnimation(self.fig, update, frames=num_frames, interval=50, blit=True, repeat=True)
         self.running = True
         self.canvas.draw()
@@ -187,8 +229,7 @@ class NBodyGUI:
             self.output_text.insert(tk.END, "Invalid input parameters.\n")
             return
 
-        n, m, initial_positions, _, _ = params
-        initial_velocities = [0.0] * (2 * n)
+        n, m, initial_positions, initial_velocities, _, _, use_gr, gr_factor = params
         initial_state = np.array(initial_positions + initial_velocities)
         try:
             t_future = float(self.predict_var.get())
@@ -197,10 +238,10 @@ class NBodyGUI:
             self.output_text.insert(tk.END, "Invalid future time.\n")
             return
 
-        sol = odeint(derivatives, initial_state, [0, t_future], args=(m, n))
+        sol = odeint(derivatives, initial_state, [0, t_future], args=(m, n, use_gr, gr_factor))
         positions = sol[-1, :2*n].reshape(n, 2) / AU
 
-        output = f"Positions at t = {t_future} s:\n"
+        output = f"Positions at t = {t_future} s ({'Newtonian' if not use_gr else 'GR Approx'}):\n"
         for i in range(n):
             output += f"Body {i+1}: x = {positions[i,0]:.2f} AU, y = {positions[i,1]:.2f} AU\n"
         output += "\nRelative distances:\n"
@@ -210,6 +251,8 @@ class NBodyGUI:
                 dy = positions[i,1] - positions[j,1]
                 dist = np.sqrt(dx**2 + dy**2)
                 output += f"Body {i+1} - Body {j+1}: {dist:.2f} AU\n"
+        if use_gr:
+            output += "\nGR Note: Precession exaggerated by factor for visibility.\n"
         self.output_text.delete(1.0, tk.END)
         self.output_text.insert(tk.END, output)
 
