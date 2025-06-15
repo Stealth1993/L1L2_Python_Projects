@@ -3,26 +3,18 @@ import matplotlib.pyplot as plt
 
 # Parameters
 x = np.linspace(-10, 10, 1000)
-t = 0
-m = 1.0  # Mass parameter
-k = 1.0  # Wave number
-omega = np.sqrt(k**2 + m**2)  # Frequency
+t = 0  # Time snapshot
+m = 1  # Mass
+k = 1  # Wave number
+omega = np.sqrt(k**2 + m**2)
 
 # Klein-Gordon solution (real part)
-def phi(x, t):
-    return np.sin(k * x - omega * t)
+phi = np.cos(k * x - omega * t)
 
-# Calculate the wave function
-wave_function = phi(x, t)
-
-# Plotting the wave function
-plt.figure(figsize=(10, 6))
-plt.plot(x, wave_function, label='t=0s')
+# Plot
+plt.plot(x, phi)
+plt.title('Klein-Gordon Equation: Scalar Field Wave')
 plt.xlabel('Position (x)')
-plt.ylabel('Wave Function (φ)')
-plt.title('Klein-Gordon Wave Function at t=0s')
-plt.xlim(-10, 10)
-plt.ylim(-1.5, 1.5)
+plt.ylabel('Field Amplitude (φ)')
 plt.grid(True)
-plt.legend()
 plt.show()
