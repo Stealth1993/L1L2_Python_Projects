@@ -55,3 +55,6 @@ plt.show()
 
 # Note: This code is a simplified simulation and does not include all physical effects present in real MHD systems.
 # It serves as a basic example of how to simulate MHD waves using numerical methods.
+
+# Application:
+# This code can be used in educational settings to demonstrate the principles of magnetohydrodynamics (MHD) and wave propagation in plasmas.
