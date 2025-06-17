@@ -54,4 +54,3 @@ plt.show()
 # The Newton-Raphson method is an iterative method that uses the derivative of the function to find the root.
 
 # Application of the Newton-Raphson method is common in numerical analysis and optimization problems.
-
