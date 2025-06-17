@@ -44,3 +44,14 @@ plt.ylabel('f(x)')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+# This code implements the Newton-Raphson method to find the root of the function f(x) = x² - 2.
+# It also plots the function and the iterations of the method to visualize convergence.
+# This code implements the Newton-Raphson method to find the root of the function f(x) = x² - 2.
+# It also plots the function and the iterations of the method to visualize convergence.
+# The function f(x) = x² - 2 has a root at x = sqrt(2), which is approximately 1.414.
+# The function f(x) = x² - 2 has a root at x = sqrt(2), which is approximately 1.414.
+# The Newton-Raphson method is an iterative method that uses the derivative of the function to find the root.
+
+# Application of the Newton-Raphson method is common in numerical analysis and optimization problems.
+
