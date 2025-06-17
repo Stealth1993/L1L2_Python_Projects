@@ -1,30 +1,32 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Parameters for the simulation
-num_particles = 1000  # Total number of particles
-decay_probability = 0.1  # Probability of decay per time step
-time_steps = 50  # Number of time steps to simulate
+# Description: This program simulates the exponential decay of a radioactive particle,
+# such as a muon, using a Monte Carlo approach to model the number of remaining particles
+# over time. It demonstrates particle physics concepts like half-life.
 
-# Initialize particle states
-particles = np.ones(num_particles)
+# Parameters
+N0 = 10000  # Initial number of particles
+tau = 2.2e-6  # Mean lifetime (s, e.g., muon)
+t = np.linspace(0, 5e-6, 1000)  # Time (s)
 
-# Store the number of surviving particles at each time step
-survivors = []
+# Decay probability
+decay_prob = 1 - np.exp(-t / tau)
+particles = N0 * np.exp(-t / tau)
 
-# Run the simulation
-for t in range(time_steps):
-    # Simulate decay
-    decay = np.random.rand(num_particles) < decay_probability
-    particles[decay] = 0  # Mark decayed particles
-    survivors.append(np.sum(particles))
+# Monte Carlo simulation
+rng = np.random.default_rng()
+decays = rng.exponential(tau, N0)
+decay_times = np.sort(decays)
+remaining = N0 - np.arange(N0)
 
-# Plot the results
+# Plot
 plt.figure(figsize=(10, 6))
-plt.plot(survivors, label='Surviving Particles', color='blue')
-plt.xlabel('Time Step')
-plt.ylabel('Number of Surviving Particles')
+plt.plot(t * 1e6, particles, 'b-', label='Analytical')
+plt.step(decay_times * 1e6, remaining, 'r-', label='Monte Carlo', alpha=0.5)
 plt.title('Particle Decay Simulation')
+plt.xlabel('Time (μs)')
+plt.ylabel('Number of Particles')
 plt.legend()
 plt.grid(True)
 plt.show()
