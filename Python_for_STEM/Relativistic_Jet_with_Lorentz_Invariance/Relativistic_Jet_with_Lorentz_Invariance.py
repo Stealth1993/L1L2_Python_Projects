@@ -37,3 +37,10 @@ plt.show()
 
 # This code simulates the relativistic jet with Lorentz invariance, calculating the Doppler factor and jet intensity as functions of angle from the jet axis.
 # The results are visualized in two plots: one for the Doppler factor and another for the jet intensity.
+
+# The Lorentz factor (gamma) is set to 10, and the angle (theta) varies from 0 to π/2 radians.
+# The Doppler factor is calculated using the formula: D = γ(1 - cos(θ))
+# The jet intensity is calculated using the formula: I = (γ² * sin²(θ)) / (1 + γ² * (1 - cos(θ))²)
+
+# The results are plotted to show how the Doppler factor and jet intensity change with angle.
+# The plots illustrate the relativistic effects on the jet as observed from different angles, demonstrating the impact of Lorentz invariance in astrophysical jets.
