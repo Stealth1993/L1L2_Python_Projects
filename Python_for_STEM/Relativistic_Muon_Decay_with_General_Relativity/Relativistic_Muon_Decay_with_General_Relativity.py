@@ -1,26 +1,26 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sympy import symbols, sqrt
+from sympy import symbols, sqrt as sympy_sqrt  # Rename for clarity
 
 # Parameters
 h, v = 10000, 0.99 * 3e8  # height in meters, speed in m/s
 c, tau = 3e8, 2.2e-6  # speed of light in m/s, muon lifetime in seconds
-N0, G, M = 10000, 6.67430e-11, 5.972e24  # number of muons, gravitational constant, mass of Earth in kg
+N0, G, M = 10000, 6.67430e-11, 5.972e24  # number of muons, G, Earth mass in kg
 R = 6.371e6  # radius of Earth in meters
 
-# GR time dilation factor
+# GR time dilation factor (symbolic)
 r = symbols('r')
 phi = -G * M / r
-gamma_GR = sqrt(1 - 2 * phi / (c**2))
+gamma_GR = sympy_sqrt(1 - 2 * phi / (c**2))
 gamma_GR_val = float(gamma_GR.subs(r, R + h).evalf())  # Convert to Python float
 
-# Special Relativity time dilation factor
-gamma_SR = 1 / sqrt(1 - (v / c)**2)
+# SR time dilation factor (numerical)
+gamma_SR = 1 / np.sqrt(1 - (v / c)**2)  # Use np.sqrt
 
-# Total time dilation factor
+# Total effective time
 t_eff = h / v / (gamma_SR * gamma_GR_val)
 
-# Decay
+# Decay calculations
 N_GR = N0 * np.exp(-t_eff / tau)
 N_nonreal = N0 * np.exp(-h / v / tau)
 
