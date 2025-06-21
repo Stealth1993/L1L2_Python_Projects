@@ -35,3 +35,15 @@ plt.grid(axis='y')
 plt.tight_layout()
 plt.savefig('muon_decay_comparison.png')
 plt.show()
+
+# This code simulates the decay of muons considering both General and Special Relativity, comparing the number of muons remaining after a certain time. The results are visualized in a bar chart.
+# The code uses numpy for numerical calculations and sympy for symbolic mathematics, ensuring accurate handling of the relativistic effects.
+# The plot shows the difference in muon decay predictions between General Relativity and Special Relativity, highlighting the impact of gravitational time dilation.
+# The code is structured to be clear and efficient, with comments explaining each step.
+# The code is designed to be run in a Python environment with the necessary libraries installed.
+
+# Applications:
+# 1. Particle Physics: Understanding muon decay helps in studying fundamental particles and their interactions.
+# 2. Astrophysics: Time dilation effects are crucial in understanding cosmic ray muons and their behavior in Earth's atmosphere.
+# 3. Education: This code serves as an educational tool to illustrate the principles of relativity in a practical scenario.
+# 4. Experimental Physics: The results can be compared with experimental data to validate relativistic predictions.
