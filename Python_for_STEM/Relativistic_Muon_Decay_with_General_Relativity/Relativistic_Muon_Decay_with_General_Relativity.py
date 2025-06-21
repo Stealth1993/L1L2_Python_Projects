@@ -9,10 +9,10 @@ N0, G, M = 10000, 6.67430e-11, 5.972e24  # number of muons, gravitational consta
 R = 6.371e6  # radius of Earth in meters
 
 # GR time dilation factor
-r, t = symbols('r t')
+r = symbols('r')
 phi = -G * M / r
 gamma_GR = sqrt(1 - 2 * phi / (c**2))
-gamma_GR_val = float(gamma_GR.subs(r, R + h).evalf())
+gamma_GR_val = float(gamma_GR.subs(r, R + h).evalf())  # Convert to Python float
 
 # Special Relativity time dilation factor
 gamma_SR = 1 / sqrt(1 - (v / c)**2)
