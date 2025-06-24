@@ -27,6 +27,10 @@ main_frame.pack(expand=True, fill='both', padx=20, pady=20)
 title_label = tk.Label(main_frame, text="File Transfer", font=("Arial", 16), bg=bg_color, fg=text_color, relief='raised')
 title_label.pack(pady=10)
 
+# Informational button
+info_button = tk.Button(main_frame, text="i", font=("Arial", 12), bg=button_bg, fg=button_fg, relief='raised', command=lambda: messagebox.showinfo("Information", 'Download "Wormhole William" on your smartphone to send/receive files. Use CLI or this Windows app for file sharing between Windows machines.'))
+info_button.pack(anchor='ne', padx=10, pady=10)
+
 # Button frame with 3D effect
 button_frame = tk.Frame(main_frame, bg=bg_color, borderwidth=2, relief='groove')
 button_frame.pack(pady=10)
@@ -80,6 +84,7 @@ def send_file():
     file_path = filedialog.askopenfilename()
     if file_path:
         status_label.config(text="Sending file...")
+        message_label.config(text="")  # Clear message when new task starts
         send_file_button.config(state=tk.DISABLED)
         send_message_button.config(state=tk.DISABLED)
         receive_button.config(state=tk.DISABLED)
@@ -91,6 +96,7 @@ def send_message():
     message = simpledialog.askstring("Send Message", "Enter the message to send:")
     if message:
         status_label.config(text="Sending message...")
+        message_label.config(text="")  # Clear message when new task starts
         send_file_button.config(state=tk.DISABLED)
         send_message_button.config(state=tk.DISABLED)
         receive_button.config(state=tk.DISABLED)
@@ -129,6 +135,7 @@ def receive_file():
     code = simpledialog.askstring("Receive", "Enter wormhole code:")
     if code:
         status_label.config(text="Receiving...")
+        message_label.config(text="")  # Clear message when new task starts
         send_file_button.config(state=tk.DISABLED)
         send_message_button.config(state=tk.DISABLED)
         receive_button.config(state=tk.DISABLED)
@@ -197,7 +204,6 @@ def check_queue():
                 cancel_button.config(state=tk.DISABLED)
                 code_label.config(text="")
                 qr_label.config(image="")
-                message_label.config(text="")
             elif msg[0] == "error":
                 messagebox.showerror("Error", msg[1])
                 status_label.config(text="Error")
