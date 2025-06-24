@@ -10,7 +10,8 @@ from PIL import Image, ImageTk
 bg_color = "#050608"      # Dark background
 text_color = "#f00487"    # Pink text
 button_bg = "#A4C639"     # Android Green for buttons
-button_fg = "#ffffff"     # White text on buttons
+button_fg = "#150303"     # White text on buttons
+variable_fg = "#DADE74"     # White text on buttons
 
 # Create main window
 root = tk.Tk()
@@ -46,10 +47,10 @@ exit_button.grid(row=0, column=3, padx=5)
 status_frame = tk.Frame(main_frame, bg=bg_color)
 status_frame.pack(pady=5)
 
-status_label = tk.Label(status_frame, text="Ready", bg=bg_color, fg=text_color)
+status_label = tk.Label(status_frame, text="Ready", bg=bg_color, fg=variable_fg)
 status_label.pack()
 
-code_label = tk.Label(status_frame, text="", bg=bg_color, fg=text_color)
+code_label = tk.Label(status_frame, text="", bg=bg_color, fg=variable_fg)
 code_label.pack()
 
 # QR frame
