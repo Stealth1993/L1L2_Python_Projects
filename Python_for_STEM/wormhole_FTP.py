@@ -9,43 +9,39 @@ from PIL import Image, ImageTk
 # Color definitions
 bg_color = "#050608"      # Dark background
 text_color = "#f00487"    # Pink text
-button_bg = "#A4C639"     # Android Green for buttons
+button_bg = "#A4C639"     # Light green for buttons
 button_fg = "#150303"     # Button text color
-variable_fg = "#DADE74"   # Text color for status and messages
+variable_fg = "#DADE74"   # Yellow-green for status and messages
 
 # Create main window
 root = tk.Tk()
 root.title("File Transfer using Magic Wormhole")
 root.configure(bg=bg_color)
-root.geometry("600x400")  # Slightly bigger window
+root.geometry("600x400")
 
-# Create main frame
+# Main frame
 main_frame = tk.Frame(root, bg=bg_color)
 main_frame.pack(expand=True, fill='both', padx=20, pady=20)
 
-# Title label with 3D effect
-title_label = tk.Label(main_frame, text="File Transfer", font=("Arial", 16), bg=bg_color, fg=text_color, relief='raised')
+# Title label
+title_label = tk.Label(main_frame, text="File Transfer", font=("Arial", 16), bg=bg_color, fg=text_color)
 title_label.pack(pady=10)
 
-# Informational button
-info_button = tk.Button(main_frame, text="i", font=("Arial", 12), bg=button_bg, fg=button_fg, relief='raised', command=lambda: messagebox.showinfo("Information", 'Download "Wormhole William" on your smartphone to send/receive files. Use CLI or this Windows app for file sharing between Windows machines.'))
-info_button.pack(anchor='ne', padx=10, pady=10)
-
-# Button frame with 3D effect
-button_frame = tk.Frame(main_frame, bg=bg_color, borderwidth=2, relief='groove')
+# Button frame
+button_frame = tk.Frame(main_frame, bg=bg_color)
 button_frame.pack(pady=10)
 
-# Buttons with 3D effect
-send_file_button = tk.Button(button_frame, text="Send File", bg=button_bg, fg=button_fg, relief='raised', command=lambda: send_file())
+# Buttons
+send_file_button = tk.Button(button_frame, text="Send File", bg=button_bg, fg=button_fg, command=lambda: send_file())
 send_file_button.grid(row=0, column=0, padx=5)
 
-send_message_button = tk.Button(button_frame, text="Send Message", bg=button_bg, fg=button_fg, relief='raised', command=lambda: send_message())
+send_message_button = tk.Button(button_frame, text="Send Message", bg=button_bg, fg=button_fg, command=lambda: send_message())
 send_message_button.grid(row=0, column=1, padx=5)
 
-receive_button = tk.Button(button_frame, text="Receive", bg=button_bg, fg=button_fg, relief='raised', command=lambda: receive_file())
+receive_button = tk.Button(button_frame, text="Receive", bg=button_bg, fg=button_fg, command=lambda: receive_file())
 receive_button.grid(row=0, column=2, padx=5)
 
-cancel_button = tk.Button(button_frame, text="Cancel", bg=button_bg, fg=button_fg, relief='raised', command=lambda: cancel_operation(), state=tk.DISABLED)
+cancel_button = tk.Button(button_frame, text="Cancel", bg=button_bg, fg=button_fg, command=lambda: cancel_operation(), state=tk.DISABLED)
 cancel_button.grid(row=0, column=3, padx=5)
 
 # Status frame
@@ -68,23 +64,20 @@ qr_frame.pack(pady=5)
 qr_label = tk.Label(qr_frame, bg=bg_color)
 qr_label.pack()
 
-# Bottom frame for Exit button
-bottom_frame = tk.Frame(root, bg=bg_color)
-bottom_frame.pack(side='bottom', fill='x')
-
-exit_button = tk.Button(bottom_frame, text="Exit", bg=button_bg, fg=button_fg, relief='raised', command=root.quit)
+# Exit button
+exit_button = tk.Button(main_frame, text="Exit", bg=button_bg, fg=button_fg, command=root.quit)
 exit_button.pack(pady=10)
 
-# Queue for status updates and process tracking
+# Queue and process tracking
 status_queue = queue.Queue()
 current_process = None
 
 def send_file():
     """Initiate file sending process."""
+    message_label.config(text="")  # Clear previous message
     file_path = filedialog.askopenfilename()
     if file_path:
         status_label.config(text="Sending file...")
-        message_label.config(text="")  # Clear message when new task starts
         send_file_button.config(state=tk.DISABLED)
         send_message_button.config(state=tk.DISABLED)
         receive_button.config(state=tk.DISABLED)
@@ -93,10 +86,10 @@ def send_file():
 
 def send_message():
     """Initiate message sending process."""
+    message_label.config(text="")  # Clear previous message
     message = simpledialog.askstring("Send Message", "Enter the message to send:")
     if message:
         status_label.config(text="Sending message...")
-        message_label.config(text="")  # Clear message when new task starts
         send_file_button.config(state=tk.DISABLED)
         send_message_button.config(state=tk.DISABLED)
         receive_button.config(state=tk.DISABLED)
@@ -104,20 +97,16 @@ def send_message():
         threading.Thread(target=send_thread, args=(None, message), daemon=True).start()
 
 def send_thread(file_path=None, message=None):
-    """Handle sending files or messages in a separate thread."""
+    """Handle sending files or messages."""
     global current_process
     try:
-        if message:
-            cmd = ["wormhole", "send", "--text", message]
-        else:
-            cmd = ["wormhole", "send", file_path]
+        cmd = ["wormhole", "send", "--text", message] if message else ["wormhole", "send", file_path]
         current_process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
         for line in iter(current_process.stdout.readline, ''):
             line = line.strip()
             if "Wormhole code is:" in line:
                 code = line.split(":", 1)[1].strip()
                 status_queue.put(("code", code))
-                # Generate and display QR code
                 qr_img = qrcode.make(code)
                 qr_img = qr_img.resize((200, 200), Image.Resampling.LANCZOS)
                 qr_photo = ImageTk.PhotoImage(qr_img)
@@ -131,11 +120,11 @@ def send_thread(file_path=None, message=None):
         status_queue.put(("error", str(e)))
 
 def receive_file():
-    """Initiate file or message receiving process."""
+    """Initiate receiving process."""
+    message_label.config(text="")  # Clear previous message
     code = simpledialog.askstring("Receive", "Enter wormhole code:")
     if code:
         status_label.config(text="Receiving...")
-        message_label.config(text="")  # Clear message when new task starts
         send_file_button.config(state=tk.DISABLED)
         send_message_button.config(state=tk.DISABLED)
         receive_button.config(state=tk.DISABLED)
@@ -143,7 +132,7 @@ def receive_file():
         threading.Thread(target=receive_thread, args=(code,), daemon=True).start()
 
 def receive_thread(code):
-    """Handle receiving files or messages in a separate thread."""
+    """Handle receiving files or messages."""
     global current_process
     try:
         current_process = subprocess.Popen(["wormhole", "receive", code], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
@@ -153,13 +142,11 @@ def receive_thread(code):
                 break
             line = line.strip()
             if "Receiving text message" in line:
-                # Next line is "Message: <the message>"
                 message_line = current_process.stdout.readline().strip()
                 if message_line.startswith("Message: "):
                     message = message_line[len("Message: "):]
                     status_queue.put(("message", message))
             elif "ok? (y/n):" in line:
-                # Automatically accept the file
                 current_process.stdin.write('y\n')
                 current_process.stdin.flush()
         current_process.wait()
@@ -171,7 +158,7 @@ def receive_thread(code):
         status_queue.put(("error", str(e)))
 
 def cancel_operation():
-    """Cancel any ongoing file or message transfer operation."""
+    """Cancel ongoing operation."""
     global current_process
     if current_process:
         current_process.terminate()
@@ -185,7 +172,7 @@ def cancel_operation():
         message_label.config(text="")
 
 def check_queue():
-    """Check the queue for updates and refresh the GUI."""
+    """Update GUI based on queue messages."""
     try:
         while True:
             msg = status_queue.get_nowait()
@@ -193,7 +180,7 @@ def check_queue():
                 code_label.config(text=f"Code: {msg[1]}")
             elif msg[0] == "qr":
                 qr_label.config(image=msg[1])
-                qr_label.image = msg[1]  # Keep reference to avoid garbage collection
+                qr_label.image = msg[1]  # Prevent garbage collection
             elif msg[0] == "message":
                 message_label.config(text=f"Received message: {msg[1]}")
             elif msg[0] == "done":
@@ -204,6 +191,7 @@ def check_queue():
                 cancel_button.config(state=tk.DISABLED)
                 code_label.config(text="")
                 qr_label.config(image="")
+                # Message persists until next task
             elif msg[0] == "error":
                 messagebox.showerror("Error", msg[1])
                 status_label.config(text="Error")
@@ -218,8 +206,6 @@ def check_queue():
         pass
     root.after(100, check_queue)
 
-# Start checking the queue
+# Start queue checking
 root.after(100, check_queue)
-
-# Run the main loop
 root.mainloop()
