@@ -16,12 +16,18 @@ button_fg = "#ffffff"     # White text on buttons
 root = tk.Tk()
 root.title("File Transfer using Magic Wormhole")
 root.configure(bg=bg_color)
+root.geometry("600x400")  # Slightly bigger window
 
-# Create widgets
-title_label = tk.Label(root, text="File Transfer", font=("Arial", 16), bg=bg_color, fg=text_color)
+# Create main frame
+main_frame = tk.Frame(root, bg=bg_color)
+main_frame.pack(expand=True, fill='both', padx=20, pady=20)
+
+# Title label
+title_label = tk.Label(main_frame, text="File Transfer", font=("Arial", 16), bg=bg_color, fg=text_color, relief= 'raised')
 title_label.pack(pady=10)
 
-button_frame = tk.Frame(root, bg=bg_color)
+# Button frame
+button_frame = tk.Frame(main_frame, bg=bg_color)
 button_frame.pack(pady=10)
 
 send_button = tk.Button(button_frame, text="Send", bg=button_bg, fg=button_fg, command=lambda: send_file())
@@ -36,14 +42,22 @@ cancel_button.grid(row=0, column=2, padx=5)
 exit_button = tk.Button(button_frame, text="Exit", bg=button_bg, fg=button_fg, command=root.quit)
 exit_button.grid(row=0, column=3, padx=5)
 
-status_label = tk.Label(root, text="Ready", bg=bg_color, fg=text_color)
-status_label.pack(pady=5)
+# Status frame
+status_frame = tk.Frame(main_frame, bg=bg_color)
+status_frame.pack(pady=5)
 
-code_label = tk.Label(root, text="", bg=bg_color, fg=text_color)
-code_label.pack(pady=5)
+status_label = tk.Label(status_frame, text="Ready", bg=bg_color, fg=text_color)
+status_label.pack()
 
-qr_label = tk.Label(root, bg=bg_color)
-qr_label.pack(pady=5)
+code_label = tk.Label(status_frame, text="", bg=bg_color, fg=text_color)
+code_label.pack()
+
+# QR frame
+qr_frame = tk.Frame(main_frame, bg=bg_color)
+qr_frame.pack(pady=5)
+
+qr_label = tk.Label(qr_frame, bg=bg_color)
+qr_label.pack()
 
 # Queue for status updates and process tracking
 status_queue = queue.Queue()
@@ -63,23 +77,22 @@ def send_thread(file_path):
     """Handle file sending in a separate thread."""
     global current_process
     try:
-        current_process = subprocess.Popen(["wormhole", "send", file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        for line in current_process.stdout:
+        current_process = subprocess.Popen(["wormhole", "send", file_path], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        for line in iter(current_process.stdout.readline, ''):
+            line = line.strip()
             if "Wormhole code is:" in line:
-                code = line.split(":")[1].strip()
+                code = line.split(":", 1)[1].strip()
                 status_queue.put(("code", code))
                 # Generate and display QR code
                 qr_img = qrcode.make(code)
                 qr_img = qr_img.resize((200, 200), Image.Resampling.LANCZOS)
                 qr_photo = ImageTk.PhotoImage(qr_img)
                 status_queue.put(("qr", qr_photo))
-            # Continue reading until the process ends
         current_process.wait()
         if current_process.returncode == 0:
             status_queue.put(("done", "Send complete"))
         else:
-            error_output = current_process.stderr.read()
-            status_queue.put(("error", "Send failed: " + error_output))
+            status_queue.put(("error", "Send failed"))
     except Exception as e:
         status_queue.put(("error", str(e)))
 
@@ -97,15 +110,14 @@ def receive_thread(code):
     """Handle file receiving in a separate thread."""
     global current_process
     try:
-        current_process = subprocess.Popen(["wormhole", "receive", code], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        for line in current_process.stdout:
+        current_process = subprocess.Popen(["wormhole", "receive", "--accept-file", code], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        for line in iter(current_process.stdout.readline, ''):
             pass  # Read output to prevent blocking
         current_process.wait()
         if current_process.returncode == 0:
             status_queue.put(("done", "Receive complete"))
         else:
-            error_output = current_process.stderr.read()
-            status_queue.put(("error", "Receive failed: " + error_output))
+            status_queue.put(("error", "Receive failed"))
     except Exception as e:
         status_queue.put(("error", str(e)))
 
