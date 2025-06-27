@@ -4,7 +4,7 @@ from scipy.special import iv
 
 # Parameters 
 B = 1e-6 # Magnetic field
-nu = np.longspace(8, 12, 100) # Frequency (Hz)
+nu = np.logspace(8, 12, 100) # Frequency (Hz)
 p = 2.5 # Power-low index
 N0 = 1e5 # Normalization
 
