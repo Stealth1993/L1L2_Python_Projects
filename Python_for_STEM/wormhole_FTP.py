@@ -1,3 +1,5 @@
+# magic-wormhole file transfer GUI application
+# This application allows users to send files and messages using the magic-wormhole protocol.
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog
 import threading
