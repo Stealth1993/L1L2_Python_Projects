@@ -15,3 +15,10 @@ plt.xlabel('Frequency (V)')
 plt.ylabel('Power (F(v/v_c))')
 plt.grid(True, which='both')
 plt.show()
+
+# This code generates a log-log plot of the synchrotron radiation spectrum using a simple approximation.y
+# F(v/v_c) = (v/v_c)^(1/3) * exp(-v/v_c)y
+# The frequency range is logarithmically spaced from 1 to 100,000.
+
+# Application:
+# This code can be used in astrophysics to visualize the synchrotron radiation spectrum emitted by relativistic electrons in magnetic fields.
