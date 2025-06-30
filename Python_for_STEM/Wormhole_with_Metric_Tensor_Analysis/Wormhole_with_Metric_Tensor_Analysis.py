@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sympy import symbols, Matrix
+from sympy import symbols, Matrix, simplify, diff
 
 # Parameters
 l, phi = np.linspace(0, 10, 100), np.linspace(0, 2 * np.pi, 100)
