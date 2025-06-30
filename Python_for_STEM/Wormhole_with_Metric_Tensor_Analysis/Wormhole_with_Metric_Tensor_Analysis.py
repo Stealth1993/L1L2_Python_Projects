@@ -1,53 +1,46 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sympy import symbols, Matrix, simplify, diff
+from sympy import symbols, Matrix, simplify, diff, lambdify
 
-# Parameters
-l, phi = np.linspace(0, 10, 100), np.linspace(0, 2 * np.pi, 100)
-L, PHI = np.meshgrid(l, phi)
-b0 = 1.0 # throat radius
+# Symbolic variables
+r, phi = symbols('r phi', real=True)
+b0 = symbols('b0', real=True, positive=True)  # Throat radius as a symbol
 
-# Embedding function
-z = np.sqrt(L**2 + b0**2) * np.exp(1j * PHI + np.pi / 2
-                                   )  # Wormhole throat in complex plane    
-# Metric tensor components
-def metric_tensor(L, PHI, b0):
-    g_tt = -1
-    g_rr = (L**2 + b0**2) / (L**2)
-    g_pp = (L**2 + b0**2) * L**2
-    g_zz = 1
+# Metric tensor components (symbolic)
+g_tt = -1
+g_rr = (r**2 + b0**2) / (r**2 + 1e-10)  # Avoid divide by zero with small offset
+g_pp = (r**2 + b0**2) * r**2
+g_zz = 1
+
+# Define metric tensor symbolically
+def metric_tensor(r, phi, b0):
     return Matrix([[g_tt, 0, 0, 0],
                    [0, g_rr, 0, 0],
                    [0, 0, g_pp, 0],
                    [0, 0, 0, g_zz]])
 
-# Calculate the metric tensor
-G = metric_tensor(L, PHI, b0)
-# Calculate the determinant of the metric tensor
-det_G = G.det()
-# Calculate the inverse of the metric tensor
-G_inv = G.inv()
-# Calculate the Christoffel symbols
-def christoffel_symbols(G):
-    gamma = np.zeros((4, 4, 4))
-    for i in range(4):
-        for j in range(4):
-            for k in range(4):
-                gamma[i, j, k] = 1/2 * sum(G_inv[i, l] * (G[l, j, k] + G[l, k, j] - G[j, k, l]) for l in range(4))
-    return gamma
-gamma = christoffel_symbols(G)
-# Calculate the Riemann curvature tensor
-def riemann_curvature_tensor(G, gamma):
-    R = np.zeros((4, 4, 4, 4))
-    for i in range(4):
-        for j in range(4):
-            for k in range(4):
-                for l in range(4):
-                    R[i, j, k, l] = (gamma[i, j, k].diff(l) - gamma[i, j, l].diff(k) +
-                                     sum(gamma[i, m, k] * gamma[m, j, l] - gamma[i, m, l] * gamma[m, j, k]
-                                         for m in range(4)))
-    return R
-R = riemann_curvature_tensor(G, gamma)
+# Calculate metric tensor
+G_sym = metric_tensor(r, phi, b0)
+
+# Determinant and inverse (symbolic)
+det_G_sym = G_sym.det()
+G_inv_sym = G_sym.inv()
+
+# Numerical evaluation setup
+r_vals, phi_vals = np.linspace(0.1, 10, 100), np.linspace(0, 2 * np.pi, 100)  # Start from 0.1 to avoid r=0
+R, PHI = np.meshgrid(r_vals, phi_vals)
+b0_val = 1.0
+
+# Lambdify for numerical evaluation
+g_rr_func = lambdify((r, b0), g_rr, "numpy")
+g_pp_func = lambdify((r, b0), g_pp, "numpy")
+
+# Numerical metric components
+g_rr_num = g_rr_func(R, b0_val)
+g_pp_num = g_pp_func(R, b0_val)
+
+# Wormhole embedding (numerical for plotting)
+z = np.sqrt(R**2 + b0_val**2) * np.exp(1j * PHI + np.pi / 2)
 
 # Plotting the wormhole
 fig = plt.figure(figsize=(10, 8))
