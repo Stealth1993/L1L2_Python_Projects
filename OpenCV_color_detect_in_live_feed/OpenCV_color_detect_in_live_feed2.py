@@ -73,8 +73,8 @@ while True:
     # Show the frame
     cv2.imshow("Color Detection", img)
 
-    # Exit the loop if 'q' is pressed
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    # Exit the loop if the window is closed
+    if cv2.getWindowProperty("Color Detection", cv2.WND_PROP_VISIBLE) < 1:
         break
 
 # Release the camera and close all windows
