@@ -7,37 +7,33 @@ if not cap.isOpened():
     print("Error: Could not open camera.")
     exit()
 
-# Set camera properties: width, height, and brightness
-cap.set(3, 1080)  # Width
-cap.set(4, 720)   # Height
-cap.set(10, 100)  # Brightness
+# Set resolution to 640x480 for better performance
+cap.set(3, 640)
+cap.set(4, 480)
 
-# Make the display window resizable
+# Create a resizable window
 cv2.namedWindow("Color Detection", cv2.WINDOW_NORMAL)
 
 while True:
-    # Capture a frame from the webcam
     success, img = cap.read()
     if not success:
         print("Failed to capture frame")
         continue
 
-    # Convert the frame from BGR to HSV color space
-    hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-
     # Get frame dimensions
     height, width, _ = img.shape
-
-    # Calculate the center point
     cx = int(width / 2)
     cy = int(height / 2)
 
     # Draw a green circle at the center to indicate detection point
     cv2.circle(img, (cx, cy), 10, (0, 255, 0), 2)
 
-    # Get HSV values at the center pixel
-    hsv_center = hsv_img[cy, cx]
-    hue_val = hsv_center[0]
+    # Get the center pixel in BGR
+    pixel_bgr = img[cy, cx]
+    # Reshape to 1x1x3 and convert to HSV for efficiency
+    pixel_bgr_reshaped = pixel_bgr.reshape(1,1,3)
+    pixel_hsv = cv2.cvtColor(pixel_bgr_reshaped, cv2.COLOR_BGR2HSV)
+    hue_val = pixel_hsv[0,0,0]
 
     # Determine color based on hue value
     color = "Undefined"
@@ -73,8 +69,13 @@ while True:
     # Show the frame
     cv2.imshow("Color Detection", img)
 
-    # Exit the loop if the window is closed
+    # Check if the window is closed
     if cv2.getWindowProperty("Color Detection", cv2.WND_PROP_VISIBLE) < 1:
+        print("Window closed, exiting...")
+        break
+
+    # Exit the loop if 'q' is pressed
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 # Release the camera and close all windows
