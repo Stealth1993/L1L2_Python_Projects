@@ -1,18 +1,16 @@
 import os
-from PIL import Image
+import cv2
+import numpy as np
 import pytesseract
-from img2table.document import Image as I2TImage, PDF as I2TPDF
-from img2table.ocr import TesseractOCR
 import pandas as pd
 from pdf2image import convert_from_path
 import PyPDF2
 from docx import Document
-from docx.shared import Inches
 import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
 
 # Note: This script requires the following installations:
-# pip install img2table pytesseract pandas openpyxl pdf2image PyPDF2 python-docx
+# pip install opencv-python pytesseract pandas openpyxl pdf2image PyPDF2 python-docx
 # Additionally, you need to have Tesseract OCR installed on your system[](https://github.com/tesseract-ocr/tesseract)
 # and Poppler for pdf2image[](https://pdf2image.readthedocs.io/en/latest/installation.html)
 
@@ -43,6 +41,100 @@ def select_file():
             combo_pages['values'] = ['1']
             combo_pages.current(0)
 
+def extract_table_from_image(image_path):
+    img = cv2.imread(image_path)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    thresh, img_bin = cv2.threshold(gray, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+    img_bin = 255 - img_bin
+
+    kernel_len = np.array(img).shape[1] // 120
+    vertical_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, kernel_len))
+    horizontal_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (kernel_len, 1))
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+
+    image_1 = cv2.erode(img_bin, vertical_kernel, iterations=3)
+    vertical_lines = cv2.dilate(image_1, vertical_kernel, iterations=3)
+
+    image_2 = cv2.erode(img_bin, horizontal_kernel, iterations=3)
+    horizontal_lines = cv2.dilate(image_2, horizontal_kernel, iterations=3)
+
+    img_vh = cv2.addWeighted(vertical_lines, 0.5, horizontal_lines, 0.5, 0.0)
+    img_vh = cv2.erode(~img_vh, kernel, iterations=2)
+    thresh, img_vh = cv2.threshold(img_vh, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+
+    contours, hierarchy = cv2.findContours(img_vh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+    bounding_boxes = [cv2.boundingRect(c) for c in contours]
+    (contours, bounding_boxes) = zip(*sorted(zip(contours, bounding_boxes), key=lambda b: b[1][1], reverse=False))
+
+    boxes = []
+    for contour in contours:
+        x, y, w, h = cv2.boundingRect(contour)
+        if (w < 1000 and h < 500 and w > 30 and h > 30):  # Adjust filters as needed
+            boxes.append([x, y, w, h])
+
+    if not boxes:
+        return None, pytesseract.image_to_string(gray)
+
+    rows = []
+    columns = []
+    heights = [bounding_boxes[i][3] for i in range(len(bounding_boxes))]
+    mean = np.mean(heights)
+
+    previous = boxes[0]
+    columns.append(boxes[0])
+    for i in range(1, len(boxes)):
+        if boxes[i][1] <= previous[1] + mean / 2:
+            columns.append(boxes[i])
+            previous = boxes[i]
+            if i == len(boxes) - 1:
+                rows.append(columns)
+        else:
+            rows.append(columns)
+            columns = []
+            previous = boxes[i]
+            columns.append(boxes[i])
+
+    total_cells = max(len(row) for row in rows)
+
+    centers = [int(sorted([row[j][0] + row[j][2] / 2 for j in range(len(row))])) for row in rows]
+    centers = np.unique(np.concatenate(centers))
+    centers.sort()
+
+    boxes_list = [[] for _ in range(len(rows))]
+    for i in range(len(rows)):
+        for j in range(len(rows[i])):
+            diff = abs(centers - (rows[i][j][0] + rows[i][j][2] / 4))
+            min_diff = min(diff)
+            index = np.argmin(diff)
+            boxes_list[i].insert(index, rows[i][j])
+
+    # Fill missing cells
+    for i in range(len(boxes_list)):
+        for j in range(total_cells):
+            if len(boxes_list[i]) < total_cells:
+                boxes_list[i].append([])
+
+    # OCR on cells
+    data = []
+    full_text = ''
+    for i in range(len(boxes_list)):
+        row = []
+        for j in range(len(boxes_list[i])):
+            if len(boxes_list[i][j]) == 0:
+                cell_text = ''
+            else:
+                x, y, w, h = boxes_list[i][j]
+                cell_img = gray[y:y+h, x:x+w]
+                cell_text = pytesseract.image_to_string(cell_img, config='--psm 6').strip()
+            row.append(cell_text)
+            full_text += cell_text + ' '
+        data.append(row)
+    full_text += '\n'
+
+    df = pd.DataFrame(data)
+    return df, full_text.strip()
+
 def process_file():
     input_file = entry_file_path.get()
     if not input_file:
@@ -58,9 +150,8 @@ def process_file():
 
     base_name = os.path.basename(input_file).rsplit('.', 1)[0]
     desktop = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop")
-    ocr = TesseractOCR(lang="eng")
-    text = ''
-    tables = []
+    all_dfs = []
+    all_text = ''
 
     if input_file.lower().endswith('.pdf'):
         num_pages = get_pdf_page_count(input_file)
@@ -68,28 +159,23 @@ def process_file():
             start, end = 1, num_pages
         else:
             start, end = map(int, page_range.split('-'))
-        pages_list = list(range(start, end + 1))
-
-        doc = I2TPDF(input_file, pages=pages_list, detect_rotation=False)
-        extracted = doc.extract_tables(ocr=ocr, min_confidence=50)
-        # extracted is OrderedDict {page: [tables]}
-        for page_tables in extracted.values():
-            tables.extend(page_tables)
-
-        # Convert selected pages to images for full text extraction
         page_imgs = convert_from_path(input_file, first_page=start, last_page=end)
-        for page_img in page_imgs:
-            text += pytesseract.image_to_string(page_img) + '\n\n'
+        for idx, page_img in enumerate(page_imgs, start=start):
+            temp_path = os.path.join(desktop, f"temp_page_{idx}.jpg")
+            page_img.save(temp_path, 'JPEG')
+            df, text = extract_table_from_image(temp_path)
+            if df is not None:
+                all_dfs.append((f"Page {idx}", df))
+            all_text += text + '\n\n'
+            os.remove(temp_path)
     else:
-        # Image
-        doc = I2TImage(input_file)
-        extracted_tables = doc.extract_tables(ocr=ocr, min_confidence=50)
-        tables.extend(extracted_tables)
+        df, text = extract_table_from_image(input_file)
+        if df is not None:
+            all_dfs.append(("Table 1", df))
+        all_text = text
 
-        img = Image.open(input_file)
-        text = pytesseract.image_to_string(img)
+    has_tables = len(all_dfs) > 0
 
-    # Now, based on selected output type
     ext_map = {'Excel': '.xlsx', 'TXT': '.txt', 'DOC': '.docx'}
     output_ext = ext_map[output_type]
     range_str = page_range.replace('-', '_') if page_range != 'All' else 'all'
@@ -97,31 +183,26 @@ def process_file():
 
     if output_type == 'Excel':
         writer = pd.ExcelWriter(output, engine='openpyxl')
-        text_lines = pd.DataFrame({'Extracted Text': text.split('\n')})
-        text_lines.to_excel(writer, sheet_name='Full Text', index=False)
-        for i, table in enumerate(tables, 1):
-            df = table.df
-            df.to_excel(writer, sheet_name=f'Table {i}', index=False)
+        text_df = pd.DataFrame({'Extracted Text': all_text.split('\n')})
+        text_df.to_excel(writer, sheet_name='Full Text', index=False)
+        for sheet_name, df in all_dfs:
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
         writer.close()
     elif output_type == 'TXT':
         with open(output, 'w', encoding='utf-8') as f:
-            f.write(text)
+            f.write(all_text)
     elif output_type == 'DOC':
         doc = Document()
         doc.add_heading('Extracted Text', level=1)
-        for line in text.splitlines():
-            doc.add_paragraph(line)
-        if tables:
+        doc.add_paragraph(all_text)
+        if has_tables:
             doc.add_heading('Extracted Tables', level=1)
-            for i, table in enumerate(tables, 1):
-                doc.add_heading(f'Table {i}', level=2)
-                df = table.df
+            for sheet_name, df in all_dfs:
+                doc.add_heading(sheet_name, level=2)
                 table_doc = doc.add_table(rows=df.shape[0] + 1, cols=df.shape[1])
                 table_doc.style = 'Table Grid'
-                # Add header
                 for j, col in enumerate(df.columns):
                     table_doc.cell(0, j).text = str(col)
-                # Add rows
                 for row_idx, row in df.iterrows():
                     for j, val in enumerate(row):
                         table_doc.cell(row_idx + 1, j).text = str(val)
