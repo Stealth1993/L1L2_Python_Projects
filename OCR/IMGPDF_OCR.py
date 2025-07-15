@@ -3,6 +3,8 @@ import cv2
 import numpy as np
 import pytesseract
 import pandas as pd
+from sklearn.cluster import AgglomerativeClustering
+from pytesseract import Output
 from pdf2image import convert_from_path
 import PyPDF2
 from docx import Document
@@ -10,7 +12,7 @@ import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
 
 # Note: This script requires the following installations:
-# pip install opencv-python pytesseract pandas openpyxl pdf2image PyPDF2 python-docx
+# pip install opencv-python pytesseract pandas openpyxl pdf2image PyPDF2 python-docx scikit-learn
 # Additionally, you need to have Tesseract OCR installed on your system[](https://github.com/tesseract-ocr/tesseract)
 # and Poppler for pdf2image[](https://pdf2image.readthedocs.io/en/latest/installation.html)
 
@@ -41,99 +43,133 @@ def select_file():
             combo_pages['values'] = ['1']
             combo_pages.current(0)
 
-def extract_table_from_image(image_path):
-    img = cv2.imread(image_path)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    thresh, img_bin = cv2.threshold(gray, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
-    img_bin = 255 - img_bin
+def extract_table_from_image(image_path, min_conf=0, dist_thresh=25.0, min_size=2):
+    # load the input image and convert it to grayscale
+    image = cv2.imread(image_path)
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    kernel_len = np.array(img).shape[1] // 120
-    vertical_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, kernel_len))
-    horizontal_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (kernel_len, 1))
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+    # initialize a rectangular kernel that is ~5x wider than it is tall,
+    # then smooth the image using a 3x3 Gaussian blur and then apply a
+    # blackhat morph operator to find dark regions on a light background
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (51, 11))
+    gray = cv2.GaussianBlur(gray, (3, 3), 0)
+    blackhat = cv2.morphologyEx(gray, cv2.MORPH_BLACKHAT, kernel)
 
-    image_1 = cv2.erode(img_bin, vertical_kernel, iterations=3)
-    vertical_lines = cv2.dilate(image_1, vertical_kernel, iterations=3)
+    # compute the Scharr gradient of the blackhat image and scale the
+    # result into the range [0, 255]
+    grad = cv2.Sobel(blackhat, ddepth=cv2.CV_32F, dx=1, dy=0, ksize=-1)
+    grad = np.absolute(grad)
+    (minVal, maxVal) = (np.min(grad), np.max(grad))
+    grad = (grad - minVal) / (maxVal - minVal)
+    grad = (grad * 255).astype("uint8")
 
-    image_2 = cv2.erode(img_bin, horizontal_kernel, iterations=3)
-    horizontal_lines = cv2.dilate(image_2, horizontal_kernel, iterations=3)
+    # apply a closing operation using the rectangular kernel to close
+    # gaps in between characters, apply Otsu's thresholding method, and
+    # finally a dilation operation to enlarge foreground regions
+    grad = cv2.morphologyEx(grad, cv2.MORPH_CLOSE, kernel)
+    thresh = cv2.threshold(grad, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+    thresh = cv2.dilate(thresh, None, iterations=3)
 
-    img_vh = cv2.addWeighted(vertical_lines, 0.5, horizontal_lines, 0.5, 0.0)
-    img_vh = cv2.erode(~img_vh, kernel, iterations=2)
-    thresh, img_vh = cv2.threshold(img_vh, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
-
-    contours, hierarchy = cv2.findContours(img_vh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-
-    bounding_boxes = [cv2.boundingRect(c) for c in contours]
-    (contours, bounding_boxes) = zip(*sorted(zip(contours, bounding_boxes), key=lambda b: b[1][1], reverse=False))
-
-    boxes = []
-    for contour in contours:
-        x, y, w, h = cv2.boundingRect(contour)
-        if (w < 1000 and h < 500 and w > 30 and h > 30):  # Adjust filters as needed
-            boxes.append([x, y, w, h])
-
-    if not boxes:
+    # find contours in the thresholded image and grab the largest one,
+    # which we will assume is the stats table
+    cnts, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    if len(cnts) == 0:
         return None, pytesseract.image_to_string(gray)
+    tableCnt = max(cnts, key=cv2.contourArea)
 
-    rows = []
-    columns = []
-    heights = [bounding_boxes[i][3] for i in range(len(bounding_boxes))]
-    mean = np.mean(heights)
+    # compute the bounding box coordinates of the stats table and extract
+    # the table from the input image
+    (x, y, w, h) = cv2.boundingRect(tableCnt)
+    table = image[y:y + h, x:x + w]
 
-    previous = boxes[0]
-    columns.append(boxes[0])
-    for i in range(1, len(boxes)):
-        if boxes[i][1] <= previous[1] + mean / 2:
-            columns.append(boxes[i])
-            previous = boxes[i]
-            if i == len(boxes) - 1:
-                rows.append(columns)
-        else:
-            rows.append(columns)
-            columns = []
-            previous = boxes[i]
-            columns.append(boxes[i])
+    # set the PSM mode to detect sparse text, and then localize text in
+    # the table
+    options = "--psm 6"
+    results = pytesseract.image_to_data(cv2.cvtColor(table, cv2.COLOR_BGR2RGB), config=options, output_type=Output.DICT)
 
-    total_cells = max(len(row) for row in rows)
-
-    centers = [int(sorted([row[j][0] + row[j][2] / 2 for j in range(len(row))])) for row in rows]
-    centers = np.unique(np.concatenate(centers))
-    centers.sort()
-
-    boxes_list = [[] for _ in range(len(rows))]
-    for i in range(len(rows)):
-        for j in range(len(rows[i])):
-            diff = abs(centers - (rows[i][j][0] + rows[i][j][2] / 4))
-            min_diff = min(diff)
-            index = np.argmin(diff)
-            boxes_list[i].insert(index, rows[i][j])
-
-    # Fill missing cells
-    for i in range(len(boxes_list)):
-        for j in range(total_cells):
-            if len(boxes_list[i]) < total_cells:
-                boxes_list[i].append([])
-
-    # OCR on cells
-    data = []
+    # initialize a list to store the (x, y)-coordinates of the detected
+    # text along with the OCR'd text itself
+    coords = []
+    ocrText = []
     full_text = ''
-    for i in range(len(boxes_list)):
-        row = []
-        for j in range(len(boxes_list[i])):
-            if len(boxes_list[i][j]) == 0:
-                cell_text = ''
-            else:
-                x, y, w, h = boxes_list[i][j]
-                cell_img = gray[y:y+h, x:x+w]
-                cell_text = pytesseract.image_to_string(cell_img, config='--psm 6').strip()
-            row.append(cell_text)
-            full_text += cell_text + ' '
-        data.append(row)
-    full_text += '\n'
 
-    df = pd.DataFrame(data)
-    return df, full_text.strip()
+    # loop over each of the individual text localizations
+    for i in range(0, len(results["text"])):
+        # extract the bounding box coordinates of the text region from
+        # the current result
+        x = results["left"][i]
+        y = results["top"][i]
+        w = results["width"][i]
+        h = results["height"][i]
+
+        # extract the OCR text itself along with the confidence of the
+        # text localization
+        text = results["text"][i]
+        conf = int(float(results["conf"][i]))
+
+        # filter out weak confidence text localizations
+        if conf > min_conf:
+            coords.append((x, y, w, h))
+            cleaned_text = text.strip()
+            ocrText.append(cleaned_text)
+            full_text += cleaned_text + ' '
+
+    full_text = full_text.strip()
+
+    if not coords:
+        return None, full_text
+
+    # extract all x-coordinates from the text prediction bounding boxes,
+    # setting the y-coordinate value to zero
+    xCoords = [(c[0], 0) for c in coords]
+
+    # apply hierarchical agglomerative clustering to the coordinates
+    clustering = AgglomerativeClustering(n_clusters=None, metric="manhattan", linkage="complete", distance_threshold=dist_thresh)
+    clustering.fit(xCoords)
+
+    # initialize our list of sorted clusters
+    sortedClusters = []
+
+    # loop over all clusters
+    for l in np.unique(clustering.labels_):
+        # extract the indexes for the coordinates belonging to the
+        # current cluster
+        idxs = np.where(clustering.labels_ == l)[0]
+
+        # verify that the cluster is sufficiently large
+        if len(idxs) >= min_size:
+            # compute the average x-coordinate value of the cluster and
+            # update our clusters list with the current label and the
+            # average x-coordinate
+            avg = np.average([coords[i][0] for i in idxs])
+            sortedClusters.append((l, avg))
+
+    # sort the clusters by their average x-coordinate and initialize our
+    # data frame
+    sortedClusters.sort(key=lambda x: x[1])
+    df = pd.DataFrame()
+
+    # loop over the clusters
+    for (l, _) in sortedClusters:
+        # extract the indexes for the coordinates belonging to the
+        # current cluster
+        idxs = np.where(clustering.labels_ == l)[0]
+
+        # extract the y-coordinates from the elements in the current
+        # cluster, then sort them from top-to-bottom
+        yCoords = [coords[i][1] for i in idxs]
+        sortedIdxs = sorted(range(len(yCoords)), key=lambda k: yCoords[k])
+
+        # extract the OCR'd text for the current column
+        cols = [ocrText[idxs[i]] for i in sortedIdxs]
+
+        # construct a column for the current cluster (column) and append it to the dataframe
+        # assuming the first entry is the header
+        if cols:
+            column = pd.DataFrame({cols[0]: cols[1:] if len(cols) > 1 else []})
+            df = pd.concat([df, column], axis=1)
+
+    return df, full_text
 
 def process_file():
     input_file = entry_file_path.get()
@@ -164,13 +200,13 @@ def process_file():
             temp_path = os.path.join(desktop, f"temp_page_{idx}.jpg")
             page_img.save(temp_path, 'JPEG')
             df, text = extract_table_from_image(temp_path)
-            if df is not None:
+            if df is not None and not df.empty:
                 all_dfs.append((f"Page {idx}", df))
             all_text += text + '\n\n'
             os.remove(temp_path)
     else:
         df, text = extract_table_from_image(input_file)
-        if df is not None:
+        if df is not None and not df.empty:
             all_dfs.append(("Table 1", df))
         all_text = text
 
@@ -205,7 +241,7 @@ def process_file():
                     table_doc.cell(0, j).text = str(col)
                 for row_idx, row in df.iterrows():
                     for j, val in enumerate(row):
-                        table_doc.cell(row_idx + 1, j).text = str(val)
+                        table_doc.cell(row_idx + 1, j).text = str(val) if pd.notnull(val) else ''
         doc.save(output)
 
     messagebox.showinfo("Success", f"File saved to {output}")
