@@ -1,24 +1,18 @@
 import os
 from PIL import Image
 import pytesseract
-from pytesseract import Output
 import pandas as pd
 from pdf2image import convert_from_path
 import PyPDF2
-from docx import Document
 import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
 import torch
 from transformers import DetrImageProcessor, TableTransformerForObjectDetection
 import numpy as np
 import cv2
+from docx import Document
 
-# Note: This script requires the following installations:
-# pip install transformers pytesseract huggingface-hub pandas openpyxl pdf2image PyPDF2 python-docx torch opencv-python
-# Additionally, you need to have Tesseract OCR installed on your system[](https://github.com/tesseract-ocr/tesseract)
-# For Linux: sudo apt install tesseract-ocr
-# For Windows/Mac: Download and install from the Tesseract GitHub releases.
-# and Poppler for pdf2image[](https://pdf2image.readthedocs.io/en/latest/installation.html)
+# Note: Ensure Tesseract OCR is installed and added to PATH
 
 def get_pdf_page_count(pdf_path):
     with open(pdf_path, 'rb') as f:
@@ -59,7 +53,7 @@ def extract_table_from_image(image_path):
     # Table Detection
     detection_processor = DetrImageProcessor()
     detection_model = TableTransformerForObjectDetection.from_pretrained(
-        "microsoft/table-transformer-detection", revision="no_timm"
+        "microsoft/table-transformer-detection"
     )
 
     inputs = detection_processor(images=image, return_tensors="pt")
@@ -77,7 +71,7 @@ def extract_table_from_image(image_path):
             # Table Structure Recognition
             structure_processor = DetrImageProcessor()
             structure_model = TableTransformerForObjectDetection.from_pretrained(
-                "microsoft/table-transformer-structure-recognition", revision="no_timm"
+                "microsoft/table-transformer-structure-recognition"
             )
 
             structure_inputs = structure_processor(images=cropped_table, return_tensors="pt")
