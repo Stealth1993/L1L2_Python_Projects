@@ -10,12 +10,11 @@ import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
 import torch
 from transformers import DetrImageProcessor, TableTransformerForObjectDetection
-import warnings
-
-warnings.filterwarnings("ignore")
+import numpy as np
+import cv2
 
 # Note: This script requires the following installations:
-# pip install transformers timm pytesseract huggingface-hub pandas openpyxl pdf2image PyPDF2 python-docx torch
+# pip install transformers pytesseract huggingface-hub pandas openpyxl pdf2image PyPDF2 python-docx torch opencv-python
 # Additionally, you need to have Tesseract OCR installed on your system[](https://github.com/tesseract-ocr/tesseract)
 # For Linux: sudo apt install tesseract-ocr
 # For Windows/Mac: Download and install from the Tesseract GitHub releases.
@@ -50,34 +49,41 @@ def select_file():
 
 def extract_table_from_image(image_path):
     image = Image.open(image_path).convert("RGB")
-    # Resize for better OCR
-    image = image.resize((int(image.width * 1.5), int(image.height * 1.5)))
+    # Preprocess the image for better OCR and detection
+    image_np = np.array(image)
+    gray = cv2.cvtColor(image_np, cv2.COLOR_RGB2GRAY)
+    thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
+    image = Image.fromarray(thresh).convert("RGB")
     text = pytesseract.image_to_string(image)
 
     # Table Detection
     detection_processor = DetrImageProcessor()
-    detection_model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-detection")
+    detection_model = TableTransformerForObjectDetection.from_pretrained(
+        "microsoft/table-transformer-detection", revision="no_timm"
+    )
 
     inputs = detection_processor(images=image, return_tensors="pt")
     outputs = detection_model(**inputs)
     target_sizes = torch.tensor([image.size[::-1]])
-    detection_results = detection_processor.post_process_object_detection(outputs, threshold=0.9, target_sizes=target_sizes)[0]
+    detection_results = detection_processor.post_process_object_detection(outputs, threshold=0.7, target_sizes=target_sizes)[0]
 
     tables = []
     label_dict = detection_model.config.id2label
     for score, label, box in zip(detection_results["scores"], detection_results["labels"], detection_results["boxes"]):
-        if label_dict[label.item()] == 'table' and score > 0.9:
+        if label_dict[label.item()] == 'table' and score > 0.7:
             crop_box = (box[0].item(), box[1].item(), box[2].item(), box[3].item())
             cropped_table = image.crop(crop_box)
 
             # Table Structure Recognition
             structure_processor = DetrImageProcessor()
-            structure_model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-structure-recognition")
+            structure_model = TableTransformerForObjectDetection.from_pretrained(
+                "microsoft/table-structure-recognition-v1.1-all", revision="no_timm"
+            )
 
             structure_inputs = structure_processor(images=cropped_table, return_tensors="pt")
             structure_outputs = structure_model(**structure_inputs)
             structure_target_sizes = torch.tensor([cropped_table.size[::-1]])
-            structure_results = structure_processor.post_process_object_detection(structure_outputs, threshold=0.6, target_sizes=structure_target_sizes)[0]
+            structure_results = structure_processor.post_process_object_detection(structure_outputs, threshold=0.5, target_sizes=structure_target_sizes)[0]
 
             structure_label_dict = structure_model.config.id2label
 
@@ -85,29 +91,40 @@ def extract_table_from_image(image_path):
             columns = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] == 'table column']
             columns.sort(key=lambda x: x[0])  # sort by xmin
 
-            # Get rows
-            rows = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] == 'table row']
+            # Get rows including header
+            rows = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] in ['table row', 'table column header']]
             rows.sort(key=lambda x: x[1])  # sort by ymin
 
             if not rows or not columns:
                 continue
 
-            # Assume first row is header
-            header_row = rows[0]
-            data_rows = rows[1:]
+            has_header = any(structure_label_dict[lbl.item()] == 'table column header' for lbl in structure_results['labels'])
+
+            if has_header:
+                header_row = rows[0]
+                data_rows = rows[1:]
+            else:
+                header_row = None
+                data_rows = rows
 
             # Extract column names
             column_names = []
             for i in range(len(columns)):
                 cell_xmin = columns[i][0]
                 cell_xmax = columns[i][2]
-                cell_ymin = header_row[1]
-                cell_ymax = header_row[3]
+                cell_ymin = header_row[1] if header_row else 0
+                cell_ymax = header_row[3] if header_row else cropped_table.size[1]
                 cell_img = cropped_table.crop((cell_xmin, cell_ymin, cell_xmax, cell_ymax))
-                # Resize cell if small for better OCR
-                if cell_img.width < 100 or cell_img.height < 20:
-                    cell_img = cell_img.resize((cell_img.width * 2, cell_img.height * 2))
-                cell_text = pytesseract.image_to_string(cell_img, config='--psm 7').strip()
+                cell_np = np.array(cell_img)
+                if len(cell_np.shape) == 2:
+                    cell_np = cv2.cvtColor(cell_np, cv2.COLOR_GRAY2RGB)
+                cell_gray = cv2.cvtColor(cell_np, cv2.COLOR_RGB2GRAY)
+                cell_thresh = cv2.adaptiveThreshold(cell_gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
+                cell_pil = Image.fromarray(cell_thresh)
+                # Resize if small
+                if cell_pil.width < 100 or cell_pil.height < 20:
+                    cell_pil = cell_pil.resize((cell_pil.width * 3, cell_pil.height * 3))
+                cell_text = pytesseract.image_to_string(cell_pil, config='--psm 7').strip()
                 column_names.append(cell_text if cell_text else f"Column {i+1}")
 
             # Extract data rows
@@ -120,10 +137,16 @@ def extract_table_from_image(image_path):
                     cell_ymin = row[1]
                     cell_ymax = row[3]
                     cell_img = cropped_table.crop((cell_xmin, cell_ymin, cell_xmax, cell_ymax))
-                    # Resize cell if small for better OCR
-                    if cell_img.width < 100 or cell_img.height < 20:
-                        cell_img = cell_img.resize((cell_img.width * 2, cell_img.height * 2))
-                    cell_text = pytesseract.image_to_string(cell_img, config='--psm 7').strip()
+                    cell_np = np.array(cell_img)
+                    if len(cell_np.shape) == 2:
+                        cell_np = cv2.cvtColor(cell_np, cv2.COLOR_GRAY2RGB)
+                    cell_gray = cv2.cvtColor(cell_np, cv2.COLOR_RGB2GRAY)
+                    cell_thresh = cv2.adaptiveThreshold(cell_gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
+                    cell_pil = Image.fromarray(cell_thresh)
+                    # Resize if small
+                    if cell_pil.width < 100 or cell_pil.height < 20:
+                        cell_pil = cell_pil.resize((cell_pil.width * 3, cell_pil.height * 3))
+                    cell_text = pytesseract.image_to_string(cell_pil, config='--psm 7').strip()
                     row_data.append(cell_text)
                 data.append(row_data)
 
