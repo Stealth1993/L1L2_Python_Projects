@@ -57,7 +57,7 @@ def process_file():
         return
 
     base_name = os.path.basename(input_file).rsplit('.', 1)[0]
-    desktop = os.path.expanduser("~/Desktop")
+    desktop = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop")
     ocr = TesseractOCR(lang="eng")
     text = ''
     tables = []
@@ -106,7 +106,6 @@ def process_file():
     elif output_type == 'TXT':
         with open(output, 'w', encoding='utf-8') as f:
             f.write(text)
-
     elif output_type == 'DOC':
         doc = Document()
         doc.add_heading('Extracted Text', level=1)
@@ -122,7 +121,6 @@ def process_file():
                 # Add header
                 for j, col in enumerate(df.columns):
                     table_doc.cell(0, j).text = str(col)
-
                 # Add rows
                 for row_idx, row in df.iterrows():
                     for j, val in enumerate(row):
@@ -139,11 +137,9 @@ root = tk.Tk()
 root.title("Data Extractor GUI")
 root.geometry("500x300")
 
-tk.Label(root, text="File Path:").grid(row=0, column=0, padx=10, pady=10)
 entry_file_path = tk.StringVar()
-tk.Entry(root, textvariable=entry_file_path, width=40).grid(row=0, column=1, padx=10)
 
-tk.Button(root, text="Select File", command=select_file).grid(row=0, columnspan=2, pady=10)
+tk.Button(root, text="Select File", command=select_file).grid(row=0, column=0, columnspan=2, pady=10)
 
 tk.Label(root, text="Select Page Range:").grid(row=1, column=0, pady=10)
 combo_pages = ttk.Combobox(root, values=[], state="readonly")
