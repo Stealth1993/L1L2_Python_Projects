@@ -10,6 +10,9 @@ import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
 import torch
 from transformers import DetrImageProcessor, TableTransformerForObjectDetection
+import warnings
+
+warnings.filterwarnings("ignore")
 
 # Note: This script requires the following installations:
 # pip install transformers timm pytesseract huggingface-hub pandas openpyxl pdf2image PyPDF2 python-docx torch
@@ -47,6 +50,8 @@ def select_file():
 
 def extract_table_from_image(image_path):
     image = Image.open(image_path).convert("RGB")
+    # Resize for better OCR
+    image = image.resize((int(image.width * 1.5), int(image.height * 1.5)))
     text = pytesseract.image_to_string(image)
 
     # Table Detection
@@ -80,31 +85,29 @@ def extract_table_from_image(image_path):
             columns = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] == 'table column']
             columns.sort(key=lambda x: x[0])  # sort by xmin
 
-            # Get rows including header
-            rows = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] in ['table row', 'table column header']]
+            # Get rows
+            rows = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] == 'table row']
             rows.sort(key=lambda x: x[1])  # sort by ymin
 
             if not rows or not columns:
                 continue
 
-            has_header = any(structure_label_dict[lbl.item()] == 'table column header' for lbl in structure_results['labels'])
-
-            if has_header:
-                header_row = rows[0]
-                data_rows = rows[1:]
-            else:
-                header_row = None
-                data_rows = rows
+            # Assume first row is header
+            header_row = rows[0]
+            data_rows = rows[1:]
 
             # Extract column names
             column_names = []
             for i in range(len(columns)):
                 cell_xmin = columns[i][0]
                 cell_xmax = columns[i][2]
-                cell_ymin = header_row[1] if header_row else 0
-                cell_ymax = header_row[3] if header_row else cropped_table.size[1]
+                cell_ymin = header_row[1]
+                cell_ymax = header_row[3]
                 cell_img = cropped_table.crop((cell_xmin, cell_ymin, cell_xmax, cell_ymax))
-                cell_text = pytesseract.image_to_string(cell_img, config='--psm 6').strip()
+                # Resize cell if small for better OCR
+                if cell_img.width < 100 or cell_img.height < 20:
+                    cell_img = cell_img.resize((cell_img.width * 2, cell_img.height * 2))
+                cell_text = pytesseract.image_to_string(cell_img, config='--psm 7').strip()
                 column_names.append(cell_text if cell_text else f"Column {i+1}")
 
             # Extract data rows
@@ -117,7 +120,10 @@ def extract_table_from_image(image_path):
                     cell_ymin = row[1]
                     cell_ymax = row[3]
                     cell_img = cropped_table.crop((cell_xmin, cell_ymin, cell_xmax, cell_ymax))
-                    cell_text = pytesseract.image_to_string(cell_img, config='--psm 6').strip()
+                    # Resize cell if small for better OCR
+                    if cell_img.width < 100 or cell_img.height < 20:
+                        cell_img = cell_img.resize((cell_img.width * 2, cell_img.height * 2))
+                    cell_text = pytesseract.image_to_string(cell_img, config='--psm 7').strip()
                     row_data.append(cell_text)
                 data.append(row_data)
 
