@@ -1,19 +1,21 @@
 import os
 from PIL import Image
 import pytesseract
-from img2table.document import Image as I2TImage, PDF as I2TPDF
-from img2table.ocr import TesseractOCR
+from pytesseract import Output
 import pandas as pd
 from pdf2image import convert_from_path
 import PyPDF2
 from docx import Document
-from docx.shared import Inches
 import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
+import torch
+from transformers import DetrImageProcessor, TableTransformerForObjectDetection
 
 # Note: This script requires the following installations:
-# pip install img2table pytesseract pandas openpyxl pdf2image PyPDF2 python-docx
+# pip install transformers timm pytesseract huggingface-hub pandas openpyxl pdf2image PyPDF2 python-docx torch
 # Additionally, you need to have Tesseract OCR installed on your system[](https://github.com/tesseract-ocr/tesseract)
+# For Linux: sudo apt install tesseract-ocr
+# For Windows/Mac: Download and install from the Tesseract GitHub releases.
 # and Poppler for pdf2image[](https://pdf2image.readthedocs.io/en/latest/installation.html)
 
 def get_pdf_page_count(pdf_path):
@@ -43,6 +45,87 @@ def select_file():
             combo_pages['values'] = ['1']
             combo_pages.current(0)
 
+def extract_table_from_image(image_path):
+    image = Image.open(image_path).convert("RGB")
+    text = pytesseract.image_to_string(image)
+
+    # Table Detection
+    detection_processor = DetrImageProcessor()
+    detection_model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-detection")
+
+    inputs = detection_processor(images=image, return_tensors="pt")
+    outputs = detection_model(**inputs)
+    target_sizes = torch.tensor([image.size[::-1]])
+    detection_results = detection_processor.post_process_object_detection(outputs, threshold=0.9, target_sizes=target_sizes)[0]
+
+    tables = []
+    label_dict = detection_model.config.id2label
+    for score, label, box in zip(detection_results["scores"], detection_results["labels"], detection_results["boxes"]):
+        if label_dict[label.item()] == 'table' and score > 0.9:
+            crop_box = (box[0].item(), box[1].item(), box[2].item(), box[3].item())
+            cropped_table = image.crop(crop_box)
+
+            # Table Structure Recognition
+            structure_processor = DetrImageProcessor()
+            structure_model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-structure-recognition")
+
+            structure_inputs = structure_processor(images=cropped_table, return_tensors="pt")
+            structure_outputs = structure_model(**structure_inputs)
+            structure_target_sizes = torch.tensor([cropped_table.size[::-1]])
+            structure_results = structure_processor.post_process_object_detection(structure_outputs, threshold=0.6, target_sizes=structure_target_sizes)[0]
+
+            structure_label_dict = structure_model.config.id2label
+
+            # Get columns
+            columns = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] == 'table column']
+            columns.sort(key=lambda x: x[0])  # sort by xmin
+
+            # Get rows including header
+            rows = [box.tolist() for idx, lbl in enumerate(structure_results['labels']) if structure_label_dict[lbl.item()] in ['table row', 'table column header']]
+            rows.sort(key=lambda x: x[1])  # sort by ymin
+
+            if not rows or not columns:
+                continue
+
+            has_header = any(structure_label_dict[lbl.item()] == 'table column header' for lbl in structure_results['labels'])
+
+            if has_header:
+                header_row = rows[0]
+                data_rows = rows[1:]
+            else:
+                header_row = None
+                data_rows = rows
+
+            # Extract column names
+            column_names = []
+            for i in range(len(columns)):
+                cell_xmin = columns[i][0]
+                cell_xmax = columns[i][2]
+                cell_ymin = header_row[1] if header_row else 0
+                cell_ymax = header_row[3] if header_row else cropped_table.size[1]
+                cell_img = cropped_table.crop((cell_xmin, cell_ymin, cell_xmax, cell_ymax))
+                cell_text = pytesseract.image_to_string(cell_img, config='--psm 6').strip()
+                column_names.append(cell_text if cell_text else f"Column {i+1}")
+
+            # Extract data rows
+            data = []
+            for row in data_rows:
+                row_data = []
+                for i in range(len(columns)):
+                    cell_xmin = columns[i][0]
+                    cell_xmax = columns[i][2]
+                    cell_ymin = row[1]
+                    cell_ymax = row[3]
+                    cell_img = cropped_table.crop((cell_xmin, cell_ymin, cell_xmax, cell_ymax))
+                    cell_text = pytesseract.image_to_string(cell_img, config='--psm 6').strip()
+                    row_data.append(cell_text)
+                data.append(row_data)
+
+            df = pd.DataFrame(data, columns=column_names)
+            tables.append(df)
+
+    return tables, text
+
 def process_file():
     input_file = entry_file_path.get()
     if not input_file:
@@ -58,9 +141,8 @@ def process_file():
 
     base_name = os.path.basename(input_file).rsplit('.', 1)[0]
     desktop = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop")
-    ocr = TesseractOCR(lang="eng", psm=6)
-    text = ''
-    tables = []
+    all_tables = []
+    all_text = ''
 
     if input_file.lower().endswith('.pdf'):
         num_pages = get_pdf_page_count(input_file)
@@ -68,27 +150,21 @@ def process_file():
             start, end = 1, num_pages
         else:
             start, end = map(int, page_range.split('-'))
-        pages_list = list(range(start, end + 1))
-
-        doc = I2TPDF(input_file, pages=pages_list, detect_rotation=False)
-        extracted = doc.extract_tables(ocr=ocr, implicit_rows=True, implicit_columns=True, borderless_tables=True, min_confidence=50)
-        for page_tables in extracted.values():
-            tables.extend(page_tables)
-
-        # Convert selected pages to images for full text extraction
         page_imgs = convert_from_path(input_file, first_page=start, last_page=end)
-        for page_img in page_imgs:
-            text += pytesseract.image_to_string(page_img) + '\n\n'
+        for idx, page_img in enumerate(page_imgs, start=start):
+            temp_path = os.path.join(desktop, f"temp_page_{idx}.jpg")
+            page_img.save(temp_path, 'JPEG')
+            tables, text = extract_table_from_image(temp_path)
+            all_tables.extend([(f"Page {idx} Table {j+1}", df) for j, df in enumerate(tables)])
+            all_text += text + '\n\n'
+            os.remove(temp_path)
     else:
-        # Image
-        doc = I2TImage(input_file)
-        extracted_tables = doc.extract_tables(ocr=ocr, implicit_rows=True, implicit_columns=True, borderless_tables=True, min_confidence=50)
-        tables.extend(extracted_tables)
+        tables, text = extract_table_from_image(input_file)
+        all_tables.extend([(f"Table {j+1}", df) for j, df in enumerate(tables)])
+        all_text = text
 
-        img = Image.open(input_file)
-        text = pytesseract.image_to_string(img)
+    has_tables = len(all_tables) > 0
 
-    # Now, based on selected output type
     ext_map = {'Excel': '.xlsx', 'TXT': '.txt', 'DOC': '.docx'}
     output_ext = ext_map[output_type]
     range_str = page_range.replace('-', '_') if page_range != 'All' else 'all'
@@ -96,34 +172,29 @@ def process_file():
 
     if output_type == 'Excel':
         writer = pd.ExcelWriter(output, engine='openpyxl')
-        text_lines = pd.DataFrame({'Extracted Text': text.split('\n')})
-        text_lines.to_excel(writer, sheet_name='Full Text', index=False)
-        for i, table in enumerate(tables, 1):
-            df = table.df
-            df.to_excel(writer, sheet_name=f'Table {i}', index=False)
+        text_df = pd.DataFrame({'Extracted Text': all_text.split('\n')})
+        text_df.to_excel(writer, sheet_name='Full Text', index=False)
+        for sheet_name, df in all_tables:
+            df.to_excel(writer, sheet_name=sheet_name[:31], index=False)  # Sheet name limit 31 chars
         writer.close()
     elif output_type == 'TXT':
         with open(output, 'w', encoding='utf-8') as f:
-            f.write(text)
+            f.write(all_text)
     elif output_type == 'DOC':
         doc = Document()
         doc.add_heading('Extracted Text', level=1)
-        for line in text.splitlines():
-            doc.add_paragraph(line)
-        if tables:
+        doc.add_paragraph(all_text)
+        if has_tables:
             doc.add_heading('Extracted Tables', level=1)
-            for i, table in enumerate(tables, 1):
-                doc.add_heading(f'Table {i}', level=2)
-                df = table.df
+            for sheet_name, df in all_tables:
+                doc.add_heading(sheet_name, level=2)
                 table_doc = doc.add_table(rows=df.shape[0] + 1, cols=df.shape[1])
                 table_doc.style = 'Table Grid'
-                # Add header
                 for j, col in enumerate(df.columns):
                     table_doc.cell(0, j).text = str(col)
-                # Add rows
                 for row_idx, row in df.iterrows():
                     for j, val in enumerate(row):
-                        table_doc.cell(row_idx + 1, j).text = str(val)
+                        table_doc.cell(row_idx + 1, j).text = str(val) if pd.notnull(val) else ''
         doc.save(output)
 
     messagebox.showinfo("Success", f"File saved to {output}")
