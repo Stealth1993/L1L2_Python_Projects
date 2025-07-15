@@ -77,7 +77,7 @@ def extract_table_from_image(image_path):
             # Table Structure Recognition
             structure_processor = DetrImageProcessor()
             structure_model = TableTransformerForObjectDetection.from_pretrained(
-                "microsoft/table-structure-recognition-v1.1-all", revision="no_timm"
+                "microsoft/table-transformer-structure-recognition", revision="no_timm"
             )
 
             structure_inputs = structure_processor(images=cropped_table, return_tensors="pt")
