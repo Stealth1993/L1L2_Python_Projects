@@ -18,7 +18,7 @@ fig = go.Figure(go.Indicator(
         }
     }
 ))
-fig.write_html("gauge.html")
+fig.write_html("gauge.html") #To save and open manually when in python3.13
 fig.show()
 
-#Works with python version <=3.12
+#Works will with python version <=3.12
