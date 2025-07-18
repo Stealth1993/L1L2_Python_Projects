@@ -18,7 +18,7 @@ fig = go.Figure(go.Indicator(
         }
     }
 ))
-
+fig.write_html("gauge.html")
 fig.show()
 
 #Works with python version <=3.12
