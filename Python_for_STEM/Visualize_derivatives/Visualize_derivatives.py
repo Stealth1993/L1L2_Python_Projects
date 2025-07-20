@@ -20,6 +20,7 @@ y1 = expr(x1)
 xrange = np.linspace(x1 - 5, x1 + 5, 10)
 
 #Define Tangent line
+# y = m*(x - x1) + y1
 def line (x, x1, y1):
     return expr_der(x1)*(x-x1) + y1
 
