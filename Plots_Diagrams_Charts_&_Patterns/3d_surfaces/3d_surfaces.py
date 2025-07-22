@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -13,19 +13,17 @@ fig = plt.figure(figsize=(15, 12))
 # Surface 1: Paraboloid
 ax1 = fig.add_subplot(221, projection='3d')
 Z1 = X**2 + Y**2
-surf1 = ax1.plot_surface(X, Y, Z1, cmap='viridis')
-fig.colorbar(surf1, ax=ax1, shrink=0.5, aspect=5)
-ax1.set_title('Surface 1: Paraboloid')
+surf1 = ax1.plot_surface(X, Y, Z1, cmap='viridis', alpha=0.8)
+ax1.set_title('Paraboloid: z = x² + y²')
 ax1.set_xlabel('X')
 ax1.set_ylabel('Y')
 ax1.set_zlabel('Z')
 
-# Surface 2: Saddle Surface
+# Surface 2: Saddle
 ax2 = fig.add_subplot(222, projection='3d')
 Z2 = X**2 - Y**2
-surf2 = ax2.plot_surface(X, Y, Z2, cmap='plasma')
-fig.colorbar(surf2, ax=ax2, shrink=0.5, aspect=5)
-ax2.set_title('Surface 2: Saddle Surface')
+surf2 = ax2.plot_surface(X, Y, Z2, cmap='plasma', alpha=0.8)
+ax2.set_title('Saddle: z = x² - y²')
 ax2.set_xlabel('X')
 ax2.set_ylabel('Y')
 ax2.set_zlabel('Z')
