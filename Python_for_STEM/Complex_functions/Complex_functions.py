@@ -7,12 +7,12 @@ def complex_function(z, func_type='polynomial'):
         return z**3 - 1
     elif func_type == 'exponential':
         return np.exp(z)
-    elif func_type == 'trigonometric':
+    elif func_type == 'sine':
         return np.sin(z)
     elif func_type == 'mobius':
         return (z - 1j) / (z + 1j)
     else:
-        raise ValueError("Unknown function type. Choose from 'polynomial', 'exponential', 'trigonometric', or 'mobius'.")
+        raise ValueError("Unknown function type. Choose from 'polynomial', 'exponential', 'sine', or 'mobius'.")
     
 # Create complex plane
 x = np.linspace(-3, 3, 30)
