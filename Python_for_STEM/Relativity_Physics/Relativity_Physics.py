@@ -69,7 +69,8 @@ class RelativityVisualizer:
         p = np.linspace(0, 5*m0*self.c, 1000)  # momentum
         
         # Total energy
-        E_total = np.sqrt((p*self.c)**2 + (m0*self.c**2)**2)
+        value_to_sqrt = (p*self.c)**2 + (m0*self.c**2)**2
+        E_total = np.sqrt(np.maximum(0, value_to_sqrt))
         
         # Classical kinetic energy
         E_classical = p**2 / (2*m0) + m0*self.c**2
