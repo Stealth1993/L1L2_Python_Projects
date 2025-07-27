@@ -5,7 +5,7 @@ from scipy.integrate import solve_ivp
 
 class QuantumMechanicsVisualizer:
     def __init__(self):
-        self.hbar = 1.054571817e-34
+        self.hbar = 1.054571817e-34 # reduced Planck's constant
         self.m = 9.1093837015e-31  # electron mass
         
     def harmonic_oscillator_wavefunctions(self):
