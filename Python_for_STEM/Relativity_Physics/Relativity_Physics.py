@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 class RelativityVisualizer:
     def __init__(self):
-        self.c = 299792458  # Speed of light
+        self.c = 299792458.0  # Speed of light
         
     def lorentz_transformations(self):
         """Visualize Lorentz transformations and spacetime diagrams"""
@@ -153,7 +153,7 @@ class RelativityVisualizer:
         axes[1,0].set_xlabel('x')
         axes[1,0].set_ylabel('y')
         axes[1,0].set_title('Orbital Precession')
-        axes[1,0].legend()
+        axes[1,0].legend(loc='upper left', bbox_to_anchor=(1, 1))
         axes[1,0].set_aspect('equal')
         axes[1,0].grid(True)
         
