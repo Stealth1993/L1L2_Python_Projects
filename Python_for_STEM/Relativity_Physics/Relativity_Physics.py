@@ -104,7 +104,7 @@ class RelativityVisualizer:
         Rs = 1  # Schwarzschild radius (units)
         
         # Time dilation factor
-        time_dilation = np.sqrt(1 - Rs/r)
+        time_dilation = np.sqrt(np.maximum(0, 1 - Rs/r))
         
         axes[0,0].plot(r, time_dilation, 'b-', linewidth=3)
         axes[0,0].axvline(x=Rs, color='r', linestyle='--', 
