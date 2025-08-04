@@ -186,3 +186,7 @@ class ThermodynamicsVisualizer:
     def run_all_visualizations(self):
         self.ideal_gas_processes()
         self.phase_diagrams()
+
+# Usage
+thermo_viz = ThermodynamicsVisualizer()
+thermo_viz.run_all_visualizations()
