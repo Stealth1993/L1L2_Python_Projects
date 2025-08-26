@@ -56,7 +56,7 @@ class ClassicalMechanicsSimulator:
         for gamma in gamma_values:
             if gamma == 0:
                 y = np.cos(t)
-                label = 'Undamped'
+                label = 'Undamped (γ=0)'
             elif gamma < 1:
                 omega_d = np.sqrt(1 - gamma**2)
                 y = np.exp(-gamma * t) * np.cos(omega_d * t)
