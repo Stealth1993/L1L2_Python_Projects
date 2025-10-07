@@ -1,7 +1,7 @@
 import cv2
 from deepface import DeepFace
 
-# Load the pre-trained Haar Cascade classifier for face detection
+# Load the pre-trained Haar Cascade classifier for face & eyes detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
@@ -23,7 +23,7 @@ while True:
     faces = face_cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5)
     eyes = eye_cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5)
     print(f"Detected {len(faces)} faces and {len(eyes)} eyes")
-    
+
     # Draw rectangles around the detected faces and detect emotions
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
